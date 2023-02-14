@@ -1,0 +1,54 @@
+.elementor-198 .elementor-element.elementor-element-e8b42bf {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-198 .elementor-element.elementor-element-e8b42bf>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-198 .elementor-element.elementor-element-b109d0f .image-widget {
+    text-align: center;
+}
+
+.elementor-198 .elementor-element.elementor-element-b109d0f .image-container {
+    float: none;
+}
+
+.elementor-198 .elementor-element.elementor-element-b109d0f {
+    width: auto;
+    max-width: auto;
+    top: 120px;
+}
+
+body:not(.rtl) .elementor-198 .elementor-element.elementor-element-b109d0f {
+    left: -240px;
+}
+
+body.rtl .elementor-198 .elementor-element.elementor-element-b109d0f {
+    right: -240px;
+}
+
+.elementor-198 .elementor-element.elementor-element-eec9fce:not(.elementor-motion-effects-element-type-background),
+.elementor-198 .elementor-element.elementor-element-eec9fce>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://demo.artureanec.com/themes/agrarium/wp-content/uploads/2021/08/Shape-27.png");
+    background-position: 115% 69%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.elementor-198 .elementor-element.elementor-element-eec9fce {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 1;
+}
+
+.elementor-198 .elementor-element.elementor-element-eec9fce>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media(max-width:991px) {
+
+    .elementor-198 .elementor-element.elementor-element-eec9fce:not(.elementor-motion-effects-element-type-background),
+    .elementor-198 .elementor-element.elementor-element-eec9fce>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-size: 0px auto;
+    }
+}

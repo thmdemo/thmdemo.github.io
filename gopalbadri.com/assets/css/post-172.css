@@ -1,0 +1,931 @@
+.elementor-172 .elementor-element.elementor-element-1e2a589:not(.elementor-motion-effects-element-type-background),
+.elementor-172 .elementor-element.elementor-element-1e2a589>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://demo.artureanec.com/themes/agrarium/wp-content/uploads/2021/08/Vector-Smart-Object-7.png");
+    background-position: 112% 125px;
+    background-repeat: no-repeat;
+}
+
+.elementor-172 .elementor-element.elementor-element-1e2a589 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-1e2a589>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-4caaa5b:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-172 .elementor-element.elementor-element-4caaa5b>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-172 .elementor-element.elementor-element-4caaa5b>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-4caaa5b>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-060cf1f {
+    text-align: left;
+    z-index: 3;
+    top: 90px;
+}
+
+body:not(.rtl) .elementor-172 .elementor-element.elementor-element-060cf1f {
+    left: 0px;
+}
+
+body.rtl .elementor-172 .elementor-element.elementor-element-060cf1f {
+    right: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b3b01f6 img {
+    width: 111%;
+    max-width: 111%;
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    border-radius: 3px 3px 3px 3px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b3b01f6>.elementor-widget-container {
+    margin: 15px 0px 0px 85px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.elementor-172 .elementor-element.elementor-element-629cc83 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-07287f3:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-172 .elementor-element.elementor-element-07287f3>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-172 .elementor-element.elementor-element-07287f3>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-07287f3>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-2c6fe86 .agrarium-heading {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-2c6fe86 .agrarium-heading .agrarium-heading-content {
+    line-height: 55px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b0ca393>.elementor-widget-container {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 50px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-1450e31 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter .elementor-counter-title,
+.elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter .elementor-counter-number-wrapper {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter-number-wrapper {
+    font-family: "Herbarium", Sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter-title {
+    color: var(--e-global-color-primary);
+    font-family: "Manrope", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter .elementor-counter-title,
+.elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter .elementor-counter-number-wrapper {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter-number-wrapper {
+    font-family: "Herbarium", Sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter-title {
+    color: var(--e-global-color-primary);
+    font-family: "Manrope", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.elementor-172 .elementor-element.elementor-element-54c6e19 {
+    text-align: left;
+    z-index: 3;
+    top: 90px;
+}
+
+body:not(.rtl) .elementor-172 .elementor-element.elementor-element-54c6e19 {
+    left: 0px;
+}
+
+body.rtl .elementor-172 .elementor-element.elementor-element-54c6e19 {
+    right: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-c04628d img {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    border-radius: 3px 3px 3px 3px;
+}
+
+.elementor-172 .elementor-element.elementor-element-c04628d>.elementor-widget-container {
+    margin: 15px -40px 0px 85px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.elementor-172 .elementor-element.elementor-element-f6cc3fd:not(.elementor-motion-effects-element-type-background),
+.elementor-172 .elementor-element.elementor-element-f6cc3fd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://demo.artureanec.com/themes/agrarium/wp-content/uploads/2021/08/Shape-606.png");
+    background-position: -120px 290px;
+    background-repeat: no-repeat;
+}
+
+.elementor-172 .elementor-element.elementor-element-f6cc3fd {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-f6cc3fd>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-ea7d2f0 .vertical-text {
+    text-align: left;
+    opacity: 1;
+}
+
+body:not(.rtl) .elementor-172 .elementor-element.elementor-element-ea7d2f0 {
+    left: 0px;
+}
+
+body.rtl .elementor-172 .elementor-element.elementor-element-ea7d2f0 {
+    right: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-ea7d2f0 {
+    top: 40px;
+}
+
+.elementor-172 .elementor-element.elementor-element-d4a1805 .slogan {
+    background-image: url("https://demo.artureanec.com/themes/agrarium/wp-content/uploads/2021/10/Layer-559.jpg");
+    background-position: 50% 46%;
+    background-size: cover;
+    text-align: right;
+    padding: 0.11em 0.1em 0.36em 0em;
+    font-family: "Herbarium Alt", Sans-serif;
+    font-size: 150px;
+    line-height: 140px;
+}
+
+.elementor-172 .elementor-element.elementor-element-d4a1805>.elementor-widget-container {
+    margin: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-fd9f0f8.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: space-evenly;
+}
+
+.elementor-172 .elementor-element.elementor-element-fd9f0f8>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 120px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-ed963d6 .agrarium-heading {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-dff88a9>.elementor-widget-container {
+    margin: 40px 25px 45px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-220fd45 img {
+    filter: brightness(100%) contrast(100%) saturate(35%) blur(0px) hue-rotate(8deg);
+}
+
+.elementor-172 .elementor-element.elementor-element-220fd45>.elementor-widget-container {
+    margin: 0px 5px 0px 5px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-220fd45 {
+    width: auto;
+    max-width: auto;
+    align-self: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-985136d img {
+    filter: brightness(100%) contrast(100%) saturate(35%) blur(0px) hue-rotate(8deg);
+}
+
+.elementor-172 .elementor-element.elementor-element-985136d>.elementor-widget-container {
+    margin: 0px 5px 0px 5px;
+}
+
+.elementor-172 .elementor-element.elementor-element-985136d {
+    width: auto;
+    max-width: auto;
+    align-self: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-b73cf0b img {
+    filter: brightness(100%) contrast(100%) saturate(35%) blur(0px) hue-rotate(8deg);
+}
+
+.elementor-172 .elementor-element.elementor-element-b73cf0b>.elementor-widget-container {
+    margin: 0px 5px 0px 5px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b73cf0b {
+    width: auto;
+    max-width: auto;
+    align-self: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-acbb16c img {
+    filter: brightness(100%) contrast(100%) saturate(35%) blur(0px) hue-rotate(8deg);
+}
+
+.elementor-172 .elementor-element.elementor-element-acbb16c>.elementor-widget-container {
+    margin: 0px 5px 0px 5px;
+}
+
+.elementor-172 .elementor-element.elementor-element-acbb16c {
+    width: auto;
+    max-width: auto;
+    align-self: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-86e8c65 img {
+    max-width: 100vw;
+}
+
+.elementor-172 .elementor-element.elementor-element-86e8c65>.elementor-widget-container {
+    margin: -15px 0px 0px -20px;
+}
+
+.elementor-172 .elementor-element.elementor-element-86e8c65 {
+    width: 209%;
+    max-width: 209%;
+}
+
+.elementor-172 .elementor-element.elementor-element-ee3f55f>.elementor-container {
+    max-width: 1170px;
+}
+
+.elementor-172 .elementor-element.elementor-element-ee3f55f {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-1edb1cf8 .agrarium-heading {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-709b0f4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-5c7d3cdb .special-text {
+    text-align: right;
+    font-family: "Herbarium", Sans-serif;
+    font-size: 300px;
+    color: #F8F6EF;
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-5c7d3cdb {
+    z-index: 0;
+    bottom: -20px;
+}
+
+body:not(.rtl) .elementor-172 .elementor-element.elementor-element-5c7d3cdb {
+    right: -4%;
+}
+
+body.rtl .elementor-172 .elementor-element.elementor-element-5c7d3cdb {
+    left: -4%;
+}
+
+.elementor-172 .elementor-element.elementor-element-c22fd42 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-ac1e873 .team-listing-wrapper .team-item-wrapper {
+    padding: calc(30px/2);
+}
+
+.elementor-172 .elementor-element.elementor-element-ac1e873 .team-listing-wrapper {
+    margin: calc(-30px/2);
+}
+
+.elementor-172 .elementor-element.elementor-element-b3d16e7 .button-container {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-b3d16e7 .agrarium-button {
+    padding: 13px 45px 13px 45px;
+}
+
+.elementor-172 .elementor-element.elementor-element-b3d16e7>.elementor-widget-container {
+    margin: 35px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-0f42eeb>.elementor-container {
+    max-width: 1400px;
+}
+
+.elementor-172 .elementor-element.elementor-element-0f42eeb:not(.elementor-motion-effects-element-type-background),
+.elementor-172 .elementor-element.elementor-element-0f42eeb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://demo.artureanec.com/themes/agrarium/wp-content/uploads/2021/10/Rectangle-846.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-172 .elementor-element.elementor-element-0f42eeb {
+    transition: background 0s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 150px 0px 150px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-0f42eeb>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-c17a6c9.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-d9ac7c2:not(.elementor-motion-effects-element-type-background),
+.elementor-172 .elementor-element.elementor-element-d9ac7c2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-172 .elementor-element.elementor-element-d9ac7c2>.elementor-background-overlay {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-d9ac7c2,
+.elementor-172 .elementor-element.elementor-element-d9ac7c2>.elementor-background-overlay {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.elementor-172 .elementor-element.elementor-element-d9ac7c2 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 85px 0px 95px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-8c5279e .agrarium-heading {
+    text-align: left;
+}
+
+.elementor-172 .elementor-element.elementor-element-8c5279e>.elementor-widget-container {
+    margin: 0px 0px 0px 203px;
+}
+
+.elementor-172 .elementor-element.elementor-element-2e10f60 .testimonial-item .testimonial {
+    color: #333333;
+}
+
+.elementor-172 .elementor-element.elementor-element-2e10f60>.elementor-widget-container {
+    padding: 0% 0% 0% 0%;
+}
+
+.elementor-172 .elementor-element.elementor-element-477720b8>.elementor-container {
+    max-width: 1170px;
+}
+
+.elementor-172 .elementor-element.elementor-element-1bfbc6fb .agrarium-heading {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-1bfbc6fb .agrarium-heading .agrarium-heading-content {
+    line-height: 55px;
+}
+
+.elementor-172 .elementor-element.elementor-element-13b9cbb>.elementor-container {
+    max-width: 1170px;
+}
+
+.elementor-172 .elementor-element.elementor-element-13b9cbb>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-13b9cbb {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #F2F5FA;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-172 .elementor-element.elementor-element-13b9cbb>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-17095ff5 {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-17095ff5 img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-17095ff5:hover img {
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-61960ecf {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-61960ecf img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-61960ecf:hover img {
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-74afdc71 {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-74afdc71 img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-74afdc71:hover img {
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-57a0fb66 {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-57a0fb66 img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-57a0fb66:hover img {
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-31600f2f {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-31600f2f img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-31600f2f:hover img {
+    opacity: 1;
+}
+
+.elementor-172 .elementor-element.elementor-element-33bf6059 {
+    text-align: center;
+}
+
+.elementor-172 .elementor-element.elementor-element-33bf6059 img {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+.elementor-172 .elementor-element.elementor-element-33bf6059:hover img {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .elementor-172 .elementor-element.elementor-element-fd9f0f8 {
+        width: 58.3333%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-a300615 {
+        width: 41.667%;
+    }
+}
+
+@media(max-width:991px) and (min-width:768px) {
+    .elementor-172 .elementor-element.elementor-element-4caaa5b {
+        width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-0300a2d {
+        width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-07287f3 {
+        width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8b44085 {
+        width: 25%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c63036 {
+        width: 25%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-fbc05b1 {
+        width: 50%;
+    }
+}
+
+@media(max-width:1279px) {
+    .elementor-172 .elementor-element.elementor-element-b0ca393>.elementor-widget-container {
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .elementor-172 .elementor-element.elementor-element-1e2a589:not(.elementor-motion-effects-element-type-background),
+    .elementor-172 .elementor-element.elementor-element-1e2a589>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: 120% 60%;
+        background-size: 0% auto;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-060cf1f {
+        width: 100px;
+        max-width: 100px;
+    }
+
+    body:not(.rtl) .elementor-172 .elementor-element.elementor-element-060cf1f {
+        left: -20px;
+    }
+
+    body.rtl .elementor-172 .elementor-element.elementor-element-060cf1f {
+        right: -20px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b3b01f6 img {
+        max-width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b3b01f6>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b3b01f6 {
+        width: auto;
+        max-width: auto;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-629cc83 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-2c6fe86 .agrarium-heading .agrarium-heading-content {
+        line-height: 42px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter-number-wrapper {
+        font-size: 70px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter-number-wrapper {
+        font-size: 70px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-54c6e19 {
+        width: 100px;
+        max-width: 100px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-c04628d img {
+        max-width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-c04628d>.elementor-widget-container {
+        margin: 0px 0px 0px 50px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-c04628d {
+        width: auto;
+        max-width: auto;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-f6cc3fd:not(.elementor-motion-effects-element-type-background),
+    .elementor-172 .elementor-element.elementor-element-f6cc3fd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-size: 0px auto;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-d4a1805 .slogan {
+        font-size: 100px;
+        line-height: 1em;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-d4a1805>.elementor-widget-container {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-fd9f0f8>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 70px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-220fd45 img {
+        width: 85%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-220fd45>.elementor-widget-container {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-985136d img {
+        width: 85%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-985136d>.elementor-widget-container {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b73cf0b img {
+        width: 85%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b73cf0b>.elementor-widget-container {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-acbb16c img {
+        width: 85%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-acbb16c>.elementor-widget-container {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-169505c4 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1edb1cf8 .agrarium-heading .agrarium-heading-content {
+        font-size: 35px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1edb1cf8 .agrarium-subheading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-5c7d3cdb .special-text {
+        text-align: right;
+        font-size: 200px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-0f42eeb {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-d9ac7c2 {
+        padding: 85px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c5279e .agrarium-heading .agrarium-heading-content {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c5279e .agrarium-subheading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1bfbc6fb .agrarium-heading .agrarium-heading-content {
+        line-height: 45px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .elementor-172 .elementor-element.elementor-element-1e2a589:not(.elementor-motion-effects-element-type-background),
+    .elementor-172 .elementor-element.elementor-element-1e2a589>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-size: 0px auto;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-0300a2d>.elementor-element-populated {
+        margin: 20px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-629cc83 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-2c6fe86 .agrarium-heading .agrarium-heading-content {
+        line-height: 1.2em;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b0ca393>.elementor-widget-container {
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8b44085 {
+        width: 50%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter .elementor-counter-title,
+    .elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter .elementor-counter-number-wrapper {
+        text-align: left;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b76fe05 .elementor-counter-number-wrapper {
+        font-size: 50px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c63036 {
+        width: 50%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter .elementor-counter-title,
+    .elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter .elementor-counter-number-wrapper {
+        text-align: left;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1774ca5 .elementor-counter-number-wrapper {
+        font-size: 50px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-fbc05b1>.elementor-element-populated {
+        margin: 20px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-f6cc3fd {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-ea7d2f0 {
+        top: 15px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-d4a1805 .slogan {
+        font-size: 60px;
+        line-height: 1.2em;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-f12e523 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-fd9f0f8.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+        justify-content: flex-start;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-fd9f0f8>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-220fd45 img {
+        width: 90%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-220fd45>.elementor-widget-container {
+        margin: 5px 0px 5px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-985136d img {
+        width: 90%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-985136d>.elementor-widget-container {
+        margin: 5px 0px 5px 05px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b73cf0b img {
+        width: 90%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-b73cf0b>.elementor-widget-container {
+        margin: 5px 0px 5px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-acbb16c img {
+        width: 90%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-acbb16c>.elementor-widget-container {
+        margin: 5px 0px 5px 5px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-86e8c65 img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-86e8c65>.elementor-widget-container {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1edb1cf8 .agrarium-heading .agrarium-heading-content {
+        font-size: 25px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1edb1cf8 .agrarium-subheading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-709b0f4 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-5c7d3cdb .special-text {
+        font-size: 100px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-0f42eeb {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-d9ac7c2 {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c5279e .agrarium-heading .agrarium-heading-content {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c5279e .agrarium-subheading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-8c5279e>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-2e10f60>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1bfbc6fb .agrarium-heading .agrarium-heading-content {
+        line-height: 35px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1bfbc6fb .agrarium-subheading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-73c3fff6>.elementor-element-populated {
+        margin: 30px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-7667df04>.elementor-element-populated {
+        margin: 30px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-ab6cdf5>.elementor-element-populated {
+        margin: 30px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-172 .elementor-element.elementor-element-1a5b01e2>.elementor-element-populated {
+        margin: 30px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+}

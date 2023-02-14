@@ -1,0 +1,3877 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Herbarium Alt';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Herbarium-Regular-Alt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Herbarium Extras';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Herbarium-Extras.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Herbarium';
+    src: url('https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/themes/agrarium/fonts/Herbarium.otf') format('opentype');
+}
+
+
+.top-bar-menu a:hover,
+ul.top-bar-menu a:hover {
+    color: #eece38;
+}
+
+.top-bar-menu li:after,
+ul.top-bar-menu li:after {
+    background-color: #eece38;
+}
+
+.wrapper-contacts .contact-item:not(:last-child):after {
+    background-color: #eece38;
+}
+
+.wrapper-contacts .contact-item:before,
+.wrapper-contacts .contact-item a:hover,
+.wrapper-socials.top-bar-socials a:hover {
+    color: #eece38;
+}
+
+.top-bar,
+.wrapper-info .top-bar-additional-text,
+.wrapper-contacts .contact-item,
+.wrapper-contacts .contact-item a,
+.top-bar-menu a,
+ul.top-bar-menu a {
+    color: #f2f0ed;
+}
+
+.wrapper-socials.top-bar-socials a {
+    color: #ffffff;
+}
+
+.top-bar {
+    border-color: #1E5128;
+}
+
+.wrapper-socials.top-bar-socials li {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-bar {
+    background-color: #1E5128;
+}
+
+.header,
+.header-icons-container.header-phone .header-phone-container .header-phone-text>span:not(.phone-number),
+.header .dropdown-trigger .dropdown-trigger-item:hover {
+    color: #8a8e95;
+}
+
+.header-icons-container.header-phone .header-phone-container .header-phone-icon {
+    fill: #8a8e95;
+}
+
+.header a,
+.header .main-menu>li>a,
+.header .logo-link .logo-site-name,
+.header .header-icon,
+.error-404-header .logo-link .logo-site-name,
+.mini-cart .mini-cart-trigger,
+.mini-cart .mini-cart-trigger:hover,
+.header-icons-container.header-phone .header-phone-container>a {
+    color: #1f2531;
+}
+
+.header .main-menu>li.menu-item-has-children>a:after {
+    background-color: #1f2531;
+}
+
+
+
+.header .main-menu ul.sub-menu>li>a:hover,
+.header .main-menu ul.sub-menu>li.current-menu-ancestor>a,
+.header .main-menu ul.sub-menu>li.current-menu-parent>a,
+.header .main-menu ul.sub-menu>li.current-menu-item>a,
+.header-icons-container.header-phone .header-phone-container>a:hover {
+    color: #eece38;
+}
+
+.header .main-menu>li>a:before,
+.header .main-menu>li ul.sub-menu>li>a:before {
+    background-color: #eece38;
+}
+
+.header-icons-container.header-phone .header-phone-container>a:hover .header-phone-icon {
+    fill: #eece38;
+}
+
+.header.header-type-1 .dropdown-trigger .dropdown-trigger-item {
+    border-color: #e6e0d0;
+}
+
+.header .main-menu>li.current-menu-ancestor>a,
+.header .main-menu>li.current-menu-parent>a,
+.header .main-menu>li.current-menu-item>a,
+.header .main-menu>li>a:hover {
+    color: #929292;
+}
+
+.header .main-menu>li.menu-item-has-children>a:hover:after {
+    background-color: #929292;
+}
+
+.header:not(.header-type-3.sticky-header-on),
+.header-type-3.sticky-header-on .sticky-wrapper:before {
+    background-color: #ffffff;
+}
+
+.header-type-3.sticky-header-on.sticky-active .sticky-wrapper:before,
+.header.sticky-header-on.sticky-ready .sticky-wrapper {
+    background-color: #ffffff;
+}
+
+.header .agrarium-button,
+.header-type-1 .dropdown-trigger .dropdown-trigger-item:before {
+    color: #2b2b2b;
+}
+
+.header .agrarium-button {
+    border-color: #eece38;
+}
+
+
+
+.header .agrarium-button {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header .agrarium-button:hover {
+    color: #2b2b2b;
+}
+
+.header .agrarium-button:hover {
+    border-color: #eece38;
+}
+
+.header .agrarium-button:after {
+    background-color: #eece38;
+}
+
+.header.header-type-3 .logo-container .logo-link {
+    background-color: #1f1e17;
+}
+
+.page-title-container .page-title-additional {
+    color: #b7b7b7;
+}
+
+.page-title-wrapper,
+.body-container .page-title-wrapper a {
+    color: #ffffff;
+}
+
+.breadcrumbs .delimiter {
+    background-color: #ffffff;
+}
+
+.body-container .page-title-wrapper a:hover {
+    color: #eece38;
+}
+
+.page-title-bg {
+    background-color: #1f1e17;
+}
+
+.page-title-overlay {
+    background-color: rgba(31, 30, 23, 0.5);
+}
+
+@media screen and (min-width: 992px) {
+    .page-title-container .page-title-additional {
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bottom_section_background .bottom_section_background_wrapper {
+        min-height: 530px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bottom_section_background .bottom_section_background_wrapper {
+        margin-top: -30px;
+    }
+}
+
+.bottom_section_background .bottom_section_background_wrapper {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("https://g2h4v2c9.stackpathcdn.com/themes/agrarium/wp-content/uploads/2021/10/Layer-648.jpg");
+}
+
+.footer .widget .block-archive-trigger,
+.footer .widget .widget-archive-trigger,
+.footer .widget_nav_menu .widget-menu-trigger,
+.footer .select-wrap:after,
+.wp-block-archives-dropdown:after,
+.footer .wp-block-categories-dropdown:after,
+.footer .widget.widget_recent_comments a,
+.footer .widget.widget_rss a,
+.footer .footer-copyrights-container,
+.footer .footer-additional-menu-container .footer-additional-menu li>a,
+.footer .footer-additional-menu-container .footer-additional-menu li:before,
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-field.labeled .field-label {
+    color: #b7b7b7;
+}
+
+.footer,
+.footer input,
+.footer textarea,
+.footer select,
+.footer a,
+.footer .widget a,
+.footer .widget.widget_pages a,
+.footer .widget-title,
+.footer .wrapper-socials a,
+.footer .wrapper-socials a:hover,
+.footer .widget_text,
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-field,
+.footer .widget_agrarium_banner_widget .banner-widget-wrapper,
+.footer .widget_agrarium_banner_widget .banner-widget-wrapper .banner-title,
+.footer .widget_search .search-form .search-form-icon,
+.footer .widget_calendar .wp-calendar-nav a:hover,
+.footer .wp-block-calendar .wp-calendar-nav a:hover,
+.footer .widget_calendar tbody td#today,
+.footer .wp-block-calendar tbody td#today,
+.footer .widget_archive .post-count,
+.footer .wp-block-archives .post-count,
+.footer .widget_categories .post-count,
+.footer .wp-block-categories .post-count,
+.footer .widget_rss cite,
+.footer .widget_media_gallery .gallery .gallery-icon a:after,
+.footer .widget_media_audio .mejs-container .mejs-button>button,
+.footer .widget_media_audio .mejs-container .mejs-time,
+.footer .widget_media_audio .mejs-container .mejs-duration,
+.footer .wp-video .mejs-container .mejs-button>button,
+.footer .wp-video .mejs-container .mejs-time,
+.footer .wp-video .mejs-container .mejs-duration,
+.footer .footer-menu>li>a,
+.footer .wp-block-search .wp-block-search__button,
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover,
+.error-404-footer .wrapper-socials a:hover,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:after,
+.footer .wp-block-search .wp-block-search__button.has-icon:hover,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form select,
+.footer .wpforms-form .wpforms-title,
+.footer .widget_shopping_cart .cart_list li a,
+.woocommerce .footer form .select2-container .select2-selection--single .select2-selection__rendered,
+.woocommerce-page .footer form .select2-container .select2-selection--single .select2-selection__rendered,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__label,
+.footer .wp-block-calendar table caption,
+.footer .wp-block-calendar table tbody {
+    color: #ffffff;
+}
+
+.footer .widget_media_audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.footer .widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.footer .wp-video .mejs-volume-current,
+.footer .wp-video .mejs-volume-handle,
+.footer input[type="radio"]:before,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:before {
+    background-color: #ffffff;
+}
+
+.footer .content-inner ul:not([class*="elementor"])>li:not([class*="elementor"]):before,
+.footer .content-single-post ul:not([class*="elementor"])>li:not([class*="elementor"]):before,
+.footer .single_portfolio_content ul:not([class*="elementor"])>li:not([class*="elementor"]):before,
+.footer .agrarium_comments__item-text ul:not([class*="elementor"])>li:not([class*="elementor"]):before,
+.footer .single_recipe_content ul:not([class*="elementor"])>li:not([class*="elementor"]):before {
+    border-color: #ffffff;
+}
+
+.footer .widget_media_audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.footer .widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-total,
+.footer .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.footer .mejs-controls .mejs-time-rail .mejs-time-total,
+.footer .mejs-volume-total {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer .wrapper-socials a:hover {
+    background-color: #ffffff;
+}
+
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover svg path,
+.footer .wc-block-product-categories__button svg {
+    fill: #ffffff;
+}
+
+.footer .footer-additional-menu li a,
+.footer .widget_calendar .wp-calendar-nav a,
+.footer .wp-block-calendar .wp-calendar-nav a,
+.footer .widget_calendar thead th,
+.footer .wp-block-calendar thead th,
+.footer .widget_recent_comments ul .recentcomments,
+.footer .widget_recent_comments ul .recentcomments .comment-author-link a,
+.footer .widget_categories li.cat-item-hierarchical,
+.footer .wp-block-categories li.cat-item-hierarchical,
+.footer .widget_agrarium_featured_posts_widget .featured-posts-item-date,
+.footer .widget_recent_entries .post-date,
+.footer .widget_rss .rss-date,
+.footer .wc-block-product-categories .wc-block-product-categories-list-item .wc-block-product-categories-list-item-count,
+.footer .widget_rating_filter ul li .count,
+.footer .widget_layered_nav ul li .count,
+.footer .widget_rating_filter ul li a {
+    color: #818181;
+}
+
+.footer .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #818181;
+}
+
+.footer input[type="text"]::-webkit-input-placeholder,
+.footer input[type="email"]::-webkit-input-placeholder,
+.footer input[type="url"]::-webkit-input-placeholder,
+.footer input[type="password"]::-webkit-input-placeholder,
+.footer input[type="search"]::-webkit-input-placeholder,
+.footer input[type="tel"]::-webkit-input-placeholder,
+.footer input[type="number"]::-webkit-input-placeholder,
+.footer input[type="date"]::-webkit-input-placeholder,
+.footer input[type="month"]::-webkit-input-placeholder,
+.footer input[type="week"]::-webkit-input-placeholder,
+.footer input[type="time"]::-webkit-input-placeholder,
+.footer input[type="datetime"]::-webkit-input-placeholder,
+.footer input[type="datetime-local"]::-webkit-input-placeholder,
+.footer textarea::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea::-webkit-input-placeholder {
+    color: #818181;
+}
+
+.footer input[type="text"]:-moz-placeholder,
+.footer input[type="url"]:-moz-placeholder,
+.footer input[type="email"]:-moz-placeholder,
+.footer input[type="password"]:-moz-placeholder,
+.footer input[type="search"]:-moz-placeholder,
+.footer input[type="tel"]:-moz-placeholder,
+.footer input[type="number"]:-moz-placeholder,
+.footer input[type="date"]:-moz-placeholder,
+.footer input[type="month"]:-moz-placeholder,
+.footer input[type="week"]:-moz-placeholder,
+.footer input[type="time"]:-moz-placeholder,
+.footer input[type="datetime"]:-moz-placeholder,
+.footer input[type="datetime-local"]:-moz-placeholder,
+.footer textarea:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-moz-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea:-moz-placeholder {
+    color: #818181;
+}
+
+.footer input[type="text"]:-ms-input-placeholder,
+.footer input[type="email"]:-ms-input-placeholder,
+.footer input[type="url"]:-ms-input-placeholder,
+.footer input[type="password"]:-ms-input-placeholder,
+.footer input[type="search"]:-ms-input-placeholder,
+.footer input[type="tel"]:-ms-input-placeholder,
+.footer input[type="number"]:-ms-input-placeholder,
+.footer input[type="date"]:-ms-input-placeholder,
+.footer input[type="month"]:-ms-input-placeholder,
+.footer input[type="week"]:-ms-input-placeholder,
+.footer input[type="time"]:-ms-input-placeholder,
+.footer input[type="datetime"]:-ms-input-placeholder,
+.footer input[type="datetime-local"]:-ms-input-placeholder,
+.footer textarea:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-ms-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea:-ms-input-placeholder {
+    color: #818181;
+}
+
+.footer a:hover,
+.footer .footer-additional-menu li a:hover,
+.footer .widget_recent_comments ul .recentcomments .comment-author-link a:hover,
+.footer .widget_media_audio .mejs-container .mejs-button>button:hover,
+.footer .wp-video .mejs-container .mejs-button>button:hover,
+.footer .widget a:hover,
+.footer .footer-menu>li>a:hover,
+.footer-type-2 .footer-menu>li>a.current-menu-item,
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a,
+.footer ul.product_list_widget li a:hover .product-title,
+.footer .wp-block-search.wp-block-search__icon-button .wp-block-search__button.has-icon:hover:after,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:hover:after {
+    color: #eece38;
+}
+
+.footer blockquote:before {
+    color: #eece38;
+}
+
+.footer .widget_recent_comments ul .recentcomments:before,
+.footer .widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-current,
+.footer .wp-video .mejs-controls .mejs-time-rail .mejs-time-current,
+.footer .widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.footer .wp-video .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.footer input[type="checkbox"]:checked,
+.footer input[type="radio"]:checked,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"]:checked,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:checked,
+.footer-type-2 .footer-menu>li>a:before,
+.error-404-footer .wrapper-socials a,
+.footer .widget_rating_filter ul li.chosen a:before,
+.footer .widget_layered_nav ul li.chosen a:before {
+    background-color: #eece38;
+}
+
+.footer .widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.footer .wp-video .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.footer input[type="checkbox"]:checked,
+.footer input[type="radio"]:checked,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"]:checked,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:checked,
+.footer .widget_rating_filter ul li.chosen a:before,
+.footer .widget_layered_nav ul li.chosen a:before {
+    border-color: #eece38;
+}
+
+.footer .wrapper-socials a {
+    background-color: #eece38;
+}
+
+.footer .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a svg path {
+    fill: #eece38;
+}
+
+.footer .widget_tag_cloud .tag-cloud-link,
+.footer .wp-block-tag-cloud .tag-cloud-link,
+.footer .widget_tag_cloud .tag-cloud-link:hover,
+.footer .wp-block-tag-cloud .tag-cloud-link:hover {
+    color: #43413e;
+}
+
+.footer-section+.footer-section:before,
+.footer .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-range,
+.footer .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input-progress,
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input-progress {
+    background-color: #43413e;
+}
+
+.footer-top-section:after,
+.footer .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .widget_shopping_cart .total {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    background-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    background-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    background-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    background-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    border-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    border-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    border-color: #43413e;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    border-color: #43413e;
+}
+
+XXXX {
+    background-color: #e6e0d0;
+}
+
+XXXX {
+    border-color: #e6e0d0;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-track {
+    background-color: #e6e0d0;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-track {
+    background-color: #e6e0d0;
+}
+
+.footer .wrapper-socials a,
+.footer .wrapper-socials a:hover,
+.footer .widget_tag_cloud .tag-cloud-link:hover,
+.error-404-footer .wrapper-socials a,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.footer .widget_rating_filter ul li.chosen a:after,
+.footer .widget_layered_nav ul li.chosen a:after {
+    color: #1f1e17;
+}
+
+.footer,
+.error-404-footer .wrapper-socials a:hover,
+.footer .widget_agrarium_quote_widget .quote-button .agrarium-button:after {
+    background-color: #1E5128;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-handle {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.footer .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #1f1e17;
+    -moz-box-shadow: 0 0 0 4px #1f1e17;
+    box-shadow: 0 0 0 4px #1f1e17;
+}
+
+.XXXX {
+    color: #363636;
+}
+
+.footer .widget_media_audio .mejs-container,
+.footer .widget_media_audio .mejs-container .mejs-controls,
+.footer .widget_media_audio .mejs-embed,
+.footer .widget_media_audio .mejs-embed body,
+.footer .wp-video .mejs-container,
+.footer .wp-video .mejs-container .mejs-controls,
+.footer .wp-video .mejs-embed,
+.footer .wp-video .mejs-embed body,
+.footer .mejs-volume-button>.mejs-volume-slider,
+.footer .widget select,
+.footer .widget_search input,
+.footer .mc4wp-form input,
+.footer input[type="text"],
+.footer input[type="email"],
+.footer input[type="url"],
+.footer input[type="password"],
+.footer input[type="search"],
+.footer input[type="number"],
+.footer input[type="tel"],
+.footer input[type="range"],
+.footer input[type="date"],
+.footer input[type="month"],
+.footer input[type="week"],
+.footer input[type="time"],
+.footer input[type="datetime"],
+.footer input[type="datetime-local"],
+.footer input[type="color"],
+.footer select,
+.footer .select2-container .select2-selection--single,
+.footer textarea,
+.footer input[type="checkbox"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.woocommerce .footer form .form-row input[type="checkbox"].input-checkbox,
+.footer input[type="radio"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"],
+.footer .select2-dropdown,
+.footer .select2-container--default .select2-search--dropdown .select2-search__field,
+.footer .select2-container--default .select2-search--dropdown .select2-search__field,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:hover,
+.footer .wp-block-search.wp-block-search__icon-button .wp-block-search__button.has-icon,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form select,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.footer .widget_product_tag_cloud .tagcloud .tag-cloud-link,
+.footer .widget_rating_filter ul li a:before,
+.footer .widget_layered_nav ul li a:before {
+    background-color: #363636;
+}
+
+.footer .widget select,
+.footer .widget_search input,
+.mc4wp-form input,
+.footer .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.footer input[type="text"],
+.footer input[type="email"],
+.footer input[type="url"],
+.footer input[type="password"],
+.footer input[type="search"],
+.footer input[type="number"],
+.footer input[type="tel"],
+.footer input[type="range"],
+.footer input[type="date"],
+.footer input[type="month"],
+.footer input[type="week"],
+.footer input[type="time"],
+.footer input[type="datetime"],
+.footer input[type="datetime-local"],
+.footer input[type="color"],
+.footer select,
+.footer .select2-container .select2-selection--single,
+.footer textarea,
+.footer input[type="checkbox"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.woocommerce .footer form .form-row input[type="checkbox"].input-checkbox,
+.footer input[type="radio"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"],
+.footer .select2-dropdown,
+.footer .select2-container--default .select2-search--dropdown .select2-search__field,
+.footer .select2-container--default .select2-search--dropdown .select2-search__field,
+.footer .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form select,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.footer .widget_rating_filter ul li a:before,
+.footer .widget_layered_nav ul li a:before {
+    border-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-track {
+    background-color: #363636;
+}
+
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-track {
+    background-color: #363636;
+}
+
+.footer .mc4wp-form .mc4wp-form-fields button,
+.footer .agrarium-button,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.footer .wp-block-woocommerce-price-filter .wc-block-price-slider button,
+.footer .widget_agrarium_quote_widget .quote-button .agrarium-button:hover {
+    color: #ffffff;
+}
+
+.footer .agrarium-button,
+.footer .mc4wp-form .mc4wp-form-fields button,
+.footer .wp-block-search .wp-block-search__button {
+    border-color: #eece38;
+}
+
+.footer .footer-section .agrarium-button,
+.footer .footer-section button:not(.customize-partial-edit-shortcut-button),
+.footer .footer-section #form-preview button,
+.footer .footer-section .mc4wp-form .mc4wp-form-fields .form button,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer a.agrarium-button:hover,
+.footer button.agrarium-button:hover,
+.footer button:not(.customize-partial-edit-shortcut-button):hover,
+.footer #form-preview button:hover,
+.footer .mc4wp-form .mc4wp-form-fields .form button:hover,
+.footer .widget_agrarium_quote_widget .quote-button .agrarium-button {
+    color: #1f1e17;
+}
+
+.footer .wc-block-product-categories__button:hover svg {
+    fill: #1f1e17;
+}
+
+.footer .agrarium-button:hover {
+    border-color: #eece38;
+}
+
+.footer .agrarium-button:after,
+.footer button:not(.customize-partial-edit-shortcut-button):after,
+.footer #form-preview button:after,
+.footer .mc4wp-form .mc4wp-form-fields .form button:after,
+.footer .widget_agrarium_quote_widget .quote-button .agrarium-button {
+    background-color: #eece38;
+}
+
+.content-wrapper,
+.single-post .post-meta-footer .post-meta-item.post-meta-item-tags a,
+.project-item-wrapper .project-item-categories,
+.project-item-wrapper .project-item-categories a,
+.agrarium-price-item-widget .price-item.price-item-type-standard .price-item-custom-field.active,
+ol>li::marker,
+body .content-wrapper blockquote,
+body .agrarium_comments__item-text blockquote,
+.content-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover,
+.content-pagination .page-numbers,
+.content-pagination .post-page-numbers,
+.filter-control-wrapper .filter-control-list .dots .dot,
+.post-navigation .post-navigation-link a,
+.woocommerce form .form-row input[type="checkbox"].input-checkbox:checked:before,
+.woocommerce form input[type="checkbox"].input-checkbox:checked:before,
+.content-wrapper input[type="checkbox"]:checked:before,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"]:checked:before,
+.mobile-header,
+.site-search .search-form .search-form-field {
+    color: #767676;
+}
+
+.content-wrapper input[type="text"]::-webkit-input-placeholder,
+.content-wrapper input[type="email"]::-webkit-input-placeholder,
+.content-wrapper input[type="url"]::-webkit-input-placeholder,
+.content-wrapper input[type="password"]::-webkit-input-placeholder,
+.content-wrapper input[type="search"]::-webkit-input-placeholder,
+.content-wrapper input[type="tel"]::-webkit-input-placeholder,
+.content-wrapper input[type="number"]::-webkit-input-placeholder,
+.content-wrapper input[type="date"]::-webkit-input-placeholder,
+.content-wrapper input[type="month"]::-webkit-input-placeholder,
+.content-wrapper input[type="week"]::-webkit-input-placeholder,
+.content-wrapper input[type="time"]::-webkit-input-placeholder,
+.content-wrapper input[type="datetime"]::-webkit-input-placeholder,
+.content-wrapper input[type="datetime-local"]::-webkit-input-placeholder,
+.content-wrapper textarea::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]::-webkit-input-placeholder,
+.footer div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]::-webkit-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea::-webkit-input-placeholder,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"]::-webkit-input-placeholder {
+    color: #767676;
+}
+
+.content-wrapper input[type="text"]:-moz-placeholder,
+.content-wrapper input[type="url"]:-moz-placeholder,
+.content-wrapper input[type="email"]:-moz-placeholder,
+.content-wrapper input[type="password"]:-moz-placeholder,
+.content-wrapper input[type="search"]:-moz-placeholder,
+.content-wrapper input[type="tel"]:-moz-placeholder,
+.content-wrapper input[type="number"]:-moz-placeholder,
+.content-wrapper input[type="date"]:-moz-placeholder,
+.content-wrapper input[type="month"]:-moz-placeholder,
+.content-wrapper input[type="week"]:-moz-placeholder,
+.content-wrapper input[type="time"]:-moz-placeholder,
+.content-wrapper input[type="datetime"]:-moz-placeholder,
+.content-wrapper input[type="datetime-local"]:-moz-placeholder,
+.content-wrapper textarea:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-moz-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea:-moz-placeholder,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"]:-moz-placeholder {
+    color: #767676;
+}
+
+.content-wrapper input[type="text"]:-ms-input-placeholder,
+.content-wrapper input[type="email"]:-ms-input-placeholder,
+.content-wrapper input[type="url"]:-ms-input-placeholder,
+.content-wrapper input[type="password"]:-ms-input-placeholder,
+.content-wrapper input[type="search"]:-ms-input-placeholder,
+.content-wrapper input[type="tel"]:-ms-input-placeholder,
+.content-wrapper input[type="number"]:-ms-input-placeholder,
+.content-wrapper input[type="date"]:-ms-input-placeholder,
+.content-wrapper input[type="month"]:-ms-input-placeholder,
+.content-wrapper input[type="week"]:-ms-input-placeholder,
+.content-wrapper input[type="time"]:-ms-input-placeholder,
+.content-wrapper input[type="datetime"]:-ms-input-placeholder,
+.content-wrapper input[type="datetime-local"]:-ms-input-placeholder,
+.content-wrapper textarea:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-ms-input-placeholder,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea:-ms-input-placeholder,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"]:-ms-input-placeholder {
+    color: #767676;
+}
+
+.site-search .search-form .search-form-field::-webkit-input-placeholder {
+    color: #767676;
+}
+
+.site-search .search-form .search-form-field:-moz-placeholder {
+    color: #767676;
+}
+
+.site-search .search-form .search-form-field:-ms-input-placeholder {
+    color: #767676;
+}
+
+.site-search .search-form .search-form-field::placeholder {
+    color: #767676;
+}
+
+.content-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover svg path {
+    fill: #767676;
+}
+
+a:hover,
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3,
+.content-wrapper h4,
+.content-wrapper h5,
+.wpforms-form .wpforms-title,
+.content-wrapper h6,
+.content-wrapper .post-title,
+.content-wrapper .post-title a,
+.owl-theme .owl-nav [class*="owl-"]:before,
+.post-comment-author,
+.select2-container--default .select2-results__option.select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option.select2-results__option--highlighted[data-selected],
+.content-wrapper .select2-container--default .select2-results__option.select2-results__option--highlighted[aria-selected],
+.content-wrapper .select2-container--default .select2-results__option.select2-results__option--highlighted[data-selected],
+.agrarium-format-quote .post-quote:before,
+.widget_search .search-form .search-form-icon,
+.widget_categories ul li>a,
+body .content-wrapper ul.wp-block-categories li>a,
+.widget_categories ul li .widget-archive-trigger,
+.widget .block-archive-trigger,
+body .content-wrapper .widget .widget-archive-trigger,
+.widget_agrarium_featured_posts_widget .featured-posts-item-link,
+.widget_archive ul li>a,
+.wp-block-archives ul li>a,
+body .content-wrapper .wp-block-archives li>a,
+.widget_recent_entries ul li a,
+.widget_recent_comments ul .recentcomments a,
+body .content-wrapper .widget_calendar caption,
+body .content-wrapper .wp-block-calendar caption,
+body .content-wrapper .widget_calendar .wp-calendar-nav a,
+body .content-wrapper .wp-block-calendar .wp-calendar-nav a,
+body .content-wrapper .widget_calendar table tbody td,
+body .content-wrapper .wp-block-calendar table tbody td,
+.widget_pages .widget-wrapper>ul li>a,
+.widget_meta ul li>a,
+.sidebar .widget .widget-title a,
+.widget_rss cite,
+.widget_rss ul a.rsswidget,
+.widget_nav_menu ul li .widget-menu-trigger,
+.widget_agrarium_nav_menu_widget ul li .widget-menu-trigger,
+.widget_nav_menu ul li a,
+.widget_agrarium_nav_menu_widget ul li a,
+.widget_tag_cloud .tagcloud .tag-cloud-link,
+.wp-block-tag-cloud .tag-cloud-link,
+.result-box .result-box-title,
+.results-wrapper ul li,
+.portfolio-post-meta .portfolio-post-meta-label,
+.post-navigation .post-navigation-title a,
+.post-navigation .archive-icon-link .archive-icon,
+.team-experience-item-title,
+.team-item .post-title,
+.project-item-wrapper .post-title,
+.project-post-meta .project-post-meta-label,
+.vacancy-salary .vacancy-salary-value,
+.header-icon.login-logout a.link-login,
+.header-icon.login-logout a.link-logout,
+.help-item .help-item-title,
+.service-item .service-post-title a,
+.agrarium-price-item-widget .price-item .price-item-container,
+.agrarium-price-item-widget .price-item.price-item-type-wide .price-item-title,
+.elementor-counter .elementor-counter-title,
+.agrarium-testimonial-carousel-widget .testimonial-carousel-wrapper .author-name,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title .elementor-accordion-title,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title .elementor-toggle-title,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title .elementor-accordion-icon i:before,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title .elementor-toggle-icon i:before,
+body .content-wrapper .wp-block-search .wp-block-search__label,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-default-colors,
+.agrarium_content_slider_widget .agrarium_content_slider_bar .contact-item>span,
+.portfolio-listing-wrapper .portfolio-item-wrapper .portfolio-item-link .portfolio-item-overlay:before,
+.agrarium-testimonial-carousel-widget .testimonial-carousel-wrapper .author-position,
+.agrarium-testimonial-carousel-widget .testimonial-carousel-wrapper .testimonial-item .testimonial,
+.production-grid-listing .production-item .production-item-features .production-features>li,
+.single-production .production-item .production-item-meta .production-item-features .production-item-features-title,
+.single-production .production-item .production-item-meta .production-item-features .production-features li,
+.agrarium-price-item-widget .price-item.price-item-type-standard .price-item-title,
+.agrarium-price-item-widget .price-item .price-item-best-choice,
+body .content-wrapper .wp-block-latest-posts li>a,
+body .content-wrapper .wp-block-latest-posts li>.item-wrapper>a,
+.wp-block-latest-posts li>a,
+.wp-block-latest-posts li>.item-wrapper>a,
+.wp-block-latest-comments .wp-block-latest-comments__comment-link,
+.single-post .post-content .wp-block-quote,
+.content-wrapper .wp-block-pullquote blockquote,
+.filter-control-wrapper .filter-control-list .dots .dot.active,
+.single-portfolio .portfolio-post-content .portfolio-features li,
+.post-navigation .post-navigation-link a:hover,
+.elementor-widget-agrarium_vertical_text .vertical-text,
+.elementor-widget-agrarium_history_carousel .history-item .history-year-wrapper .history-year,
+.wp-block-woocommerce-product-search .wc-block-product-search__label,
+.content-wrapper .wc-block-product-categories .wc-block-product-categories-list-item a,
+.content-wrapper .wc-block-grid__product .wc-block-grid__product-title,
+.elementor-widget-agrarium_product_carousel .product-item .product-description ul li,
+.mobile-header a,
+.mobile-header .logo-link .logo-site-name,
+.mobile-header .header-icon,
+.mobile-header-menu-container a,
+.mobile-header-menu-container .logo-link .logo-site-name,
+.mobile-header-menu-container .header-icon,
+.mobile-header-menu-container,
+.mobile-header-menu-container .header-mobile-contacts .contact-item,
+.form-fields .form-field.form-cookies label,
+.search-form .search-form-icon,
+.wp-block-page-list a,
+.agrarium_content_slider_widget .slick-arrow:not(.slick-disabled):hover {
+    color: #2c2c2c;
+}
+
+.single-team .team-personal-info-item,
+.single-team .team-skills ul li,
+.single-team .team-values ul li {
+    color: rgba(44, 44, 44, 0.85);
+}
+
+.agrarium-testimonial-carousel-widget .owl-dots .owl-dot.active span:after,
+.production-grid-listing .production-item-wrapper .production-item-subtitle,
+.elementor-widget-agrarium_history_carousel .owl-dots .owl-dot.active span:after,
+.mobile-header .menu-trigger .hamburger span,
+.mobile-header-menu-container .main-menu>li .sub-menu-trigger:after {
+    background-color: #2c2c2c;
+}
+
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot span:after,
+.elementor-widget-agrarium_product_carousel .slick-dots li button:before,
+.elementor-widget-agrarium_product_carousel .slick-dots .slick-active button:after {
+    border-color: #2c2c2c;
+}
+
+.agrarium-price-item-widget .price-item.price-item-type-standard .price-item-custom-fields {
+    border-color: rgba(44, 44, 44, 0.1);
+}
+
+.post-meta-header .post-meta-item,
+.post-meta-header .post-meta-item a,
+.post-meta-item-tags,
+.body-container .post-meta-item-tags a,
+.single-post .post-meta-footer .post-meta-item-author,
+.single-post .post-meta-footer .post-meta-item-author a,
+.post-comment-date,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider .wpforms-field-number-slider-hint,
+.widget_agrarium_featured_posts_widget .featured-posts-item-date,
+.widget_recent_entries ul li .post-date,
+.widget_recent_comments ul .recentcomments,
+body .content-wrapper .widget_calendar table thead th,
+body .content-wrapper .wp-block-calendar table thead th,
+.widget_rss .rss-date,
+body .content-wrapper .gallery .gallery-item .gallery-caption,
+.post-navigation .post-navigation-categories,
+.post-navigation .post-navigation-categories a,
+.team-experience-item-period,
+.agrarium-price-item-widget .price-item.price-item-type-standard .price-item-custom-field,
+body .content-wrapper .wp-block-latest-posts li .wp-block-latest-posts__post-date,
+.wp-block-latest-posts li .wp-block-latest-posts__post-date,
+.team-item .team-item-position,
+.mobile-header-menu-container .header-mobile-contacts .contact-item .contact-item-title,
+.mobile-header-menu-container .main-menu>li .sub-menu-trigger,
+.mobile-header-menu-container .main-menu li a:hover,
+.mobile-header-menu-container .main-menu li.active>a,
+.mobile-header-menu-container .main-menu li.current-menu-ancestor>a,
+.mobile-header-menu-container .main-menu li.current-menu-parent>a,
+.wp-block-latest-comments__comment .wp-block-latest-comments__comment-author,
+.widget_recent_comments .recentcomments .comment-author-link a,
+.agrarium_content_slider_widget .slick-arrow {
+    color: #afafaf;
+}
+
+.comment-respond .form-cookies input[type="checkbox"] {
+    border-color: #afafaf;
+}
+
+.mobile-header-menu-container .main-menu li.active>.sub-menu-trigger:after,
+.mobile-header-menu-container .main-menu li.current-menu-ancestor>.sub-menu-trigger:after,
+.mobile-header-menu-container .main-menu li.current-menu-parent>.sub-menu-trigger:after {
+    background-color: #afafaf;
+}
+
+a,
+body .content-wrapper blockquote:before,
+body .agrarium_comments__item-text blockquote:before,
+.post-meta-header .post-meta-item a:hover,
+.content-wrapper .post-title a:hover,
+.post-more-button a,
+.post-more-button a:hover,
+.body-container .post-meta-item-tags a:hover,
+.single-post .post-meta-footer .post-meta-item-author a:hover,
+.widget_search .search-form .search-form-icon:hover,
+.widget_categories ul>li:hover,
+.widget_categories ul li:hover>a,
+body .content-wrapper ul.wp-block-categories>li:hover,
+body .content-wrapper ul.wp-block-categories li:hover>a,
+.widget_agrarium_featured_posts_widget .featured-posts-item-link:hover,
+.widget_archive ul li:hover>a,
+.widget_archive ul>li:hover,
+.wp-block-archives li:hover>a,
+.wp-block-archives>li:hover,
+.widget_recent_entries ul li a:hover,
+.widget_recent_comments ul .recentcomments a:hover,
+body .content-wrapper .widget_calendar .wp-calendar-nav a:hover,
+body .content-wrapper .wp-block-calendar .wp-calendar-nav a:hover,
+.widget_pages .widget-wrapper>ul li:hover>a,
+.widget_meta ul li:hover>a,
+.sidebar .widget .widget-title a:hover,
+.widget_rss ul a.rsswidget:hover,
+.widget_agrarium_contacts_widget .agrarium-contacts-widget-field:before,
+.results-wrapper ul li:before,
+.post-navigation .post-navigation-title a:hover,
+.post-navigation .post-navigation-categories a:hover,
+.post-navigation .archive-icon-link .archive-icon:hover,
+.team-short-info-position,
+.service-item .service-post-title a:hover,
+.agrarium-price-item-widget .price-item.price-item-type-standard .price-item-custom-field.active:before,
+.agrarium-price-item-widget .price-item.active .price-item-container,
+.agrarium-step-widget .step-number,
+.page-title-container .page-title-additional,
+.content-wrapper .wrapper-socials a:hover,
+.widget .wp-block-archives a:hover,
+body .content-wrapper .wp-block-archives ul li>a:hover,
+ul>li:before,
+.content-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a,
+.agrarium-heading .agrarium-subheading,
+.elementor-counter .elementor-counter-number-wrapper,
+.elementor-widget-image-box .elementor-image-box-title a:hover,
+.portfolio-listing-wrapper .portfolio-item-wrapper .portfolio-item-link .portfolio-item-categories,
+.portfolio-listing-wrapper .portfolio-item-wrapper .portfolio-item-link:hover .portfolio-item-categories,
+.agrarium-testimonial-carousel-widget .testimonial-carousel-wrapper .testimonial-item .testimonial:before,
+.post-categories a.post-category-item,
+.elementor-widget-agrarium_slogan .slogan,
+.production-grid-listing .production-item .production-item-content .production-item-counter,
+.single-production .production-item .production-item-meta .production-item-subtitle,
+.service-listing-wrapper .service-item .service-item-icon i,
+.single-production .production-item .production-item-features .production-features li .feature-item-icon i,
+body .content-wrapper .wp-block-latest-posts li>a:hover,
+body .content-wrapper .wp-block-latest-posts li>.item-wrapper>a:hover,
+.wp-block-latest-posts li>a:hover,
+.wp-block-latest-posts li>.item-wrapper>a:hover,
+.wp-block-latest-comments .wp-block-latest-comments__comment-link:hover,
+.content-wrapper .wp-block-pullquote blockquote:before,
+.single-post .post-meta-footer .wrapper-socials>li>a,
+.filter-control-wrapper .filter-control-list .dots>span:hover,
+.single-portfolio .portfolio-post-content .portfolio-post-subtitle,
+.team-item .team-item-content .post-title:hover,
+.content-wrapper .wc-block-product-categories .wc-block-product-categories-list-item a:hover,
+.content-wrapper .wc-block-grid__product .wc-block-grid__product-title:hover,
+.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a:hover,
+.content-wrapper .wp-block-search.wp-block-search__icon-button .wp-block-search__button.has-icon:hover:after,
+.content-wrapper .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:hover:after,
+.mobile-header-menu-container .header-mobile-contacts .contact-item:before,
+.mobile-header-menu-container .main-menu>li.active .sub-menu-trigger,
+.mobile-header-menu-container .main-menu li .sub-menu a:hover,
+.mobile-header-menu-container .main-menu li.current-menu-item>a,
+body .content-wrapper .wp-block-calendar table tbody td#today a:hover,
+body .content-wrapper .widget_calendar table tbody a:hover,
+body .content-wrapper .wp-block-calendar table tbody a:hover,
+.wp-block-latest-comments__comment a.wp-block-latest-comments__comment-author:hover,
+.widget_recent_comments .recentcomments .comment-author-link a:hover,
+.content-wrapper .widget_agrarium_nav_menu_widget li a:hover,
+.content-wrapper .widget_nav_menu li a:hover,
+.wp-block-page-list a:hover {
+    color: #eece38;
+}
+
+.widget_nav_menu ul li a:before,
+.widget_agrarium_nav_menu_widget ul li a:before,
+.production-listing-wrapper .production-item-wrapper .production-item-link .production-item-media:before,
+.agrarium-price-item-widget .price-item .price-item-best-choice,
+.single-post .post-meta-footer .wrapper-socials>li>a:hover,
+.filter-control-wrapper .filter-control-list .dots .dot:before,
+.elementor-widget-agrarium_history_carousel .history-item .history-year-wrapper:before,
+.agrarium_content_slider_widget .scrolldown_button a,
+.ta_under_strips>div:before,
+.widget_media_gallery .gallery .gallery-icon a:before,
+.wp-block-gallery .blocks-gallery-grid .blocks-gallery-item a:before,
+.post-meta-header .post-meta-item-date:after,
+.mobile-header-menu-container .main-menu>li ul.sub-menu>li>a:before,
+.mobile-header-menu-container .header-mobile-socials .mobile-menu-socials li a {
+    background-color: #eece38;
+}
+
+.team-experience-list .team-experience-item:before,
+body .content-wrapper .widget_calendar table tbody td#today:before,
+body .footer .widget_calendar table tbody td#today:before,
+body .content-wrapper .wp-block-search.wp-block-search__text-button .wp-block-search__button,
+.widget_categories ul li:before,
+ul.wp-block-categories>li:before,
+.widget_archive ul li:before,
+.wp-block-archives li:before,
+body .content-wrapper .wp-block-archives li:before,
+.widget_meta ul li:before,
+body .content-wrapper .wp-block-latest-comments li:before,
+.wp-block-latest-comments li:before,
+.widget_recent_comments ul .recentcomments:before,
+.widget_pages .widget-wrapper>ul>li:before,
+.content-pagination .page-numbers.current,
+.content-pagination .page-numbers:hover,
+.content-pagination .post-page-numbers.current,
+.content-pagination .post-page-numbers:hover,
+body .content-wrapper .widget_calendar table tbody td#today:before,
+.widget_calendar table tbody td#today:before,
+body .content-wrapper .wp-block-calendar table tbody td#today:before,
+.wp-block-calendar table tbody td#today:before {
+    border-color: #eece38;
+}
+
+XXXX {
+    color: #e6e0d0;
+}
+
+.single-post .post-meta-footer:not(:first-child):before,
+.single-post .post-meta-footer:after,
+.team-biography-wrapper .team-biography-text:before,
+.agrarium_content_slider_widget .agrarium_content_slider_bar .agrarium_content_slider_phone:before,
+.agrarium_content_slider_widget .agrarium_content_slider_bar .agrarium_content_slider_email:before,
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input-progress,
+.ta_under_strips>div:after {
+    background-color: #e6e0d0;
+}
+
+.site-search,
+.simple-sidebar-trigger,
+.header-extra-socials.wrapper-socials a,
+body .content-wrapper table tr td,
+body .content-wrapper table tr th,
+body .agrarium_comments__item-text table tr td,
+body .agrarium_comments__item-text table tr th,
+.project-post-meta .project-post-meta-item,
+.vacancy-item,
+.single-service .benefits-wrapper .benefit-item,
+.service-listing-wrapper .service-item,
+.post-comments-list .post-comment-wrapper.depth-1,
+.agrarium-price-item-widget .price-item,
+.agrarium-price-item-widget .price-item.price-item-type-wide,
+.single-service .help-item,
+.content-wrapper .elementor-accordion .elementor-accordion-item,
+.content-wrapper .elementor-widget-accordion .elementor-accordion .elementor-accordion-item+.elementor-accordion-item,
+.elementor-widget-toggle .elementor-toggle .elementor-toggle-item,
+.mobile-header-menu-container .main-menu>li,
+.mobile-header-menu-container,
+.site-search {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-track {
+    background-color: #e6e0d0;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-track {
+    background-color: #e6e0d0;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    border-color: #e6e0d0;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    border-color: #e6e0d0;
+}
+
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button:hover .agrarium_button_icon {
+    color: #f7f5ea;
+}
+
+.single-post .post-meta-footer .post-meta-item.post-meta-item-tags a,
+.content-wrapper input[type="text"],
+.content-wrapper input[type="email"],
+.content-wrapper input[type="url"],
+.content-wrapper input[type="password"],
+.content-wrapper input[type="search"],
+.content-wrapper input[type="number"],
+.content-wrapper input[type="tel"],
+.content-wrapper input[type="range"],
+.content-wrapper input[type="date"],
+.content-wrapper input[type="month"],
+.content-wrapper input[type="week"],
+.content-wrapper input[type="time"],
+.content-wrapper input[type="datetime"],
+.content-wrapper input[type="datetime-local"],
+.content-wrapper input[type="color"],
+.content-wrapper select,
+.content-wrapper .select2-container .select2-selection--single,
+.content-wrapper textarea,
+.content-wrapper input[type="checkbox"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.woocommerce form .form-row input[type="checkbox"].input-checkbox,
+.content-wrapper input[type="radio"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"],
+.select2-dropdown,
+body .select2-dropdown,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+body .select2-container--default .select2-search--dropdown .select2-search__field,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.select2-container--default .select2-results__option.select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option.select2-results__option--highlighted[data-selected],
+.content-wrapper .select2-container--default .select2-results__option.select2-results__option--highlighted[aria-selected],
+.content-wrapper .select2-container--default .select2-results__option.select2-results__option--highlighted[data-selected],
+.widget_tag_cloud .tagcloud .tag-cloud-link,
+.wp-block-tag-cloud .tag-cloud-link,
+body .content-wrapper .widget_calendar .calendar_wrap,
+body .content-wrapper .wp-block-calendar,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"],
+body .content-wrapper .wp-block-search.wp-block-search__button-outside .wp-block-search__button.has-icon,
+body .content-wrapper .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button,
+body .content-wrapper .wp-block-search.wp-block-search__icon-button .wp-block-search__button.has-icon:hover,
+.content-pagination .page-numbers,
+.content-pagination .post-page-numbers,
+.agrarium-format-quote .post-quote,
+.woocommerce form .form-row input[type="checkbox"].input-checkbox:checked:before,
+.woocommerce form input[type="checkbox"].input-checkbox:checked:before,
+.content-wrapper input[type="checkbox"]:checked,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"]:checked,
+.form-fields .form-field.form-cookies input[type="checkbox"]:checked,
+.wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button,
+.wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:hover,
+.agrarium_video_container .agrarium_close_popup_layer .agrarium_close_button {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper input[type="text"],
+.content-wrapper input[type="email"],
+.content-wrapper input[type="url"],
+.content-wrapper input[type="password"],
+.content-wrapper input[type="search"],
+.content-wrapper input[type="number"],
+.content-wrapper input[type="tel"],
+.content-wrapper input[type="range"],
+.content-wrapper input[type="date"],
+.content-wrapper input[type="month"],
+.content-wrapper input[type="week"],
+.content-wrapper input[type="time"],
+.content-wrapper input[type="datetime"],
+.content-wrapper input[type="datetime-local"],
+.content-wrapper input[type="color"],
+.content-wrapper select,
+.content-wrapper .select2-container .select2-selection--single,
+.content-wrapper textarea,
+.content-wrapper input[type="checkbox"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.woocommerce form .form-row input[type="checkbox"].input-checkbox,
+.content-wrapper input[type="radio"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"],
+.select2-dropdown,
+body .select2-dropdown,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+body .select2-container--default .select2-search--dropdown .select2-search__field,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"],
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"],
+body .content-wrapper .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.content-pagination .page-numbers,
+.content-pagination .post-page-numbers,
+.content-wrapper input[type="checkbox"]:checked,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"]:checked,
+.woocommerce form .form-row input[type="checkbox"].input-checkbox:checked {
+    border-color: #f7f5ea;
+}
+
+.content-wrapper div.wpforms-container-full .wpforms-form ul.wpforms-image-choices-classic label:not(.wpforms-error),
+.woocommerce form .form-row input[type="checkbox"].input-checkbox:checked,
+.woocommerce form input[type="checkbox"].input-checkbox:checked {
+    border-color: #f7f5ea !important;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    background-color: #f7f5ea;
+}
+
+body,
+.simple-sidebar-trigger,
+.blog-item,
+.owl-theme .owl-nav [class*="owl-"],
+.content-wrapper input[type="text"]:focus,
+.content-wrapper input[type="email"]:focus,
+.content-wrapper input[type="url"]:focus,
+.content-wrapper input[type="password"]:focus,
+.content-wrapper input[type="search"]:focus,
+.content-wrapper input[type="number"]:focus,
+.content-wrapper input[type="tel"]:focus,
+.content-wrapper input[type="range"]:focus,
+.content-wrapper input[type="date"]:focus,
+.content-wrapper input[type="month"]:focus,
+.content-wrapper input[type="week"]:focus,
+.content-wrapper input[type="time"]:focus,
+.content-wrapper input[type="datetime"]:focus,
+.content-wrapper input[type="datetime-local"]:focus,
+.content-wrapper input[type="color"]:focus,
+.content-wrapper select:focus,
+.content-wrapper textarea:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"]:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select:focus,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea:focus,
+.select2-container--default .select2-results>.select2-results__options,
+.select2-container--default.select2-container--open .select2-selection,
+.select2-container--default.select2-container--open .select2-dropdown,
+.select2-container--default .select2-search--dropdown .select2-search__field:focus,
+.content-wrapper .select2-container--default .select2-results>.select2-results__options,
+.content-wrapper .select2-container--default.select2-container--open .select2-selection,
+body .select2-container--default.select2-container--open .select2-dropdown,
+body .select2-container--default .select2-search--dropdown .select2-search__field:focus,
+#form-preview .mc4wp-form .mc4wp-form-fields input[type="email"]:focus,
+.team-item .team-item-socials,
+.team-item .team-item-socials .team-socials.wrapper-socials,
+.vacancy-item,
+.single-service .benefits-wrapper .benefit-item,
+.service-listing-wrapper .service-item,
+.agrarium-price-item-widget .price-item.price-item-type-standard,
+.agrarium_content_slider_widget .slick-dots,
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button:hover .agrarium_video_trigger_button_inner,
+.agrarium_content_slider_widget .agrarium_content_slider_bar,
+.elementor-widget-video .elementor-custom-embed-image-overlay .elementor-custom-embed-play,
+.production-listing-wrapper .production-item-wrapper .production-item,
+.single-service .help-item .help-item-title,
+.content-pagination .page-numbers.current,
+.content-pagination .page-numbers:hover,
+.content-pagination .post-page-numbers.current,
+.content-pagination .post-page-numbers:hover,
+.team-item .team-item-socials>.socials-trigger,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title,
+.mobile-header:not(.mobile-header-type-3.sticky-header-on),
+.mobile-header-menu-container,
+.mobile-header-type-3.sticky-header-on .sticky-wrapper:before,
+.site-search,
+.product-category-widget .product-category-subtitle,
+body .content-wrapper .wp-block-search.wp-block-search__icon-button .wp-block-search__input:focus+.wp-block-search__button.has-icon {
+    background-color: #ffffff;
+}
+
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button:hover,
+.elementor-widget-agrarium_history_carousel .history-item .history-year-wrapper:before {
+    border-color: #ffffff;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.content-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-default-colors,
+.section-accent-bg {
+    background-color: #f7f5ea;
+}
+
+.content-wrapper .wrapper-socials a,
+.post-comment-buttons a.comment-edit-link,
+.post-comment-buttons a.comment-reply-link:hover,
+#form-preview button,
+.content-wrapper input[type="radio"]:checked:before,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:checked:before,
+.agrarium-button,
+.content-wrapper .agrarium-button,
+.body-container button:not(.customize-partial-edit-shortcut-button),
+.body-container input[type="submit"],
+.body-container input[type="button"],
+.body-container input[type="reset"],
+.content-wrapper div.wpforms-container-full .wpforms-form input[type=submit],
+.content-wrapper div.wpforms-container-full .wpforms-form button[type=submit],
+.content-wrapper div.wpforms-container-full .wpforms-form .wpforms-page-button,
+body .content-wrapper .widget_calendar table tbody td#today,
+body .content-wrapper .wp-block-calendar table tbody td#today body .content-wrapper .widget_calendar table tbody td#today a,
+body .content-wrapper .wp-block-calendar table tbody td#today a,
+.widget_media_gallery .gallery .gallery-icon a:after,
+.team-short-contact-button .agrarium-button:hover,
+.project-post-button .agrarium-button:hover,
+.vacancy-post-button .agrarium-button:hover,
+.vacancy-item-button .agrarium-button:hover,
+.vacancy-post-meta .vacancy-occupation,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-default-colors .agrarium-button,
+.content-pagination .page-numbers.current,
+.content-pagination .page-numbers:hover,
+.content-pagination .post-page-numbers.current,
+.content-pagination .post-page-numbers:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.mobile-header .agrarium-button,
+.mobile-header-menu-container .agrarium-button,
+.mobile-header-menu-container .header-mobile-socials .mobile-menu-socials li a,
+.content-wrapper .widget_calendar table tbody a,
+.content-wrapper .wp-block-calendar table tbody a,
+.mini-cart .mini-cart-panel .woocommerce-mini-cart-buttons a.button:not(.checkout):hover {
+    color: #2b2b2b;
+}
+
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors,
+.agrarium-price-item-widget .price-item.active {
+    background-color: #2b2b2b;
+}
+
+
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button:hover {
+    border-color: #2b2b2b;
+}
+
+.agrarium-button,
+.content-wrapper .agrarium-button,
+.body-container button:not(.customize-partial-edit-shortcut-button),
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-default-colors .agrarium-button,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.mobile-header-menu-container .header-mobile-button a.agrarium-button,
+.mobile-header .agrarium-button,
+.mobile-header-menu-container .agrarium-button {
+    border-color: #eece38;
+}
+
+.content-wrapper .wrapper-socials a,
+.content-wrapper input[type="radio"]:checked:before,
+.content-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:checked:before,
+.widget_media_gallery .gallery .gallery-icon a:before {
+    background-color: #eece38;
+}
+
+.content-wrapper div.wpforms-container-full .wpforms-form ul.wpforms-image-choices-classic .wpforms-selected label {
+    border-color: #eece38 !important;
+}
+
+.result-box .result-box-value {
+    -webkit-text-stroke: 1px #eece38;
+}
+
+.mobile-header .agrarium-button,
+.mobile-header-menu-container .agrarium-button,
+.post-categories a.post-category-item,
+.post-meta-header .post-meta-item:not(:first-child):before,
+.post-comment-buttons a.comment-edit-link,
+.body-container input[type="submit"],
+.body-container input[type="button"],
+.body-container input[type="reset"],
+.vacancy-post-meta .vacancy-occupation,
+.agrarium-button,
+.content-wrapper .agrarium-button,
+.body-container button:not(.customize-partial-edit-shortcut-button),
+#form-preview button,
+.agrarium_content_slider_widget .agrarium_content_container .agrarium-button,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.mobile-header .agrarium-button:hover,
+.mobile-header-menu-container .agrarium-button:hover,
+.post-categories a.post-category-item:hover,
+.sticky .post-labels:before,
+.status-sticky .post-labels:before,
+.owl-theme .owl-nav [class*="owl-"]:hover:before,
+.single-post .post-meta-footer .post-meta-item.post-meta-item-tags a:hover,
+.post-comment-buttons a.comment-edit-link:hover,
+.post-comment-buttons a.comment-reply-link,
+.agrarium-format-quote .post-quote,
+.agrarium-format-quote .post-quote:hover,
+.widget_tag_cloud .tagcloud .tag-cloud-link:hover,
+.wp-block-tag-cloud .tag-cloud-link:hover,
+.agrarium-button:hover,
+.content-wrapper .agrarium-button:hover,
+.body-container button:not(.customize-partial-edit-shortcut-button):hover,
+.body-container input[type="submit"]:hover,
+.body-container input[type="button"]:hover,
+.body-container input[type="reset"]:hover,
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true],
+.content-wrapper .select2-container--default .select2-results__option[aria-selected=true],
+.content-wrapper .select2-container--default .select2-results__option[data-selected=true],
+.content-wrapper div.wpforms-container-full .wpforms-form input[type=submit]:hover,
+.content-wrapper div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+.content-wrapper div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-default-colors .agrarium-button:hover,
+.team-short-contact-button .agrarium-button,
+.project-post-button .agrarium-button,
+.vacancy-post-button .agrarium-button,
+.vacancy-item-button .agrarium-button,
+.help-item.active .help-item-title,
+.agrarium-step-widget .step-bg-number,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+.agrarium_content_slider_widget .agrarium_content_container .agrarium-button:hover,
+.mini-cart .mini-cart-panel .woocommerce-mini-cart-buttons a.button:not(.checkout) {
+    color: #2b2b2b;
+}
+
+.content-wrapper .wrapper-socials a:hover {
+    background-color: #2b2b2b;
+}
+
+.mobile-header-menu-container .header-mobile-button a.agrarium-button:hover,
+.mobile-header .agrarium-button:hover,
+.mobile-header-menu-container .agrarium-button:hover,
+.agrarium-button:hover,
+.content-wrapper .agrarium-button:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+    border-color: #eece38;
+}
+
+.mobile-header .agrarium-button:after,
+.mobile-header-menu-container .agrarium-button:after,
+.sticky .post-labels:before,
+.status-sticky .post-labels:before,
+.owl-theme .owl-nav [class*="owl-"]:hover,
+.single-post .post-meta-footer .post-meta-item.post-meta-item-tags a:hover,
+.post-comment-buttons a.comment-edit-link:hover,
+.post-comment-buttons a.comment-reply-link,
+.widget_tag_cloud .tagcloud .tag-cloud-link:hover,
+.wp-block-tag-cloud .tag-cloud-link:hover,
+.body-container input[type="submit"]:hover,
+.body-container input[type="button"]:hover,
+.body-container input[type="reset"]:hover,
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true],
+.content-wrapper .select2-container--default .select2-results__option[aria-selected=true],
+.content-wrapper .select2-container--default .select2-results__option[data-selected=true],
+.help-item.active .help-item-title {
+    background-color: #eece38;
+}
+
+.mobile-header-menu-container .header-mobile-socials .mobile-menu-socials li a:hover {
+    color: #eece38;
+}
+
+.agrarium-step-widget .step-item {
+    background-color: rgba(238, 206, 56, 0.07);
+}
+
+.agrarium-button:after,
+.content-wrapper .agrarium-button:after,
+.body-container button:not(.customize-partial-edit-shortcut-button):after,
+#form-preview button:after {
+    background-color: #eece38;
+}
+
+.team-short-contact-button .agrarium-button:after,
+.project-post-button .agrarium-button:after,
+.vacancy-post-button .agrarium-button:after,
+.vacancy-item-button .agrarium-button:after,
+.agrarium-price-item-widget .price-item .price-item-button-container .agrarium-button:after {
+    background-color: #eece38;
+}
+
+.header .main-menu>li ul.sub-menu>li.menu-item-has-children>a:after,
+.slide-sidebar-wrapper,
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-field.labeled .field-label,
+.slide-sidebar-wrapper .wp-block-woocommerce-product-search .wc-block-product-search__label,
+.slide-sidebar-wrapper .wp-block-calendar table caption,
+.slide-sidebar-wrapper .wp-block-calendar table tbody,
+.slide-sidebar-wrapper .widget_calendar .wp-calendar-nav a,
+.slide-sidebar-wrapper .wp-block-calendar .wp-calendar-nav a,
+.slide-sidebar-wrapper .widget .block-archive-trigger,
+.slide-sidebar-wrapper .widget .widget-archive-trigger,
+.slide-sidebar-wrapper .widget_nav_menu .widget-menu-trigger {
+    color: #b7b7b7;
+}
+
+.slide-sidebar-wrapper .widget_calendar .wp-calendar-nav a:hover,
+.slide-sidebar-wrapper .wp-block-calendar .wp-calendar-nav a:hover,
+.slide-sidebar-wrapper .widget_calendar tbody td#today,
+.slide-sidebar-wrapper .wp-block-calendar tbody td#today,
+.slide-sidebar-wrapper .widget_search input,
+.portfolio-item .post-title,
+.agrarium-price-item-widget .price-item.price-item-type-wide.active .price-item-title,
+.agrarium-price-item-widget .price-item.price-item-type-wide.active .price-item-description,
+.project-listing-wrapper.text-position-inside .project-item-wrapper .post-title,
+.project-listing-wrapper.text-position-inside .project-item-wrapper .project-item-categories,
+.project-listing-wrapper.text-position-inside .project-item-wrapper .project-item-categories a,
+.header .main-menu ul.sub-menu>li>a,
+.header .main-menu>li ul.sub-menu>li.menu-item-has-children>a:hover:after,
+.widget_media_audio .mejs-container .mejs-button>button,
+.widget_media_audio .mejs-container .mejs-time,
+.widget_media_audio .mejs-container .mejs-duration,
+.mejs-audio.mejs-container .mejs-button>button,
+.mejs-audio.mejs-container .mejs-time,
+.mejs-audio.mejs-container .mejs-duration,
+.wp-video .mejs-container .mejs-button>button,
+.wp-video .mejs-container .mejs-time,
+.wp-video .mejs-container .mejs-duration,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .banner-title,
+.agrarium-price-item-widget .price-item.price-item-type-standard.active .price-item-custom-field.active,
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget,
+.slide-sidebar-wrapper .slide-sidebar-close,
+.slide-sidebar-wrapper a,
+.slide-sidebar-wrapper .widget a,
+.slide-sidebar-wrapper #form-preview .mc4wp-form .mc4wp-form-fields button,
+.slide-sidebar-wrapper #form-preview .mc4wp-form .mc4wp-form-fields input,
+.slide-sidebar-wrapper .widget_mc4wp_form_widget .mc4wp-form .mc4wp-form-fields button,
+.slide-sidebar-wrapper .widget_mc4wp_form_widget .mc4wp-form .mc4wp-form-fields input,
+.slide-sidebar-wrapper .widget_search .search-form .search-form-icon,
+.slide-sidebar-wrapper .widget_search .search-form .search-form-field,
+.slide-sidebar-wrapper .recentcomments a,
+.slide-sidebar-wrapper .widget_recent_comments ul .recentcomments a,
+.slide-sidebar-wrapper .wp-block-latest-comments a,
+.slide-sidebar-wrapper .widget_pages .widget-wrapper>ul li>a,
+.slide-sidebar-wrapper .wp-block-page-list li>a,
+.slide-sidebar-wrapper .widget_rss ul a.rsswidget,
+.slide-sidebar-wrapper .wp-block-rss .wp-block-rss__item-title,
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover,
+.agrarium_video_widget .agrarium_video_trigger_button .agrarium_button_text,
+.agrarium_content_slider_widget .agrarium_content_container .agrarium_content_slider_title,
+.agrarium_content_slider_widget .agrarium_content_slider_promo_text,
+.banner-widget.additional-title,
+.banner-widget .overlay-title,
+.banner-widget .banner-button.underline .agrarium-button,
+.production-listing-wrapper .production-item-wrapper .production-item .production_term_link:hover,
+.post-categories a.post-category-item:hover,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast,
+.production-grid-listing .production-item-media .production-item-link:hover,
+.single-service .help-item.active .help-item-title,
+.slide-sidebar-wrapper input,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-title,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-title,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon i:before,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon i:before,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a:hover,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a:hover,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field a,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field a,
+.cursor>span,
+.cursor_drag>span,
+.post-comment-buttons a.comment-reply-link:hover {
+    color: #ffffff;
+}
+
+.widget_media_audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.wp-video .mejs-overlay-play .mejs-overlay-button,
+.wp-video .mejs-overlay-play .mejs-overlay-button:before,
+.wp-video .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.wp-video .mejs-volume-current,
+.wp-video .mejs-volume-handle,
+.slide-sidebar-wrapper .wrapper-socials a:hover {
+    background-color: #ffffff;
+}
+
+.widget_media_audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-total,
+.wp-video .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-total,
+.wp-video .mejs-volume-total {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.wp-video .mejs-overlay-play .mejs-overlay-button .progress__circle {
+    stroke: rgba(255, 255, 255, 0.4);
+}
+
+.wp-video .mejs-overlay-play .mejs-overlay-button .progress__path,
+.agrarium_content_slider_widget .agrarium_content_slider_bar .slider_video_button .agrarium_button_icon svg.progress .progress__path {
+    stroke: #ffffff;
+}
+
+.agrarium-price-item-widget .price-item.price-item-type-standard.active .price-item-custom-fields {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a:hover svg path,
+.wp-video .mejs-overlay-play .mejs-overlay-button:hover svg path,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a:hover svg path,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a:hover svg path {
+    fill: #ffffff;
+}
+
+.slide-sidebar-wrapper .widget_calendar thead th,
+.slide-sidebar-wrapper .wp-block-calendar thead th {
+    color: #818181;
+}
+
+.slide-sidebar-wrapper input[type="text"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="email"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="url"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="password"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="search"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="tel"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="number"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="date"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="month"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="week"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="time"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="datetime"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper input[type="datetime-local"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper textarea::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]::-webkit-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea::-webkit-input-placeholder,
+.agrarium-price-item-widget .price-item.price-item-type-standard.active .price-item-custom-field,
+.slide-sidebar-wrapper .select-wrap select,
+.slide-sidebar-wrapper .wp-block-archives-dropdown select,
+.slide-sidebar-wrapper .wp-block-categories-dropdown select,
+.slide-sidebar-wrapper .widget_rss ul li cite,
+.slide-sidebar-wrapper .wp-block-rss ul li cite,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field .field-label,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field .field-label,
+.slide-sidebar-wrapper .wp-block-search .wp-block-search__button {
+    color: #818181;
+}
+
+.slide-sidebar-wrapper input[type="text"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="url"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="email"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="password"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="search"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="tel"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="number"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="date"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="month"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="week"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="time"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="datetime"]:-moz-placeholder,
+.slide-sidebar-wrapper input[type="datetime-local"]:-moz-placeholder,
+.slide-sidebar-wrapper textarea:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-moz-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea:-moz-placeholder {
+    color: #818181;
+}
+
+.slide-sidebar-wrapper input[type="text"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="email"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="url"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="password"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="search"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="tel"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="number"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="date"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="month"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="week"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="time"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="datetime"]:-ms-input-placeholder,
+.slide-sidebar-wrapper input[type="datetime-local"]:-ms-input-placeholder,
+.slide-sidebar-wrapper textarea:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"]:-ms-input-placeholder,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea:-ms-input-placeholder {
+    color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-tag-cloud .tag-cloud-link:hover {
+    background-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    background-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    background-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    background-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    background-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-webkit-slider-thumb {
+    border-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-moz-range-thumb {
+    border-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input::-ms-thumb {
+    border-color: #818181;
+}
+
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input:focus::-ms-thumb {
+    border-color: #818181;
+}
+
+.widget_media_audio .mejs-container .mejs-button>button:hover,
+.mejs-audio.mejs-container .mejs-button>button:hover,
+.wp-video .mejs-container .mejs-button>button:hover,
+.agrarium-price-item-widget .price-item.price-item-type-standard.active .price-item-custom-field.active:before,
+.slide-sidebar-wrapper .widget-title,
+.slide-sidebar-wrapper .widget_search .search-form .search-form-icon:hover,
+.slide-sidebar-wrapper .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:after,
+.slide-sidebar-wrapper .wp-block-search .wp-block-search__button.has-icon:hover,
+.slide-sidebar-wrapper .recentcomments a:hover,
+.slide-sidebar-wrapper .wp-block-latest-comments a:hover,
+.slide-sidebar-wrapper .widget_recent_comments ul .recentcomments a:hover,
+.slide-sidebar-wrapper .widget_pages .widget-wrapper>ul li:hover>a,
+.slide-sidebar-wrapper .wp-block-page-list li:hover>a,
+.slide-sidebar-wrapper .widget_rss ul a.rsswidget:hover,
+.slide-sidebar-wrapper .wp-block-rss .wp-block-rss__item-title:hover,
+.slide-sidebar-wrapper .widget_rss .widget-title a.rsswidget,
+.slide-sidebar-wrapper .woocommerce ul.product_list_widget li>a:hover .product-title,
+.slide-sidebar-wrapper .woocommerce-page ul.product_list_widget li>a:hover .product-title,
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a,
+.agrarium_video_widget .agrarium_video_trigger_button .agrarium_button_icon,
+.agrarium_video_widget .agrarium_video_trigger_button:hover .agrarium_button_text,
+.production-listing-wrapper .production-item-wrapper .production-item .production_term_link,
+.team-item .team-item-socials .team-socials.wrapper-socials a:hover,
+.slide-sidebar-wrapper a:hover,
+.slide-sidebar-wrapper .wp-block-search.wp-block-search__icon-button .wp-block-search__button.has-icon:hover:after,
+.slide-sidebar-wrapper .wp-block-woocommerce-product-search .wc-block-product-search__fields .wc-block-product-search__button:hover:after,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field a:hover,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-field a:hover,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a {
+    color: #eece38;
+}
+
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-current,
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.slide-sidebar-wrapper .wrapper-socials a,
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button:hover .agrarium_video_trigger_button_inner .agrarium_button_icon,
+.banner-widget .banner-button.underline .agrarium-button:before,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"]:checked:before,
+.wp-video .mejs-overlay-play .mejs-overlay-button:hover,
+.slide-sidebar-wrapper .widget_media_gallery .gallery .gallery-icon a:before,
+.slide-sidebar-wrapper .wp-block-gallery .blocks-gallery-grid .blocks-gallery-item a:before {
+    background-color: #eece38;
+}
+
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-handle-content,
+.slide-sidebar-wrapper .widget_calendar table tbody td#today:before,
+.slide-sidebar-wrapper .wp-block-calendar table tbody td#today:before,
+.content-wrapper .widget_agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a,
+.elementor-widget-wp-widget-agrarium_contacts_widget .widget_inner.color_scheme_contrast .agrarium-contacts-widget-link a {
+    border-color: #eece38;
+}
+
+.widget_media_audio .mejs-controls .mejs-time-rail .mejs-time-hovered,
+.mejs-audio .mejs-controls .mejs-time-rail .mejs-time-hovered,
+.wp-video .mejs-controls .mejs-time-rail .mejs-time-hovered {
+    background-color: rgba(238, 206, 56, 0.4);
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    background-color: #eece38;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    background-color: #eece38;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    background-color: #eece38;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    background-color: #eece38;
+}
+
+.slide-sidebar-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a svg path {
+    fill: #eece38;
+}
+
+.content-wrapper .widget_agrarium_contacts_widget .agrarium-contacts-widget-link a svg path,
+.elementor-widget-wp-widget-agrarium_contacts_widget .agrarium-contacts-widget-link a svg path {
+    fill: #eece38;
+}
+
+XXXX {
+    color: #43413e;
+}
+
+.slide-sidebar-wrapper input[type="text"],
+.slide-sidebar-wrapper input[type="email"],
+.slide-sidebar-wrapper input[type="url"],
+.slide-sidebar-wrapper input[type="password"],
+.slide-sidebar-wrapper input[type="search"],
+.slide-sidebar-wrapper input[type="number"],
+.slide-sidebar-wrapper input[type="tel"],
+.slide-sidebar-wrapper input[type="range"],
+.slide-sidebar-wrapper input[type="date"],
+.slide-sidebar-wrapper input[type="month"],
+.slide-sidebar-wrapper input[type="week"],
+.slide-sidebar-wrapper input[type="time"],
+.slide-sidebar-wrapper input[type="datetime"],
+.slide-sidebar-wrapper input[type="datetime-local"],
+.slide-sidebar-wrapper input[type="color"],
+.slide-sidebar-wrapper select,
+.slide-sidebar-wrapper textarea,
+.slide-sidebar-wrapper input[type="checkbox"],
+.slide-sidebar-wrapper input[type="radio"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="checkbox"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="radio"],
+.slide-sidebar-wrapper .select2-container .select2-selection--single,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="color"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.slide-sidebar-wrapper .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    border-color: #43413e;
+}
+
+.slide-sidebar-wrapper #form-preview .mc4wp-form .mc4wp-form-fields button,
+.slide-sidebar-wrapper #form-preview .mc4wp-form .mc4wp-form-fields input,
+.slide-sidebar-wrapper .widget_mc4wp_form_widget .mc4wp-form .mc4wp-form-fields button,
+.slide-sidebar-wrapper .widget_mc4wp_form_widget .mc4wp-form .mc4wp-form-fields input,
+.slide-sidebar-wrapper .widget_search .search-form .search-form-field,
+.slide-sidebar-wrapper input,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form select,
+.slide-sidebar-wrapper .wp-block-tag-cloud .tag-cloud-link,
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-components-price-slider__range-input-progress {
+    background-color: #43413e;
+}
+
+XXXX {
+    border-color: #e6e0d0;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-color: #e6e0d0;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-track {
+    background-color: #e6e0d0;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-track {
+    background-color: #e6e0d0;
+}
+
+.slide-sidebar-wrapper .wrapper-socials a,
+.slide-sidebar-wrapper .wrapper-socials a:hover,
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button:hover .agrarium_video_trigger_button_inner .agrarium_button_icon,
+.single-post .post-meta-footer .wrapper-socials>li>a:hover,
+.team-item .team-item-socials .team-socials.wrapper-socials a,
+.team-item .team-item-socials>.socials-trigger {
+    color: #1f1e17;
+}
+
+.mobile-header-menu-container .header-mobile-socials .mobile-menu-socials li a:hover,
+.header .main-menu>li ul.sub-menu,
+.content-wrapper .widget_media_audio .mejs-container,
+.content-wrapper .widget_media_audio .mejs-container .mejs-controls,
+.content-wrapper .widget_media_audio .mejs-embed,
+.content-wrapper .widget_media_audio .mejs-embed body,
+.content-wrapper .mejs-audio.mejs-container,
+.content-wrapper .mejs-audio.mejs-container .mejs-controls,
+.content-wrapper .mejs-audio .mejs-embed,
+.content-wrapper .mejs-audio .mejs-embed body,
+.content-wrapper .wp-video .mejs-container,
+.content-wrapper .wp-video .mejs-container .mejs-controls,
+.content-wrapper .wp-video .mejs-embed,
+.content-wrapper .wp-video .mejs-embed body,
+.content-wrapper .mejs-volume-button>.mejs-volume-slider,
+.slide-sidebar-wrapper,
+.agrarium_video_widget .agrarium_video_trigger_button,
+.agrarium_video_widget .agrarium_video_trigger_button:after,
+.agrarium_content_slider_widget .slider_video_button .agrarium_video_trigger_button .agrarium_video_trigger_button_inner .agrarium_button_icon,
+.production-listing-wrapper .production-item-wrapper .production-item .production_term_link,
+.post-categories a.post-category-item,
+.single-service .help-item.active .help-item-title,
+.single-post .post-meta-footer .wrapper-socials>li>a,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title.elementor-active,
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title.elementor-active,
+.cursor>.cursor-bg,
+.cursor_drag>.cursor-bg,
+.post-comment-buttons a.comment-reply-link:hover {
+    background-color: #1E5128;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-webkit-slider-thumb {
+    border-color: #1f1e17;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-moz-range-thumb {
+    border-color: #1f1e17;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]::-ms-thumb {
+    border-color: #1f1e17;
+}
+
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider input[type="range"]:focus::-ms-thumb {
+    border-color: #1f1e17;
+}
+
+.wp-video .mejs-overlay-play .mejs-overlay-button svg path,
+.elementor-widget-video .elementor-custom-embed-image-overlay .elementor-custom-embed-play svg path {
+    fill: #1f1e17;
+}
+
+.slide-sidebar-wrapper .widget_media_audio .mejs-container,
+.slide-sidebar-wrapper .widget_media_audio .mejs-container .mejs-controls,
+.slide-sidebar-wrapper .widget_media_audio .mejs-embed,
+.slide-sidebar-wrapper .widget_media_audio .mejs-embed body,
+.slide-sidebar-wrapper .wp-video .mejs-container,
+.slide-sidebar-wrapper .wp-video .mejs-container .mejs-controls,
+.slide-sidebar-wrapper .wp-video .mejs-embed,
+.slide-sidebar-wrapper .wp-video .mejs-embed body,
+.slide-sidebar-wrapper .mejs-volume-button>.mejs-volume-slider {
+    background-color: #211f1d;
+}
+
+XXXX {
+    border-color: #211f1d;
+}
+
+.agrarium-price-item-widget .price-item.price-item-type-standard.active .price-item-title,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button,
+.agrarium-price-item-widget .price-item.active .price-item-button-container .agrarium-button,
+.slide-sidebar-wrapper .agrarium-button,
+.slide-sidebar-wrapper .mc4wp-form .mc4wp-form-fields button,
+.slide-sidebar-wrapper .agrarium-button,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-price-slider button {
+    color: #ffffff;
+}
+
+.wp-video .mejs-overlay-play .mejs-overlay-button:before {
+    color: #eece38;
+}
+
+.slide-sidebar-wrapper .agrarium-button,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button {
+    border-color: #eece38;
+}
+
+.slide-sidebar-wrapper .agrarium-button,
+.slide-sidebar-wrapper button:not(.customize-partial-edit-shortcut-button),
+.slide-sidebar-wrapper #form-preview button,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.slide-sidebar-wrapper #form-preview .mc4wp-form .mc4wp-form-fields button:hover,
+.slide-sidebar-wrapper .widget_mc4wp_form_widget .mc4wp-form .mc4wp-form-fields button:hover,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button:hover,
+.banner-widget .banner-button.underline .agrarium-button:hover,
+.agrarium-price-item-widget .price-item.active .price-item-button-container .agrarium-button:hover,
+.slide-sidebar-wrapper .agrarium-button:hover,
+.slide-sidebar-wrapper .mc4wp-form .mc4wp-form-fields button:hover,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+.slide-sidebar-wrapper div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+.slide-sidebar-wrapper .wp-block-woocommerce-price-filter .wc-block-price-slider button:hover {
+    color: #1f1e17;
+}
+
+.banner-widget .banner-button.underline .agrarium-button:hover:before {
+    background-color: #1f1e17;
+}
+
+.slide-sidebar-wrapper .agrarium-button:hover,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button:hover {
+    border-color: #eece38;
+}
+
+.slide-sidebar-wrapper .agrarium-button:after,
+.slide-sidebar-wrapper button:not(.customize-partial-edit-shortcut-button):after,
+.slide-sidebar-wrapper #form-preview button:after,
+.widget_agrarium_banner_widget .banner-widget-wrapper.banner-contrast-colors .agrarium-button:after {
+    background-color: #eece38;
+}
+
+
+
+.header .main-menu>li>a,
+.footer .footer-menu>li>a {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.875em;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.mobile-header-menu-container .main-menu>li>a,
+.slide-extra .extra-menu>li>a {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header .main-menu>li ul.sub-menu>li>a {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.mobile-header-menu-container .main-menu>li ul.sub-menu>li>a,
+.slide-extra .extra-menu>li ul.sub-menu>li>a {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+    .page-title-container {
+        min-height: 550px;
+    }
+}
+
+.page-title-container .page-title-bg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.page-title-container .page-title-bg {
+    background-image: url("/assets/images/Image-Hero-1.jpg");
+}
+
+.page-title-container h1.page-title,
+.page-title-container .page-title-wrapper .page-title-box,
+.page-title-container {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    text-transform: none;
+    letter-spacing: -0.05em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 576px) {
+    .page-title-container {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .page-title-container h1.page-title,
+    .page-title-container .page-title-wrapper .page-title-box,
+    .page-title-container {
+        font-size: 80px;
+        line-height: 1.125em;
+    }
+}
+
+body,
+body input,
+body textarea,
+body select,
+.grid-listing .grid-item,
+.case-study-grid-listing .grid-item,
+.elementor-widget-image-box .elementor-image-box-wrapper .elementor-image-box-content .elementor-image-box-description,
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="date"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="datetime-local"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="email"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="month"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="number"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="password"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="range"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="search"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="tel"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="text"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="time"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="url"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="week"],
+div.wpforms-container.wpforms-container-full .wpforms-form select,
+div.wpforms-container.wpforms-container-full .wpforms-form textarea,
+.widget_agrarium_contacts_widget .agrarium-contacts-widget-field {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.875em;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.post-more-button,
+.filter-control-wrapper .filter-control-list .dots .dot {
+    font-size: 16px;
+}
+
+p,
+.filter-control-wrapper .filter-control-list .dots .dot {
+    line-height: 1.875em;
+}
+
+.post-excerpt,
+.woocommerce form label,
+.post-content,
+.service-item .service-item-excerpt {
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 400;
+}
+
+.woocommerce form .form-row input::-webkit-input-placeholder,
+.woocommerce form .form-row textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 400;
+}
+
+.woocommerce form .form-row input:-moz-placeholder,
+.woocommerce form .form-row textarea:-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 400;
+}
+
+.woocommerce form .form-row input::-moz-placeholder,
+.woocommerce form .form-row textarea::-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 400;
+}
+
+.woocommerce form .form-row input:-ms-input-placeholder,
+.woocommerce form .form-row textarea:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 400;
+}
+
+body .content-wrapper .elementor-widget-text-editor,
+.elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text,
+.content-wrapper .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date,
+.footer .widget_nav_menu ul li,
+.footer .widget_archive ul li,
+.footer .widget_categories ul li,
+.widget_pages ul li,
+.bottom_section .widget_nav_menu ul li,
+.bottom_section .widget_archive ul li,
+.bottom_section .widget_categories ul li {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page-title-container .page-title-box,
+body .elementor-widget-heading .elementor-heading-title,
+.woocommerce-Reviews-title,
+.cart_totals h2,
+.woocommerce-account .woocommerce-EditAccountForm fieldset legend,
+.elementor-widget-image-box .elementor-image-box-wrapper .elementor-image-box-content .elementor-image-box-title,
+.wpforms-form .wpforms-title {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-style: normal;
+}
+
+.logo,
+.mobile-header-menu-container .header-mobile-contacts .contact-item,
+.top-bar,
+.wrapper-info .additional-text-title,
+.post-categories a.post-category-item,
+.post-meta-header .post-meta-item,
+.single-post .post-meta-footer .post-meta-item,
+.post-comment-buttons a,
+.post-comment-author,
+.post-comment-date,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-number-slider .wpforms-field-number-slider-hint,
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-field-label,
+.widget_agrarium_featured_posts_widget .featured-posts-item-link,
+.widget_agrarium_featured_posts_widget .featured-posts-item-date,
+.portfolio-item .post-title,
+.special-title .special-title-backward,
+.team-experience-item-title,
+.team-experience-item-period,
+.team-item .post-title,
+.project-item-wrapper .post-title,
+.project-post-meta .project-post-meta-label,
+.vacancy-info,
+.vacancy-item .vacancy-item-header,
+.vacancy-item .vacancy-item-salary,
+.help-item .help-item-title,
+.agrarium-step-widget .step-bg-number,
+.agrarium-step-widget .step-number,
+.agrarium-testimonial-carousel-widget .testimonial-carousel-wrapper .author-name,
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title,
+.filter-control-wrapper .filter-control-list .dots .dot,
+
+.widget_recent_comments ul .recentcomments,
+.content-wrapper .wp-block-latest-comments .wp-block-latest-comments__comment-meta,
+.widget_archive ul li,
+.wp-block-archives li,
+.widget_categories ul li,
+.wp-block-categories li,
+.widget_agrarium_featured_posts_widget .featured-posts-item-link,
+.widget_recent_entries li,
+.wp-block-latest-posts li a,
+.widget_meta ul li,
+.widget_pages ul li,
+.widget_nav_menu ul li,
+.widget_rss ul a.rsswidget,
+.wp-block-rss .wp-block-rss__item-title,
+.widget_tag_cloud .tagcloud .tag-cloud-link,
+.wp-block-tag-cloud .tag-cloud-link,
+.post-meta-footer .post-meta-item-tags,
+.post-comment-author,
+.content-wrapper .wp-block-pullquote blockquote cite,
+.post-more-button a,
+.post-quote .post-quote-author,
+.content-pagination .page-numbers,
+.content-pagination .post-page-numbers,
+.post-navigation-link,
+.post-navigation-title,
+.post-navigation-categories,
+.agrarium-price-item-widget .price-item .price-item-title,
+.agrarium-price-item-widget .price-item .price-item-container,
+.agrarium-person-widget .person-name,
+.elementor-widget-counter .elementor-counter .elementor-counter-number-wrapper,
+.elementor-widget-counter .elementor-counter .elementor-counter-title,
+.banner-widget .banner-subtitle,
+.agrarium_tabs_widget .agrarium_tabs_titles_container .agrarium_tab_title_item,
+.elementor-widget-agrarium_countdown .countdown_separator,
+.elementor-widget-agrarium_countdown .countdown_digits,
+.elementor-widget-agrarium_countdown .countdown_digits_placeholder,
+.agrarium_content_slider_widget .agrarium_content_slider_title,
+.wp-block-search .wp-block-search__label,
+body .content-wrapper blockquote cite,
+.elementor-widget-image-box .elementor-image-box-wrapper .elementor-image-box-content .elementor-image-box-title,
+.widget_calendar caption,
+.wp-block-calendar caption,
+.widget_rss ul a.rsswidget,
+.widget_rss .rss-date,
+.widget_rss cite,
+.result-box,
+.agrarium-heading .agrarium-subheading {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+h1,
+body .elementor-widget-heading h1.elementor-heading-title {
+    letter-spacing: -0.05em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 576px) {
+
+    h1,
+    .page-title-container .page-title-box,
+    body .elementor-widget-heading h1.elementor-heading-title {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    h1,
+    .page-title-container .page-title-box,
+    body .elementor-widget-heading h1.elementor-heading-title {
+        font-size: 80px;
+        line-height: 1.125em;
+    }
+}
+
+h2,
+body .elementor-widget-heading h2.elementor-heading-title {
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h2,
+    body .elementor-widget-heading h2.elementor-heading-title,
+    h2.agrarium-heading {
+        font-size: 35px;
+        line-height: 1.111em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    h2,
+    body .elementor-widget-heading h2.elementor-heading-title,
+    h2.agrarium-heading {
+        font-size: 45px;
+        line-height: 1.111em;
+    }
+}
+
+h3,
+body .elementor-widget-heading h3.elementor-heading-title {
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+.agrarium_content_slider_widget .agrarium_content_container .agrarium_content_slider_subheading {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h3,
+    h3.agrarium-heading,
+    body .elementor-widget-heading h3.elementor-heading-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+h4,
+body .elementor-widget-heading h4.elementor-heading-title,
+.woocommerce-checkout h3 {
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    .woocommerce #reviews #comments .woocommerce-Reviews-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    h4,
+    h4.agrarium-heading,
+    body .elementor-widget-heading h4.elementor-heading-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+h5,
+.wpforms-form .wpforms-title,
+body .elementor-widget-heading h5.elementor-heading-title,
+.woocommerce-Reviews-title,
+.cart_totals h2,
+.woocommerce-account h3,
+.woocommerce-account .woocommerce-EditAccountForm fieldset legend,
+.outer-form-wrapper h2,
+.woocommerce-MyAccount-content h2,
+.woocommerce-order h2,
+.woocommerce-checkout h3,
+.woocommerce-account h4,
+.wp-block-woocommerce-product-search .wc-block-product-search__label {
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 576px) {
+
+    .wpforms-form .wpforms-title,
+    .woocommerce-Reviews-title,
+    .cart_totals h2,
+    .woocommerce-account h3,
+    .woocommerce-account .woocommerce-EditAccountForm fieldset legend,
+    .outer-form-wrapper h2,
+    .woocommerce-MyAccount-content h2,
+    .woocommerce-order h2,
+    .woocommerce-checkout h3,
+    .woocommerce-account h4,
+    .wp-block-woocommerce-product-search .wc-block-product-search__label {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+.banner-widget .additional-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h5,
+    h5.agrarium-heading,
+    body .elementor-widget-heading h5.elementor-heading-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+h6,
+body .elementor-widget-heading h6.elementor-heading-title {
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h6,
+    h6.agrarium-heading,
+    body .elementor-widget-heading h6.elementor-heading-title {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+.slide-sidebar-wrapper .widget-title,
+.slide-sidebar-wrapper .wp-block-group h2:first-child,
+.slide-sidebar-wrapper .wp-block-group h3:first-child,
+.slide-sidebar-wrapper .wp-block-group h4:first-child,
+.slide-sidebar-wrapper .wp-block-group h5:first-child,
+.slide-sidebar-wrapper .wp-block-group h6:first-child,
+.agrarium_content_slider_widget .agrarium_content_container .agrarium_content_slider_title,
+.agrarium_content_slider_widget .agrarium_content_container .agrarium_content_slider_subheading,
+.agrarium-heading .agrarium-subheading,
+.banner-widget .overlay-title,
+.production-listing-wrapper .production-item-wrapper .production-item .production_term_link,
+.portfolio-listing-wrapper .portfolio-item-wrapper .portfolio-item-link .portfolio-item-categories,
+.post-categories a.post-category-item,
+.elementor-widget-agrarium_slogan .slogan,
+.production-grid-listing .production-item-media .production-item-subtitle,
+.production-grid-listing .production-item .production-item-content .production-item-counter,
+.single-production .production-item .production-item-meta .production-item-subtitle,
+.agrarium-price-item-widget .price-item .price-item-container,
+.single-portfolio .portfolio-post-content .portfolio-post-subtitle,
+.elementor-widget-counter .elementor-counter .elementor-counter-number-wrapper,
+.elementor-widget-agrarium_special_text .special-text,
+.product-category-widget .product-category-title,
+.agrarium_countdown_widget .countdown_digits,
+.agrarium_countdown_widget .countdown_digits_placeholder,
+.agrarium_countdown_widget .countdown_separator {
+    font-family: Herbarium, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.agrarium-button,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+div.wpforms-container.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
+.wp-block-button__link {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.footer .footer-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.error-404-container {
+    background-color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+    .error-404-container {
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.mini-cart .mini-cart_count>span {
+    color: #1f2531;
+}
+
+.mini-cart .mini-cart_count svg {
+    fill: #1f2531;
+}
+
+.search-trigger .search-trigger-icon:hover {
+    color: #8a8e95;
+}
+
+.header .mini-cart .mini-cart_count>span,
+.mobile-header .mini-cart .mini-cart_count>span,
+.mobile-header-menu-container .mini-cart .mini-cart_count>span {
+    background-color: #eece38;
+}
+
+
+.header .mini-cart .mini-cart-panel,
+.header .mini-cart .mini-cart-panel:before,
+.mini-cart .mini-cart-panel .cart_list li .thumbnail-woocommerce_wrapper {
+    border-color: #e6e0d0;
+}
+
+.mini-cart .mini-cart_count>span {
+    border-color: #ffffff;
+}
+
+.header.sticky-active .mini-cart .mini-cart_count>span {
+    border-color: #ffffff;
+}
+
+XXXX {
+    border-color: #eece38;
+}
+
+XXXX {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+XXXX {
+    border-color: #eece38;
+}
+
+XXXX {
+    background-color: #eece38;
+}
+
+
+
+
+.slide-sidebar-wrapper .widget_product_search .woocommerce-product-search button,
+.footer .widget_product_search .woocommerce-product-search button,
+.footer .widget_product_categories .post-count,
+.footer ul.product_list_widget li .product-title {
+    color: #ffffff;
+}
+
+.footer .widget_product_categories li.cat-item-hierarchical,
+.footer .widget ul.product_list_widget li .price_wrapper del {
+    color: #818181;
+}
+
+XXXX {
+    color: #eece38;
+}
+
+.footer .widget ul.product_list_widget li a img {
+    border-color: #43413e;
+}
+
+.footer .widget ul.product_list_widget li a:hover img {
+    border-color: #e6e0d0;
+}
+
+XXXX {
+    color: #1f1e17;
+}
+
+.footer .woocommerce a.button,
+.woocommerce .footer a.button,
+.footer .woocommerce button.button,
+.woocommerce .footer button.button,
+.footer .woocommerce input.button,
+.woocommerce .footer input.button,
+.footer .woocommerce #respond input#submit,
+.woocommerce .footer #respond input#submit,
+.footer .woocommerce .added_to_cart,
+.woocommerce .footer .added_to_cart {
+    color: #ffffff;
+}
+
+.footer .woocommerce a.button,
+.woocommerce .footer a.button,
+.footer .woocommerce button.button,
+.woocommerce .footer button.button,
+.footer .woocommerce input.button,
+.woocommerce .footer input.button,
+.footer .woocommerce #respond input#submit,
+.woocommerce .footer #respond input#submit,
+.footer .woocommerce .added_to_cart,
+.woocommerce .footer .added_to_cart {
+    border-color: #eece38;
+}
+
+
+
+.footer .woocommerce a.button:hover,
+.woocommerce .footer a.button:hover,
+.footer .woocommerce button.button:hover,
+.woocommerce .footer button.button:hover,
+.footer .woocommerce input.button:hover,
+.woocommerce .footer input.button:hover,
+.footer .woocommerce #respond input#submit:hover,
+.woocommerce .footer #respond input#submit:hover,
+.footer .woocommerce .added_to_cart:hover,
+.woocommerce .footer .added_to_cart:hover {
+    color: #1f1e17;
+}
+
+.footer .woocommerce a.button:hover,
+.woocommerce .footer a.button:hover,
+.footer .woocommerce button.button:hover,
+.woocommerce .footer button.button:hover,
+.footer .woocommerce input.button:hover,
+.woocommerce .footer input.button:hover,
+.footer .woocommerce #respond input#submit:hover,
+.woocommerce .footer #respond input#submit:hover,
+.footer .woocommerce .added_to_cart:hover,
+.woocommerce .footer .added_to_cart:hover {
+    border-color: #eece38;
+}
+
+.footer .woocommerce a.button:after,
+.woocommerce .footer a.button:after,
+.footer .woocommerce button.button:after,
+.woocommerce .footer button.button:after,
+.footer .woocommerce input.button:after,
+.woocommerce .footer input.button:after,
+.footer .woocommerce #respond input#submit:after,
+.woocommerce .footer #respond input#submit:after,
+.footer .woocommerce .added_to_cart:after,
+.woocommerce .footer .added_to_cart:after {
+    background-color: #eece38;
+}
+
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-message,
+.content-wrapper .widget_product_tag_cloud .tagcloud .tag-cloud-link,
+.content-wrapper .widget_layered_nav_filters ul .chosen a,
+.header .mini-cart .mini-cart-panel .cart_list li .content-woocommerce-wrapper .quantity,
+.woocommerce-pagination .page-numbers,
+.woocommerce-pagination .post-page-numbers,
+.mini-cart .mini-cart-panel .cart_list li .content-woocommerce-wrapper .woocommerce-mini-cart-item__title,
+.mini-cart .mini-cart-panel .cart_list li .content-woocommerce-wrapper .woocommerce-mini-cart-item__title a,
+.woocommerce form .woocommerce-form__label-for-checkbox,
+.woocommerce-page form .woocommerce-form__label-for-checkbox,
+.woocommerce-account .outer-form-wrapper .form-attention,
+.woocommerce-account .outer-form-wrapper .woocommerce-form-login__rememberme>span,
+.wc-block-pagination button.wc-block-pagination-page {
+    color: #767676;
+}
+
+.content-wrapper .widget ul.product_list_widget li .price_wrapper del,
+.woocommerce ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .price del,
+.woocommerce-page ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .price del,
+.single-product.woocommerce div.product .price del,
+.commentlist li.review .comment_container .comment-date,
+.woocommerce div.product form.cart .group_table .price_wrapper del,
+.woocommerce form .show-password-input:after,
+.woocommerce-page form .show-password-input:after,
+.wc-block-grid__product .wc-block-grid__product-price .price_wrapper del,
+.content-wrapper .widget_price_filter .price_slider_amount .price_label,
+.content-wrapper .product_list_widget li .reviewer,
+.content-wrapper .widget_layered_nav ul li,
+ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .woocommerce-loop-category-title mark,
+.woocommerce li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .product_meta a,
+.single-product.woocommerce div.product .product_meta .product_meta_item,
+.single-product.woocommerce div.product .product_meta .pwb-single-product-brands {
+    color: #afafaf;
+}
+
+.woocommerce .star-rating:before,
+.woocommerce-page .star-rating:before,
+.star-rating:before,
+.woocommerce #review_form #respond p.stars a:before,
+.woocommerce #review_form #respond p.stars.selected a.active~a:before,
+.woocommerce #review_form #respond p.stars:not(.selected) a:hover~a:before,
+.wc-block-grid__product-rating .star-rating:before,
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars:before {
+    color: rgba(175, 175, 175, 0.5);
+}
+
+.mobile-header .mini-cart .mini-cart_count>span,
+.content-wrapper .widget_product_search .woocommerce-product-search button,
+.content-wrapper .widget_product_categories .post-count,
+.content-wrapper ul.product_list_widget li .product-title,
+.content-wrapper .widget_shopping_cart .total,
+.header .mini-cart .mini-cart-panel .total,
+.catalog-top-info-wrapper .woocommerce-result-count,
+.woocommerce-ordering select,
+.checkout_cart_table .product-name .product-name-title,
+.woocommerce-checkout-review-total .checkout_total_table td,
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme,
+.woocommerce-page .woocommerce-form-login .woocommerce-form-login__rememberme,
+.woocommerce-account .form-attention,
+.woocommerce .woocommerce-cart-form table.shop_table th,
+.woocommerce-page .woocommerce-cart-form table.shop_table th,
+.woocommerce .woocommerce-cart-form table.shop_table .product-price .amount,
+.woocommerce-page .woocommerce-cart-form table.shop_table .product-price .amount,
+.woocommerce .quantity-wrapper .quantity,
+.woocommerce .cart-collaterals .cart_totals table.shop_table td,
+.woocommerce .cart-collaterals .cart_totals table.shop_table th,
+.woocommerce-page .cart-collaterals .cart_totals table.shop_table td,
+.woocommerce-page .cart-collaterals .cart_totals table.shop_table th,
+.woocommerce div.product .product_meta,
+.single-product.woocommerce div.product .product_meta .tagged_as a,
+.single-product.woocommerce div.product .product_meta .tagged_as a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.commentlist li.review .comment_container .woocommerce-review__author,
+.woocommerce #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.filter-control-wrapper .filter-control-list .filter-control-item,
+.brand-list-wrapper .pwb-az-listing-title,
+.widget_pwb_filter_by_brand_widget ul li label,
+.woocommerce .comment-reply-title,
+.woocommerce .post-comments-title,
+.content-wrapper .content-inner .brand-list-wrapper ul.pwb-clearfix li a,
+.content-wrapper .content-inner .brand-list-wrapper ul.pwb-clearfix li a:hover,
+.woocommerce form .show-password-input.display-password::after,
+.woocommerce-page form .show-password-input.display-password::after,
+.woocommerce table.shop_table_responsive tr td::before,
+.woocommerce-page table.shop_table_responsive tr td::before,
+.woocommerce-checkout-review-order .checkout_cart_table .product-name .product-name-title a,
+.content-wrapper .widget_product_search .woocommerce-product-search button:before,
+.content-wrapper .widget_product_categories ul li>a,
+.content-wrapper .widget_layered_nav ul li a,
+.widget_shopping_cart .cart_list li a,
+.header .mini-cart .mini-cart-panel .cart_list li a,
+.woocommerce .catalog-top-info-wrapper .woocommerce-ordering:after,
+ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper h3 a,
+.woocommerce-pagination .page-numbers.current,
+.woocommerce-pagination .page-numbers:hover,
+.woocommerce-pagination .post-page-numbers.current,
+.woocommerce-pagination .post-page-numbers:hover,
+.single-product.woocommerce div.product .product_meta .product_meta_item>span,
+.single-product.woocommerce div.product .product_meta .product_meta_item>a,
+.woocommerce .woocommerce-cart-form table.shop_table .product-name a,
+.woocommerce-page .woocommerce-cart-form table.shop_table .product-name a,
+.wc-block-pagination button.wc-block-pagination-page:hover,
+.woocommerce-form-login-toggle a,
+.woocommerce-form-coupon-toggle a,
+.woocommerce-checkout-payment a,
+.woocommerce-form-login a,
+.woocommerce-account .content-wrapper a,
+.woocommerce .shipping-calculator-button,
+.woocommerce-page .shipping-calculator-button,
+.product-category-widget .product-category-subtitle,
+.product-category-widget .product-category-title,
+.woocommerce-order a,
+.woocommerce div.product form.cart .group_table td.woocommerce-grouped-product-list-item__label a,
+.single-product.woocommerce .content-wrapper .woocommerce-tabs table.shop_attributes tr th,
+.single-product.woocommerce .content-wrapper .woocommerce-tabs table.shop_attributes tr td {
+    color: #2c2c2c;
+}
+
+.woocommerce .checkout_cart_table .product-remove a.remove:hover {
+    color: #2c2c2c !important;
+}
+
+.woocommerce .quantity-wrapper.styled .btn-plus .icon:before,
+.woocommerce .quantity-wrapper.styled .btn-plus .icon:after,
+.woocommerce .quantity-wrapper.styled .btn-minus .icon:before,
+.woocommerce .quantity-wrapper.styled .btn-minus .icon:after,
+.filter-control-wrapper .filter-control-list .filter-control-item:after,
+.content-wrapper .content-inner .brand-list-wrapper ul.pwb-clearfix li:after,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.button:after,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.added_to_cart:after {
+    background-color: #2c2c2c;
+}
+
+.woocommerce .woocommerce-cart-form table.shop_table .product-remove .remove:hover,
+.woocommerce-page .woocommerce-cart-form table.shop_table .product-remove .remove:hover,
+.woocommerce-account .outer-form-wrapper form a,
+.woocommerce-account .outer-form-wrapper form .tab-columns-switcher {
+    color: #2c2c2c !important;
+}
+
+.mobile-header .mini-cart .mini-cart_count svg,
+.header .mini-cart:hover .mini-cart_count svg {
+    fill: #2c2c2c;
+}
+
+.content-wrapper .widget ul.product_list_widget li .price_wrapper,
+.woocommerce ul.products li.product .price,
+.product-filters-trigger-wrapper,
+.checkout_cart_table .product-total .amount,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active>a,
+.woocommerce .outer-form-wrapper form.login a,
+.woocommerce .outer-form-wrapper form.register a,
+.woocommerce-account .form-attention span,
+.woocommerce-account .form-attention a,
+.woocommerce-page .woocommerce-cart-form table.shop_table .product-subtotal .amount,
+.woocommerce .woocommerce-cart-form table.shop_table .product-subtotal .amount,
+.single-product.woocommerce div.product .price,
+.woocommerce div.product form.cart .group_table .price_wrapper,
+.wc-block-grid__product .wc-block-grid__product-price .price_wrapper,
+.wc-block-grid__product .wc-block-grid__product-price .price,
+.widget_pwb_filter_by_brand_widget ul li label:hover,
+.single-product.woocommerce .content-wrapper .woocommerce-tabs .woocommerce-Tabs-panel--description>ul>li:before,
+.woocommerce-checkout-review-order .checkout_cart_table .product-name .product-name-title a:hover,
+.content-wrapper .widget_product_search .woocommerce-product-search button:hover:before,
+.widget_product_categories ul>li:hover,
+.widget_product_categories ul li:hover>a,
+.content-wrapper ul.product_list_widget li a:hover .product-title,
+.content-wrapper .widget_layered_nav ul li:hover,
+.content-wrapper .widget_layered_nav ul li:hover a,
+.widget_shopping_cart .cart_list li a:hover,
+.header .mini-cart .mini-cart-panel .cart_list li a:hover,
+ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper h3 a:hover,
+.woocommerce li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .product_meta a:hover,
+.single-product.woocommerce div.product .product_meta .product_meta_item:not(.tagged_as)>a:hover,
+.woocommerce .woocommerce-cart-form table.shop_table .product-name a:hover,
+.woocommerce-page .woocommerce-cart-form table.shop_table .product-name a:hover,
+.woocommerce div.product form.cart .group_table td.woocommerce-grouped-product-list-item__label a:hover {
+    color: #eece38;
+}
+
+.single-product.woocommerce div.product .product_meta .tagged_as a:hover,
+.widget_product_categories ul>li:before,
+.wc-block-pagination button.wc-block-pagination-page:hover,
+.wc-block-pagination button.wc-block-pagination-page.wc-block-pagination-page--active {
+    border-color: #eece38;
+}
+
+.woocommerce-checkout .content h3:before,
+.woocommerce-account .woocommerce-MyAccount-content h3:before,
+.woocommerce .outer-form-wrapper h5:before,
+.single-product.woocommerce div.product .product_meta .tagged_as a:hover,
+.brand-list-wrapper .pwb-az-listing-title:before,
+.single-product.woocommerce div.product .product_meta .product_meta_item.tagged_as>a:hover {
+    background-color: #eece38;
+}
+
+.mobile-header .mini-cart .mini-cart-panel .cart_list li,
+.mobile-header .mini-cart .mini-cart-panel .cart_list li .thumbnail-woocommerce_wrapper img,
+.mobile-header-menu-container .mini-cart .mini-cart-panel .cart_list li,
+.mobile-header-menu-container .mini-cart .mini-cart-panel .cart_list li .thumbnail-woocommerce_wrapper img,
+.content-wrapper .widget ul.product_list_widget li a img,
+.content-wrapper .widget_shopping_cart .total,
+.header .mini-cart .mini-cart-panel .total,
+.checkout_cart_table .product-thumbnail a img,
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register,
+.woocommerce-account .woocommerce-MyAccount-navigation ul,
+.woocommerce .woocommerce-cart-form table.shop_table td,
+.woocommerce-page .woocommerce-cart-form table.shop_table td,
+.woocommerce .woocommerce-cart-form table.shop_table img,
+.woocommerce-page .woocommerce-cart-form table.shop_table img,
+.woocommerce .woocommerce-cart-form table.shop_table td.actions .coupon .input-text,
+.woocommerce-page .woocommerce-cart-form table.shop_table td.actions .coupon .input-text,
+.single-product.woocommerce div.product .woocommerce-product-gallery .flex-viewport,
+.single-product.woocommerce div.product .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li img,
+.brand-list-wrapper .pwb-az-listing-header li,
+.woocommerce .woocommerce-cart-form table.shop_table tr:first-child td,
+.woocommerce-page .woocommerce-cart-form table.shop_table tr:first-child td,
+.woocommerce .shop_mode_grid .products ul li.product .woocommerce-loop-product__wrapper,
+.woocommerce .shop_mode_grid .woocommerce ul.products li.product .woocommerce-loop-product__wrapper,
+.woocommerce .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper,
+.woocommerce-page .shop_mode_grid .products ul li.product .woocommerce-loop-product__wrapper,
+.woocommerce-page .shop_mode_grid .woocommerce ul.products li.product .woocommerce-loop-product__wrapper,
+.woocommerce-page .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper,
+.widget_shopping_cart .cart_list li:not(:first-child),
+.header .mini-cart .mini-cart-panel .cart_list li:not(:first-child),
+.content-wrapper .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-handle,
+.single-product.woocommerce div.product .woocommerce-product-gallery>.woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image img,
+.single-product.woocommerce div.product .woocommerce-product-gallery .flex-viewport .woocommerce-product-gallery__image img,
+.single-product.woocommerce .content-wrapper div.product .cart .quantity-wrapper>div,
+.single-product.woocommerce .content-wrapper .woocommerce-tabs table.shop_attributes tr,
+.woocommerce .quantity-wrapper .quantity,
+.woocommerce .quantity-wrapper.styled .btn-plus,
+.woocommerce .quantity-wrapper.styled .btn-minus,
+.woocommerce .cart-collaterals .cart_totals,
+.woocommerce-page .cart-collaterals .cart_totals,
+.woocommerce-checkout-review-order .checkout_cart_table .cart_item,
+.products-widget ul.products li.product .woocommerce-loop-product__wrapper,
+.products-widget.view-type-compact ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_wrapper {
+    border-color: #e6e0d0;
+}
+
+.woocommerce .woocommerce-cart-form table.shop_table,
+.woocommerce-page .woocommerce-cart-form table.shop_table {
+    border-top-color: #e6e0d0 !important;
+}
+
+.content-wrapper .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background-color: #e6e0d0;
+}
+
+.content-wrapper .widget ul.product_list_widget li a:hover img,
+.woocommerce .shop_mode_list .woocommerce-loop-product__wrapper:hover,
+.woocommerce-page .shop_mode_list .woocommerce-loop-product__wrapper:hover,
+.checkout_cart_table .product-thumbnail a:hover img,
+.woocommerce .woocommerce-cart-form table.shop_table a:hover img,
+.woocommerce-page .woocommerce-cart-form table.shop_table a:hover img,
+.single-product.woocommerce div.product .product_meta .tagged_as a,
+.single-product.woocommerce div.product .woocommerce-product-gallery .flex-control-nav.flex-control-thumbs li img.flex-active,
+.brand-list-wrapper .pwb-az-listing-title,
+.products-widget ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_wrapper .attachment-woocommerce_link,
+.woocommerce .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_wrapper .attachment-woocommerce_link,
+.woocommerce-page .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_wrapper .attachment-woocommerce_link,
+.wc-block-grid__product .wc-block-grid__product-image:before,
+.content-wrapper .widget_product_search .woocommerce-product-search .search-field,
+.content-wrapper .widget_rating_filter ul li a:before,
+.content-wrapper .widget_layered_nav ul li a:before,
+.woocommerce-pagination .page-numbers,
+.woocommerce-pagination .post-page-numbers,
+.wc-block-pagination button.wc-block-pagination-page,
+.woocommerce .woocommerce-cart-form table.shop_table td.actions .coupon .input-text,
+.woocommerce-page .woocommerce-cart-form table.shop_table td.actions .coupon .input-text {
+    border-color: #f7f5ea;
+}
+
+.content-wrapper .widget_product_search .woocommerce-product-search .search-field,
+.content-wrapper .widget_product_tag_cloud .tagcloud .tag-cloud-link,
+.content-wrapper .widget_rating_filter ul li a:before,
+.content-wrapper .widget_layered_nav ul li a:before,
+.content-wrapper .widget_layered_nav_filters ul .chosen a,
+.content-wrapper .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-handle,
+.woocommerce-pagination .page-numbers,
+.woocommerce-pagination .post-page-numbers,
+.single-product.woocommerce div.product .product_meta .product_meta_item.tagged_as>a,
+.wc-block-pagination button.wc-block-pagination-page {
+    background-color: #f7f5ea;
+}
+
+.header .mini-cart .mini-cart-panel,
+.woocommerce .shop_mode_list .woocommerce-loop-product__wrapper,
+.woocommerce-page .shop_mode_list .woocommerce-loop-product__wrapper,
+.content-wrapper .widget_product_search .woocommerce-product-search .search-field:focus,
+.woocommerce-pagination .page-numbers:hover,
+.woocommerce-pagination .post-page-numbers:hover,
+.wc-block-pagination button.wc-block-pagination-page.wc-block-pagination-page--active,
+.products-widget ul.products li.product .woocommerce-loop-product__wrapper,
+.woocommerce ul.products li.product .woocommerce-loop-product__wrapper,
+.woocommerce-page ul.products li.product .woocommerce-loop-product__wrapper {
+    background-color: #ffffff;
+}
+
+.content-wrapper .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-handle {
+    -webkit-box-shadow: 0 0 0 4px #ffffff;
+    -moz-box-shadow: 0 0 0 4px #ffffff;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.mobile-header .mini-cart .mini-cart_count>span {
+    border-color: #ffffff;
+}
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+    background-color: #f7f5ea;
+}
+
+#add_payment_method #payment div.payment_box:before,
+.woocommerce-cart #payment div.payment_box:before,
+.woocommerce-checkout #payment div.payment_box:before {
+    border-bottom-color: #f7f5ea;
+}
+
+.content-wrapper .woocommerce a.button,
+.woocommerce .content-wrapper a.button,
+.content-wrapper .woocommerce button.button,
+.woocommerce .content-wrapper button.button,
+.content-wrapper .woocommerce input.button,
+.woocommerce .content-wrapper input.button,
+.content-wrapper .woocommerce #respond input#submit,
+.woocommerce .content-wrapper #respond input#submit,
+.content-wrapper .woocommerce .added_to_cart,
+.woocommerce .content-wrapper .added_to_cart,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.added_to_cart,
+.content-wrapper .widget_price_filter .price_slider_amount .button:hover,
+.content-wrapper .widget_rating_filter ul li a:after,
+.content-wrapper .widget_layered_nav ul li a:after,
+.content-wrapper .widget_shopping_cart .woocommerce-mini-cart-buttons a.button:not(.checkout):hover,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.button:hover,
+.woocommerce .woocommerce-cart-form table.shop_table td.actions>.button:hover,
+.woocommerce-page .woocommerce-cart-form table.shop_table td.actions>.button:hover,
+.single-product.woocommerce .content-wrapper div.product .cart .button:hover,
+.single-product.woocommerce .content-wrapper div.product .cart .added_to_cart:hover,
+.single-product.woocommerce div.product .cart.grouped_form .group_table .button:hover,
+.single-product.woocommerce div.product .cart.grouped_form .group_table .added_to_cart:hover {
+    color: #2b2b2b;
+}
+
+.content-wrapper .widget_rating_filter ul li.chosen a:before,
+.content-wrapper .widget_layered_nav ul li.chosen a:before,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.added_to_cart {
+    border-color: #eece38;
+}
+
+.content-wrapper .widget_rating_filter ul li.chosen a:before,
+.content-wrapper .widget_layered_nav ul li.chosen a:before {
+    background-color: #eece38;
+}
+
+.content-wrapper .woocommerce #respond input#submit,
+.woocommerce .content-wrapper #respond input#submit,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.added_to_cart,
+.content-wrapper .widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-range,
+.woocommerce a.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.added_to_cart:hover,
+.woocommerce #respond input#submit.disabled:hover,
+.woocommerce #respond input#submit:disabled:hover,
+.woocommerce #respond input#submit:disabled[disabled]:hover,
+.woocommerce a.button.disabled:hover,
+.woocommerce a.button:disabled:hover,
+.woocommerce a.button:disabled[disabled]:hover,
+.woocommerce button.button.disabled:hover,
+.woocommerce button.button:disabled:hover,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce input.button.disabled:hover,
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.content-wrapper .woocommerce a.button:hover,
+.woocommerce .content-wrapper a.button:hover,
+.content-wrapper .woocommerce button.button:hover,
+.woocommerce .content-wrapper button.button:hover,
+.content-wrapper .woocommerce input.button:hover,
+.woocommerce .content-wrapper input.button:hover,
+.content-wrapper .woocommerce #respond input#submit:hover,
+.woocommerce .content-wrapper #respond input#submit:hover,
+.content-wrapper .woocommerce .added_to_cart:hover,
+.woocommerce .content-wrapper .added_to_cart:hover,
+.woocommerce .woocommerce-cart-form table.shop_table td.actions .button:disabled,
+.woocommerce .woocommerce-cart-form table.shop_table td.actions .button[disabled],
+.woocommerce .woocommerce-cart-form table.shop_table td.actions>.button,
+.woocommerce-page .woocommerce-cart-form table.shop_table td.actions>.button,
+.woocommerce a.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.added_to_cart:hover,
+.content-wrapper .widget_price_filter .price_slider_amount .button,
+.content-wrapper .widget_product_tag_cloud .tagcloud .tag-cloud-link:hover,
+.content-wrapper .widget_shopping_cart .woocommerce-mini-cart-buttons a.button:not(.checkout),
+.content-wrapper .widget_layered_nav_filters ul .chosen a:hover,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.button,
+.single-product.woocommerce .content-wrapper div.product .cart .button,
+.single-product.woocommerce .content-wrapper div.product .cart .added_to_cart,
+.single-product.woocommerce div.product .cart.grouped_form .group_table .button,
+.single-product.woocommerce div.product .cart.grouped_form .group_table .added_to_cart {
+    color: #2b2b2b;
+}
+
+XXXX {
+    border-color: #eece38;
+}
+
+.content-wrapper .woocommerce #respond input#submit:hover:after,
+.woocommerce .content-wrapper #respond input#submit:hover:after,
+.content-wrapper .widget_product_tag_cloud .tagcloud .tag-cloud-link:hover,
+.content-wrapper .widget_layered_nav_filters ul .chosen a:hover,
+.woocommerce a.button:after,
+.woocommerce a.button.alt:after,
+.woocommerce button.button:after,
+.woocommerce button.button.alt:after,
+.woocommerce input.button:after,
+.woocommerce #respond input#submit:after,
+.woocommerce a.added_to_cart:after,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.button,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.added_to_cart {
+    background-color: #eece38;
+}
+
+.content-wrapper .woocommerce a.button:after,
+.woocommerce .content-wrapper a.button:after,
+.content-wrapper .woocommerce button.button:after,
+.woocommerce .content-wrapper button.button:after,
+.content-wrapper .woocommerce input.button:after,
+.woocommerce .content-wrapper input.button:after,
+.content-wrapper .woocommerce #respond input#submit:after,
+.woocommerce .content-wrapper #respond input#submit:after,
+.content-wrapper .woocommerce .added_to_cart:after,
+.woocommerce .content-wrapper .added_to_cart:after {
+    background-color: #eece38;
+}
+
+.content-wrapper .widget_price_filter .price_slider_amount .button:after,
+.content-wrapper .widget_shopping_cart .woocommerce-mini-cart-buttons a.button:not(.checkout):after {
+    background-color: #eece38;
+}
+
+.woocommerce-store-notice,
+.woocommerce-store-notice.demo_store {
+    color: #b7b7b7;
+}
+
+.slide-sidebar-wrapper .widget_product_search .woocommerce-product-search button,
+.slide-sidebar-wrapper .widget_product_categories .post-count,
+.slide-sidebar-wrapper ul.product_list_widget li .product-title,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a:hover,
+.wc-block-grid__product .wc-block-grid__product-onsale,
+.woocommerce-store-notice .woocommerce-store-notice__dismiss-link:before,
+.woocommerce .woocommerce-cart-form table.shop_table thead th,
+.woocommerce-page .woocommerce-cart-form table.shop_table thead th,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.button:hover,
+ul.products li.product .woocommerce-loop-product__wrapper .product-buttons-wrapper a.added_to_cart:hover {
+    color: #ffffff;
+}
+
+.woocommerce .quantity-wrapper.styled .btn-plus:hover .icon:before,
+.woocommerce .quantity-wrapper.styled .btn-plus:hover .icon:after,
+.woocommerce .quantity-wrapper.styled .btn-minus:hover .icon:before,
+.woocommerce .quantity-wrapper.styled .btn-minus:hover .icon:after {
+    background-color: #ffffff;
+}
+
+.slide-sidebar-wrapper .widget_product_categories li.cat-item-hierarchical,
+.slide-sidebar-wrapper .widget ul.product_list_widget li .price_wrapper del {
+    color: #818181;
+}
+
+.slide-sidebar-wrapper .widget ul.product_list_widget li .price_wrapper {
+    color: #eece38;
+}
+
+.slide-sidebar-wrapper .widget ul.product_list_widget li a img {
+    border-color: #43413e;
+}
+
+.slide-sidebar-wrapper .widget ul.product_list_widget li a:hover img {
+    border-color: #e6e0d0;
+}
+
+.single-product.woocommerce .content-wrapper div.product .cart .quantity-wrapper>div:not(.quantity):hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a:hover,
+.woocommerce-store-notice,
+.woocommerce-store-notice.demo_store,
+.woocommerce .quantity-wrapper.styled .btn-plus:hover,
+.woocommerce .quantity-wrapper.styled .btn-minus:hover {
+    background-color: #1f1e17;
+    border-color: #1f1e17;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    border-color: #1f1e17;
+}
+
+.woocommerce .woocommerce-cart-form table.shop_table thead th,
+.woocommerce-page .woocommerce-cart-form table.shop_table thead th {
+    background-color: #1f1e17;
+}
+
+.slide-sidebar-wrapper .woocommerce a.button,
+.woocommerce .slide-sidebar-wrapper a.button,
+.slide-sidebar-wrapper .woocommerce button.button,
+.woocommerce .slide-sidebar-wrapper button.button,
+.slide-sidebar-wrapper .woocommerce input.button,
+.woocommerce .slide-sidebar-wrapper input.button,
+.slide-sidebar-wrapper .woocommerce #respond input#submit,
+.woocommerce .slide-sidebar-wrapper #respond input#submit,
+.slide-sidebar-wrapper .woocommerce .added_to_cart,
+.woocommerce .slide-sidebar-wrapper .added_to_cart {
+    color: #ffffff;
+}
+
+.slide-sidebar-wrapper .woocommerce a.button,
+.woocommerce .slide-sidebar-wrapper a.button,
+.slide-sidebar-wrapper .woocommerce button.button,
+.woocommerce .slide-sidebar-wrapper button.button,
+.slide-sidebar-wrapper .woocommerce input.button,
+.woocommerce .slide-sidebar-wrapper input.button,
+.slide-sidebar-wrapper .woocommerce #respond input#submit,
+.woocommerce .slide-sidebar-wrapper #respond input#submit,
+.slide-sidebar-wrapper .woocommerce .added_to_cart,
+.woocommerce .slide-sidebar-wrapper .added_to_cart {
+    border-color: #eece38;
+}
+
+.slide-sidebar-wrapper .woocommerce a.button:after,
+.woocommerce .slide-sidebar-wrapper a.button:after,
+.slide-sidebar-wrapper .woocommerce button.button:after,
+.woocommerce .slide-sidebar-wrapper button.button:after,
+.slide-sidebar-wrapper .woocommerce input.button:after,
+.woocommerce .slide-sidebar-wrapper input.button:after,
+.slide-sidebar-wrapper .woocommerce #respond input#submit:after,
+.woocommerce .slide-sidebar-wrapper #respond input#submit:after,
+.slide-sidebar-wrapper .woocommerce .added_to_cart:after,
+.woocommerce .slide-sidebar-wrapper .added_to_cart:after {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.slide-sidebar-wrapper .woocommerce a.button:hover,
+.woocommerce .slide-sidebar-wrapper a.button:hover,
+.slide-sidebar-wrapper .woocommerce button.button:hover,
+.woocommerce .slide-sidebar-wrapper button.button:hover,
+.slide-sidebar-wrapper .woocommerce input.button:hover,
+.woocommerce .slide-sidebar-wrapper input.button:hover,
+.slide-sidebar-wrapper .woocommerce #respond input#submit:hover,
+.woocommerce .slide-sidebar-wrapper #respond input#submit:hover,
+.slide-sidebar-wrapper .woocommerce .added_to_cart:hover,
+.woocommerce .slide-sidebar-wrapper .added_to_cart:hover {
+    color: #1f1e17;
+}
+
+.slide-sidebar-wrapper .woocommerce a.button:hover,
+.woocommerce .slide-sidebar-wrapper a.button:hover,
+.slide-sidebar-wrapper .woocommerce button.button:hover,
+.woocommerce .slide-sidebar-wrapper button.button:hover,
+.slide-sidebar-wrapper .woocommerce input.button:hover,
+.woocommerce .slide-sidebar-wrapper input.button:hover,
+.slide-sidebar-wrapper .woocommerce #respond input#submit:hover,
+.woocommerce .slide-sidebar-wrapper #respond input#submit:hover,
+.slide-sidebar-wrapper .woocommerce .added_to_cart:hover,
+.woocommerce .slide-sidebar-wrapper .added_to_cart:hover {
+    border-color: #eece38;
+}
+
+.slide-sidebar-wrapper .woocommerce a.button:hover:after,
+.woocommerce .slide-sidebar-wrapper a.button:hover:after,
+.slide-sidebar-wrapper .woocommerce button.button:hover:after,
+.woocommerce .slide-sidebar-wrapper button.button:hover:after,
+.slide-sidebar-wrapper .woocommerce input.button:hover:after,
+.woocommerce .slide-sidebar-wrapper input.button:hover:after,
+.slide-sidebar-wrapper .woocommerce #respond input#submit:hover:after,
+.woocommerce .slide-sidebar-wrapper #respond input#submit:hover:after,
+.slide-sidebar-wrapper .woocommerce .added_to_cart:hover:after,
+.woocommerce .slide-sidebar-wrapper .added_to_cart:hover:after {
+    background-color: #eece38;
+}
+
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce .added_to_cart,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h3#ship-to-different-address {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+.widget_product_categories ul li,
+.widget_pwb_list_widget ul li,
+ul.product_list_widget li .product-title,
+.widget_layered_nav_filters .tagcloud .tag-cloud-link,
+.widget_product_tag_cloud .tagcloud .tag-cloud-link,
+.attachment-woocommerce_flash .flash-item,
+.checkout_cart_table .product-name .product-name-title,
+.woocommerce-checkout-review-total .checkout_total_table td:first-child,
+.woocommerce .woocommerce-cart-form table.shop_table th,
+.woocommerce-page .woocommerce-cart-form table.shop_table th,
+.woocommerce .woocommerce-cart-form table.shop_table td.product-name,
+.woocommerce-page .woocommerce-cart-form table.shop_table td.product-name,
+.woocommerce .quantity-wrapper .quantity .qty,
+.woocommerce .cart-collaterals .cart_totals table.shop_table th,
+.woocommerce-page .cart-collaterals .cart_totals table.shop_table th,
+.woocommerce div.product .product_meta,
+.woocommerce-tabs ul.tabs li a,
+.commentlist li.review .comment_container .woocommerce-review__author,
+.filter-control-wrapper .filter-control-list .filter-control-item,
+.brand-list-wrapper .pwb-az-listing-title,
+.brand-list-wrapper .pwb-az-listing-col>a,
+.widget_pwb_filter_by_brand_widget ul li label,
+.content-wrapper .content-inner .brand-list-wrapper ul.pwb-clearfix li,
+.wc-block-grid__product .wc-block-grid__product-title,
+.wc-block-grid__product .wc-block-grid__product-onsale,
+.product-category-widget .product-category-header,
+
+.content-wrapper .widget_price_filter .price_slider_amount .price_label,
+.price_wrapper,
+.widget_rating_filter ul li,
+.widget_layered_nav ul li,
+.product_list_widget li .reviewer,
+.widget_shopping_cart .cart_list li .content-woocommerce-wrapper .quantity,
+.header .mini-cart .mini-cart-panel .cart_list li .content-woocommerce-wrapper .quantity,
+.woocommerce-pagination .page-numbers,
+.woocommerce-pagination .post-page-numbers {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
