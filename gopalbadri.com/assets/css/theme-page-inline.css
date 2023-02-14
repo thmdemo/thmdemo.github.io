@@ -2568,7 +2568,7 @@ XXXX {
 }
 
 .page-title-container .page-title-bg {
-    background-image: url("/assets/images/Image-Hero-1.jpg");
+    background-image: url("../images/Image-Hero-1.jpg");
 }
 
 .page-title-container h1.page-title,

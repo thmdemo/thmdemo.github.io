@@ -23508,7 +23508,7 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
   top: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/assets/images/page-title-layer.png");
+  background-image: url("../images/page-title-layer.png");
 }
 
 .breadcrumbs {

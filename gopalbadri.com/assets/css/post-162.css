@@ -3,7 +3,7 @@
 }
 
 .elementor-162 .elementor-element.elementor-element-da3d9c1 .elementor-repeater-item-fb103f5 {
-    background-image: url("/assets/images/about\ us\ hero\ sec\ image.jpg");
+    background-image: url("../images/about\ us\ hero\ sec\ image.jpg");
     background-position: center center;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(30, 81, 40, 0.3);
@@ -57,7 +57,7 @@
 }
 
 .elementor-162 .elementor-element.elementor-element-da3d9c1 .elementor-repeater-item-80e2a66 {
-    background-image: url("/assets/images/Image-Hero-1.jpg");
+    background-image: url("../images/Image-Hero-1.jpg");
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(30, 81, 40, 0.5);
 }
@@ -136,7 +136,7 @@
 
 .elementor-162 .elementor-element.elementor-element-085eef2:not(.elementor-motion-effects-element-type-background),
 .elementor-162 .elementor-element.elementor-element-085eef2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("/assets/images/03_index_farm.png");
+    background-image: url("../images/03_index_farm.png");
     background-position: 112% 275px;
     background-repeat: no-repeat;
 }
@@ -280,7 +280,7 @@ body.rtl .elementor-162 .elementor-element.elementor-element-06d3031 {
 }
 
 .elementor-162 .elementor-element.elementor-element-b781593 .slogan {
-    background-image: url("/assets/images/Layer-559.jpg");
+    background-image: url("../images/Layer-559.jpg");
     background-position: 50% 46%;
     background-size: cover;
     text-align: right;
@@ -301,7 +301,7 @@ body.rtl .elementor-162 .elementor-element.elementor-element-06d3031 {
 
 .elementor-162 .elementor-element.elementor-element-6eb74e5:not(.elementor-motion-effects-element-type-background),
 .elementor-162 .elementor-element.elementor-element-6eb74e5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("/assets/images/sunny-meadow-landscape.jpg");
+    background-image: url("../images/sunny-meadow-landscape.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -855,7 +855,7 @@ body.rtl .elementor-162 .elementor-element.elementor-element-ae49db7 {
 
 .elementor-162 .elementor-element.elementor-element-354299a:not(.elementor-motion-effects-element-type-background),
 .elementor-162 .elementor-element.elementor-element-354299a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("/assets/images/Image-Hero-2.jpg");
+    background-image: url("../images/Image-Hero-2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

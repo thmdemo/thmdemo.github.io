@@ -3009,7 +3009,7 @@ div.wpforms-container.wpforms-container-full .wpforms-form .wpforms-page-button,
 
 @media only screen and (min-width: 768px) {
     .footer .footer-bg {
-        background-image: url("/assets/images/Layer-731-1.jpg");
+        background-image: url("../images/Layer-731-1.jpg");
         /* box-shadow: inset 0 0 0 2000px rgb(30 81 40 / 30%); */
     }
 }
