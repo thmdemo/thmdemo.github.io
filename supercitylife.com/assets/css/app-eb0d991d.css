@@ -10934,7 +10934,7 @@ iframe[data-uk-cover] {
 
 @font-face {
     font-family: Noctis;
-    src: url("assets/fonts/Noctis-Bold.woff2") format("woff2"), url("assets/fonts/Noctis-Bold.woff") format("woff");
+    src: url("../assets/fonts/Noctis-Bold.woff2") format("woff2"), url("../assets/fonts/Noctis-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap
@@ -10942,7 +10942,7 @@ iframe[data-uk-cover] {
 
 @font-face {
     font-family: Noctis;
-    src: url("assets/fonts/Noctis-Bold-Italic.woff2") format("woff2"), url("assets/fonts/Noctis-Bold-Italic.woff") format("woff");
+    src: url("../assets/fonts/Noctis-Bold-Italic.woff2") format("woff2"), url("../assets/fonts/Noctis-Bold-Italic.woff") format("woff");
     font-weight: 700;
     font-style: italic;
     font-display: swap
@@ -10950,7 +10950,7 @@ iframe[data-uk-cover] {
 
 @font-face {
     font-family: Haffer;
-    src: url("assets/fonts/Haffer-Light.woff2") format("woff2"), url("assets/fonts/Haffer-Light.woff") format("woff");
+    src: url("../assets/fonts/Haffer-Light.woff2") format("woff2"), url("../assets/fonts/Haffer-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -10958,7 +10958,7 @@ iframe[data-uk-cover] {
 
 @font-face {
     font-family: Haffer;
-    src: url("assets/fonts/Haffer-Medium.woff2") format("woff2"), url("assets/fonts/Haffer-Medium.woff") format("woff");
+    src: url("../assets/fonts/Haffer-Medium.woff2") format("woff2"), url("../assets/fonts/Haffer-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -10966,7 +10966,7 @@ iframe[data-uk-cover] {
 
 @font-face {
     font-family: Haffer;
-    src: url("assets/fonts/Haffer-Regular.woff2") format("woff2"), url("assets/fonts/Haffer-Regular.woff2+") format("woff");
+    src: url("../assets/fonts/Haffer-Regular.woff2") format("woff2"), url("../assets/fonts/Haffer-Regular.woff2+") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -11683,7 +11683,7 @@ body.home #section6 #section6-img-two-wrapper {
 }
 
 body.home #section6 #section6-img-two {
-    background-image: url("assets/images/shrinivas/Bungalows/Luxuria\ 1/Luxuria\ banner.jpg");
+    background-image: url("../assets/images/shrinivas/Bungalows/Luxuria\ 1/Luxuria\ banner.jpg");
     background-size: cover;
     height: 100%;
     width: 200%
