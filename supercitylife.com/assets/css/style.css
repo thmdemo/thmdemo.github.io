@@ -1,0 +1,99 @@
+/* Extended CSS Styles */
+#navigation .uk-position-absolute.uk-position-top-left.icon {
+    width: 200px;
+}
+
+#menu .uk-container {
+    /* overflow-y: scroll; */
+    /* background-color: #739984; */
+}
+
+/* #menu .uk-container .uk-h6, #menu .uk-container .uk-text-large {
+    color: white;
+} */
+
+
+#menu a.uk-text-medium, .social a, .address a {
+    position: relative;
+    transition: transform 0.35s ease-in-out;
+}
+
+#menu a.uk-text-medium:after, .social a::after, .address a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #739984;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+#menu a.uk-text-medium:hover:after, .social a:hover:after, .address a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#menu a.uk-text-medium:hover, .social a:hover, .address a:hover {
+    color: #739984;
+    transition: transform 0.35s ease-in-out;
+}
+
+.mobile-social-links{
+    display: none;
+}
+
+.mobileAddress{
+    width: 70%;
+    display: none;
+    background-color: #004D5C;
+    color: white;
+    top: 5%;
+    right: 6%;
+    padding: 30px;
+}
+
+.mobileAddress a{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #menu .menu{
+        margin-top: 70px;
+    }
+    .uk-text-large{
+        font-size: 18px;
+    }
+    .uk-margin-small-bottom{
+        margin-bottom: 4px;
+    }
+    .uk-margin-medium-bottom{
+        margin-bottom: 10px !important;    
+    }
+    .mobile-social-links{
+        font-size: 20px;
+        display: block;
+    }
+    .mobile-social-links a{
+        background-color: black;
+        color: white;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .mobile-social-links a .fa{
+        margin-top: 8px;
+    }
+    .mobileAddress{
+        display: block;
+    }
+    #footer #footer-img{
+        min-height: 600px;
+    }
+    #footer-img .getInTouch{
+        top: 75% !important;
+    }
+}
