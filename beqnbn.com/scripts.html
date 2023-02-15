@@ -1,0 +1,177 @@
+
+<link rel='stylesheet'
+    href='assets/plugins/revslider/public/assets/css/rs6-2.css?ver=6.6.5' type='text/css' media='all'>
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+    #rev_slider_4_1_wrapper .halstein_bullets .tp-bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5px;
+        height: 5px;
+        background: #ffffff;
+        transition: background .3s ease-out
+    }
+
+    #rev_slider_4_1_wrapper .halstein_bullets .tp-bullet.selected,
+    #rev_slider_4_1_wrapper .halstein_bullets .tp-bullet.rs-touchhover {
+        background: #b29063
+    }
+
+    #rev_slider_4_1_wrapper .halstein_bullets .tp-bullet::before {
+        content: '';
+        position: absolute;
+        width: calc(5px + 20px);
+        height: calc(5px + 20px)
+    }
+
+    #rev_slider_4_1_wrapper .halstein_bullets .tp-bullet:not(:last-child):not(:only-child)::after {
+        content: '';
+        position: absolute;
+        top: calc(50% - 1px);
+        left: calc(5px + 10px);
+        display: inline-block;
+        width: 100px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        pointer-events: none
+    }
+
+    #rev_slider_4_1_wrapper .halstein_bullets.nav-dir-vertical .tp-bullet:not(:last-child):not(:only-child)::after {
+        content: '';
+        left: 50%;
+        top: calc(5px + 10px);
+        width: 1px;
+        height: 100px;
+        transform: translateX(-1px)
+    }
+</style>
+
+<script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rbtools.min-2.js?ver=6.6.5' defer=""
+    async="" id='tp-tools-js'></script>
+<script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rs6.min-2.js?ver=6.6.5' defer=""
+    async="" id='revmin-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/jquery-blockui/jquery.blockUI.min-2.js?ver=2.7.0-wc.7.0.0'
+    id='jquery-blockui-js'></script>
+
+<script type='text/javascript' id='qi-addons-for-elementor-script-js-extra'>
+    var qodefQiAddonsGlobal = { "vars": { "adminBarHeight": 0, "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>", "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>", "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>" } };
+</script>
+<script type='text/javascript' src='assets/plugins/qi-addons-for-elementor/assets/js/main.min-2.js?ver=6.1.1'
+    id='qi-addons-for-elementor-script-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/halstein-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.jquery.min-2.js?ver=6.1.1'
+    id='perfect-scrollbar-js'></script>
+<script type='text/javascript' src='assets/js/hoverIntent.min-2.js' id='hoverIntent-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/qi-addons-for-elementor/inc/shortcodes/parallax-images/assets/js/plugins/jquery.parallax-scroll-2.js?ver=1'
+    id='parallax-scroll-js'></script>
+<script type='text/javascript' src='assets/plugins/halstein-core/assets/plugins/gsap/gsap.min-2.js?ver=6.1.1'
+    id='gsap-js'></script>
+<script type='text/javascript' src='assets/plugins/halstein-core/assets/plugins/skrollr/skrollr.min-2.js?ver=6.1.1'
+    id='skrollr-js'></script>
+<script type='text/javascript' id='halstein-main-js-js-extra'>
+
+    var qodefGlobal = { "vars": { "adminBarHeight": 0, "iconArrowLeft": "<svg class=\"qodef-svg--slider-arrow-left\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n     xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"35px\" height=\"53px\"\n     viewBox=\"0 0 35 53\" style=\"enable-background:new 0 0 35 53;\" xml:space=\"preserve\"><polyline points=\"19.6,42.1 4.3,26.6 19.6,10.8 \"\/><line x1=\"34.5\" y1=\"53\" x2=\"34.5\" y2=\"0\"\/><\/svg>", "iconArrowRight": "<svg class=\"qodef-svg--slider-arrow-right\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n     xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"35px\" height=\"53px\"\n     viewBox=\"0 0 35 53\" style=\"enable-background:new 0 0 35 53;\" xml:space=\"preserve\"><polyline points=\"15.4,10.9 30.7,26.4 15.4,42.2 \"\/><line x1=\"0.5\" y1=\"0\" x2=\"0.5\" y2=\"53\"\/><\/svg>", "iconClose": "<svg class=\"qodef-svg--close\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n     xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"22\"\n     viewBox=\"0 0 22 22\" style=\"enable-background:new 0 0 22 22;\" xml:space=\"preserve\"><line x1=\"1\" y1=\"21\" x2=\"21\" y2=\"1\"\/><line x1=\"1\" y1=\"1\" x2=\"21\" y2=\"21\"\/><\/svg>", "qodefStickyHeaderScrollAmount": 800, "topAreaHeight": 0, "restUrl": "https:\/\/halstein.qodeinteractive.com\/wp-json\/", "restNonce": "8f9d9b18cb", "paginationRestRoute": "halstein\/v1\/get-posts", "headerHeight": 130, "mobileHeaderHeight": 70 } };
+
+</script>
+<script type='text/javascript' src='assets/themes/js/main.min-2.js'
+    id='halstein-main-js-js'></script>
+
+<script type='text/javascript' src='assets/js/underscore.min-2.js' id='underscore-js'></script>
+
+<script type='text/javascript' src='assets/plugins/halstein-core/assets/js/halstein-core.min-2.js?ver=6.1.1'
+    id='halstein-core-script-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min-2.js?ver=6.1.1'
+    id='swiper-js'></script>
+
+<script type='text/javascript'
+    src='assets/plugins/halstein-core/assets/plugins/magnific-popup/jquery.magnific-popup.min-2.js?ver=6.1.1'
+    id='jquery-magnific-popup-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min-2.js?ver=6.1.1'
+    id='isotope-js'></script>
+<script type='text/javascript'
+    src='assets/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min-2.js?ver=6.1.1'
+    id='packery-js'></script>
+<script type='text/javascript' src='assets/plugins/elementor/assets/js/webpack.runtime.min-2.js?ver=3.7.8'
+    id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend-modules.min-2.js?ver=3.7.8'
+    id='elementor-frontend-modules-js'></script>
+
+<script type='text/javascript' id='elementor-frontend-js-before'>
+    var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1440, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": true } } }, "version": "3.7.8", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/halstein.qodeinteractive.com\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet", "viewport_laptop", "viewport_widescreen"], "viewport_laptop": 1440, "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 1358, "title": "Conference%20%E2%80%93%20Halstein", "excerpt": "", "featuredImage": false } };
+</script>
+<script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend.min-2.js?ver=3.7.8'
+    id='elementor-frontend-js'></script>
+
+<script type='text/javascript'
+    src='assets/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor-2.js?ver=6.1.1'
+    id='qi-addons-for-elementor-elementor-js'></script>
+<script type='text/javascript' id='halstein-core-elementor-js-extra'>
+
+    var qodefElementorGlobal = { "vars": { "elementorSectionHandler": { "fbb997c": [{ "parallax_type": "parallax", "parallax_image": { "url": "https:\/\/halstein.qodeinteractive.com\/wp-content\/uploads\/2021\/12\/prx-img-07.jpg", "id": 8442, "alt": "L", "source": "library" } }] }, "elementorColumnHandler": [] } };
+
+</script>
+<script type='text/javascript'
+    src='assets/plugins/halstein-core/inc/plugins/elementor/assets/js/elementor.min-2.js?ver=6.1.1'
+    id='halstein-core-elementor-js'></script>
+<script id="rs-initialisation-scripts">
+    var tpj = jQuery;
+
+    var revapi4;
+
+    if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+    if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+    RS_MODULES.modules["revslider41"] = {
+        once: RS_MODULES.modules["revslider41"] !== undefined ? RS_MODULES.modules["revslider41"].once : undefined, init: function () {
+            window.revapi4 = window.revapi4 === undefined || window.revapi4 === null || window.revapi4.length === 0 ? document.getElementById("rev_slider_4_1") : window.revapi4;
+            if (window.revapi4 === null || window.revapi4 === undefined || window.revapi4.length == 0) { window.revapi4initTry = window.revapi4initTry === undefined ? 0 : window.revapi4initTry + 1; if (window.revapi4initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider41"].init() }); return; }
+            window.revapi4 = jQuery(window.revapi4);
+            if (window.revapi4.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_4_1"); return; }
+            revapi4.revolutionInit({
+                revapi: "revapi4",
+                DPR: "dpr",
+                sliderLayout: "fullscreen",
+                duration: "3500ms",
+                visibilityLevels: "2400,1700,1030,680",
+                gridwidth: "1240,1024,778,480",
+                gridheight: "900,768,960,720",
+                lazyType: "smart",
+                perspective: 600,
+                perspectiveType: "global",
+                editorheight: "900,768,960,720",
+                responsiveLevels: "2400,1700,1030,680",
+                progressBar: { disableProgressBar: true },
+                navigation: {
+                    wheelCallDelay: 1000,
+                    onHoverStop: false,
+                    touch: {
+                        touchenabled: true
+                    },
+                    bullets: {
+                        enable: true,
+                        tmp: "",
+                        style: "halstein_bullets",
+                        hide_onmobile: true,
+                        hide_under: 778,
+                        v_offset: 50,
+                        space: 120
+                    }
+                },
+                viewPort: {
+                    global: true,
+                    globalDist: "-200px",
+                    enable: false
+                },
+                fallbacks: {
+                    allowHTML5AutoPlayOnAndroid: true
+                },
+            });
+
+        }
+    } // End of RevInitScript
+
+    if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+</script>

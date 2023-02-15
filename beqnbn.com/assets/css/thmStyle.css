@@ -1,0 +1,61 @@
+.mvcSec {
+    margin-bottom: 9rem;
+}
+
+.mvcSec .qodef-shortcode {
+    width: 80%;
+    max-width: 80%;
+}
+
+.helpBusinessSec a b::after {
+    
+}
+
+.small-content{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+
+.small-content b{
+    font-weight: 500;
+}
+
+.qodef-team-list.qodef-item-layout--info-on-hover .qodef-e-content{
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.numbersSec{
+    padding: 10rem 0;
+}
+
+@media (max-width: 768px) {
+    .mvcSec .elementor-col-33 {
+        margin-bottom: 2rem;
+    }
+
+    .mvcSec .qodef-shortcode {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    .numbersSec{
+        padding: 3rem 0;
+    }
+
+    .elementor-1358 .elementor-element.elementor-element-8b04c7e{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .officesSec2{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-element.elementor-element-82e7cd8 {
+        width: 50%;
+    }
+}
