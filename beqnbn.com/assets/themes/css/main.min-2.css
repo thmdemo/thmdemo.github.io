@@ -4426,9 +4426,9 @@ body:not([class*=halstein-core]) .qodef-blog.qodef--single .qodef-blog-item .qod
 
 .qodef-header-navigation>ul>li.qodef-menu-item--narrow ul li>a {
     font-weight: 500;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.6em;
-    letter-spacing: .6em;
+    letter-spacing: 0;
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
     color: #b29063

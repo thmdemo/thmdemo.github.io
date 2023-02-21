@@ -171,11 +171,11 @@
 }
 
 .footerLogoImg{
-    margin-left: -2.2rem;
+    margin-left: -2.5rem;
 }
 
 @media (max-width: 768px) {
     .footerLogoImg{
-        margin-left: -2.2rem;
+        margin-left: -2.5rem;
     } 
 }
