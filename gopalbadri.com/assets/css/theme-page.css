@@ -21570,8 +21570,8 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 }
 
 .header .header-icons-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header-icons-container:first-child {
@@ -22197,7 +22197,7 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 
 @media only screen and (min-width: 1365px) {
     .logo-container {
-        margin: 15px;
+        /* margin: 15px; */
     }
 
     .logo-link .logo-site-name {
@@ -23785,7 +23785,8 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 }
 
 .header.header-type-1 .dropdown-trigger {
-    margin: -10px 15px -10px -20px !important;
+    /* margin: -10px 15px -10px -20px !important; */
+    margin: 0 15px 0 -20px !important;
 }
 
 .header-type-1 .dropdown-trigger {

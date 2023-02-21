@@ -111,7 +111,8 @@ ul.top-bar-menu a {
 .header,
 .header-icons-container.header-phone .header-phone-container .header-phone-text>span:not(.phone-number),
 .header .dropdown-trigger .dropdown-trigger-item:hover {
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #1E5128;
 }
 
 .header-icons-container.header-phone .header-phone-container .header-phone-icon {
@@ -174,7 +175,8 @@ ul.top-bar-menu a {
 
 .header-type-3.sticky-header-on.sticky-active .sticky-wrapper:before,
 .header.sticky-header-on.sticky-ready .sticky-wrapper {
-    background-color: #1E5128;
+    /* background-color: #1E5128; */
+    background-color: #fff;
 }
 
 .header .agrarium-button,
@@ -205,7 +207,8 @@ ul.top-bar-menu a {
 }
 
 .header.header-type-3 .logo-container .logo-link {
-    background-color: #1E5128;
+    /* background-color: #1E5128; */
+    background-color: #fff;
 }
 
 .page-title-container .page-title-additional {
@@ -3875,4 +3878,8 @@ ul.product_list_widget li .product-title,
 .woocommerce-pagination .page-numbers,
 .woocommerce-pagination .post-page-numbers {
     font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+.text-dark{
+    color: #000 !important;
 }
