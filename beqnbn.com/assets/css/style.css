@@ -153,3 +153,29 @@
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700;900&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.advisorLinkedin{
+    color: #14203b;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin-left: 2rem;
+    border: 1px solid white;
+    transition-duration: 0.4s;
+}
+
+.advisorLinkedin:hover{
+    color: white;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+
+.footerLogoImg{
+    margin-left: -2.2rem;
+}
+
+@media (max-width: 768px) {
+    .footerLogoImg{
+        margin-left: -2.2rem;
+    } 
+}
