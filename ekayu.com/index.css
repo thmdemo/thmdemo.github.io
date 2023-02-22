@@ -9,23 +9,39 @@
     --hfamily: 'Quicksand', sans-serif;
 }
 
+.container{
+    width:50rem;
+}
+
 .p-text {
     font-family: var(--pfamily);
+}
+.footer-text{
+    font-family: var(--pfamily);
+    text-transform: uppercase;
 }
 
 .heading-text {
     font-family: var(--hfamily);
 }
 
-.hero-section {
-    background-image: url("./assets/images/ekayu-main-bg.jpg");
+.heading-semi-bold{
+    font-family: var(--hfamily);
+    font-weight: 700;
+}
+.hero-section-1,.hero-section-2{
     height: 25rem;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
+.hero-section-1 {
+    background-image: url("./assets/images/ekayu-main-bg.jpg");
+}
+.hero-section-2{
+    background-image: url("./assets/images/image\ 6.png");
+}
 a,
 a:active,
 a:visited,
