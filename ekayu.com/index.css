@@ -1,0 +1,88 @@
+/* * {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+:root {
+    --color: #DEA611;
+    --pfamily: 'Poppins', sans-serif;
+    --hfamily: 'Quicksand', sans-serif;
+}
+
+.p-text {
+    font-family: var(--pfamily);
+}
+
+.heading-text {
+    font-family: var(--hfamily);
+}
+
+.hero-section {
+    background-image: url("./assets/images/ekayu-main-bg.jpg");
+    height: 25rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: var(--color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(34, 34, 34);
+}
+
+.heading-light,
+.heading-dark {
+    color: var(--color);
+}
+
+.heading-light {
+    font-weight: 400;
+}
+
+.heading-dark {
+    font-weight: 600;
+}
+
+.heading-small {
+    font-weight: 600;
+}
+
+.content-section {
+    padding-top: 1.5rem;
+}
+
+#section-1 {
+    padding-top: 7rem;
+}
+
+.info-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hr {
+    border-bottom: #DEA611 0.2rem solid;
+}
+
+footer {
+    padding: 2rem;
+    background-color: grey;
+    color: white;
+}
+
+.social-link {
+    padding: 0.2rem;
+}
