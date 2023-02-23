@@ -117,8 +117,7 @@ h6 {
 }
 
 .info-section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 2.5rem 0rem;
 }
 
 .hr {
@@ -138,5 +137,6 @@ footer {
 .box-fill img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    padding:0 1rem;
 }
