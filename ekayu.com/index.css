@@ -9,14 +9,29 @@
     --hfamily: 'Quicksand', sans-serif;
 }
 
-.container{
-    width:50rem;
+.container {
+    width: 50rem;
+}
+
+header {
+    height: 5rem;
+}
+
+.brand-tagline {
+    padding-top: 15%;
+}
+
+.brand-tagline-text {
+    font-family: var(--hfamily);
+    color: rgb(118, 118, 118);
+    font-weight: 600;
 }
 
 .p-text {
     font-family: var(--pfamily);
 }
-.footer-text{
+
+.footer-text {
     font-family: var(--pfamily);
     text-transform: uppercase;
 }
@@ -25,23 +40,40 @@
     font-family: var(--hfamily);
 }
 
-.heading-semi-bold{
+.heading-semi-bold {
     font-family: var(--hfamily);
     font-weight: 700;
 }
-.hero-section-1,.hero-section-2{
+
+.hero-section-1,
+.hero-section-2 {
     height: 25rem;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.model {
+    margin-top: 17rem;
+}
+
+.img {
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
 .hero-section-1 {
     background-image: url("./assets/images/ekayu-main-bg.jpg");
 }
-.hero-section-2{
-    background-image: url("./assets/images/image\ 6.png");
+
+.hero-section-2 {
+    background-image: url("./assets/images/machine.png");
 }
+
 a,
 a:active,
 a:visited,
@@ -95,10 +127,16 @@ h6 {
 
 footer {
     padding: 2rem;
+    margin-top: 5rem;
     background-color: grey;
     color: white;
 }
 
 .social-link {
     padding: 0.2rem;
+}
+.box-fill img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
