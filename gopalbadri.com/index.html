@@ -378,6 +378,19 @@
         .header.header-type-3.sticky-active .header-icon {
             color: #1E5128 !important;
         }
+
+        @media (max-width: 768px) {
+            .elementor-widget-agrarium_product_carousel .product-item .product-image-wrapper {
+                width: 100%;
+                margin-top: 35px;
+            }
+            .decreaseTopMarginMobile{
+                margin-top: 50px !important;
+            }
+            .mobileMargin{
+                margin: 0 10px;
+            }
+        }
     </style>
     <noscript>
         <style>
@@ -412,9 +425,9 @@
 
             <!-- Icons Block -->
             <div class="header-icons-container">
-                <div class="header-icon menu-close"><span class="menu-close-icon">
-                        <i class="fa-solid fa-xmark"></i>
-                    </span></div>
+                <div class="header-icon menu-close">
+                        <i class="fa fa-close"></i>
+                    </div>
             </div>
 
         </div>
@@ -2314,7 +2327,7 @@
                                                                                                                             <div
                                                                                                                                 class="product-slider-container">
                                                                                                                                 <div class="product-slider"
-                                                                                                                                    data-slider-options="{&quot;arrows&quot;:false,&quot;dots&quot;:true,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:500}">
+                                                                                                                                data-slider-options="{&quot;arrows&quot;:false,&quot;dots&quot;:true,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:500}">
                                                                                                                                     <div
                                                                                                                                         class="product-item-wrapper slider-item elementor-repeater-item-65d9f6e">
                                                                                                                                         <div
@@ -2697,7 +2710,7 @@
                                     </div>
                                 </section>
                                 <section
-                                    class="elementor-section elementor-top-section elementor-element elementor-element-351aa50 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                    class="decreaseTopMarginMobile elementor-section elementor-top-section elementor-element elementor-element-351aa50 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="351aa50" data-element_type="section" style="margin-top: 150px;">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -2725,7 +2738,7 @@
                                                                                             title="Olive Oil Extra Virgin / 500ml"
                                                                                             alt="Olive Oil Extra Virgin / 500ml" />
                                                                                     </div>
-                                                                                    <div class="product-wrapper">
+                                                                                    <div class="mobileMargin product-wrapper">
                                                                                         <h2
                                                                                             class="product-heading agrarium-heading">
                                                                                             <span
