@@ -379,16 +379,35 @@
             color: #1E5128 !important;
         }
 
+        #mobileAboutMe {
+            display: none;
+        }
+
+        #pcAboutMe {
+            display: block;
+        }
+
         @media (max-width: 768px) {
             .elementor-widget-agrarium_product_carousel .product-item .product-image-wrapper {
                 width: 100%;
                 margin-top: 35px;
             }
-            .decreaseTopMarginMobile{
+
+            .decreaseTopMarginMobile {
                 margin-top: 50px !important;
             }
-            .mobileMargin{
+
+            .mobileMargin {
                 margin: 0 10px;
+            }
+
+            #mobileAboutMe {
+                display: block !important;
+                margin-bottom: 20px;
+            }
+
+            #pcAboutMe {
+                display: none !important;
             }
         }
     </style>
@@ -426,8 +445,8 @@
             <!-- Icons Block -->
             <div class="header-icons-container">
                 <div class="header-icon menu-close">
-                        <i class="fa fa-close"></i>
-                    </div>
+                    <i class="fa fa-close"></i>
+                </div>
             </div>
 
         </div>
@@ -545,11 +564,12 @@
                                 <h3 class="widget-title side-widget-title">Contacts</h3>
                                 <div class="agrarium-contacts-widget-field agrarium-contacts-widget-address labeled">
                                     <h6 class="field-label">Location</h6>
-                                    <a href="https://goo.gl/maps/jmAuU8duUyYWNX2V7" target="_blank">B Block, Second Floor, Gopal Arcade, Deesa
-                                    Highway, Palanpur Gujarat - 385001, India</a>
+                                    <a href="https://goo.gl/maps/jmAuU8duUyYWNX2V7" target="_blank">B Block, Second
+                                        Floor, Gopal Arcade, Deesa
+                                        Highway, Palanpur Gujarat - 385001, India</a>
                                 </div>
                                 <div class="agrarium-contacts-widget-field agrarium-contacts-widget-phone labeled">
-                                    <h6 class="field-label">Phone</h6>                                                                    
+                                    <h6 class="field-label">Phone</h6>
                                     <a href="tel:+919925029449">+91 9925029449</a>
                                     <br>
 
@@ -2327,18 +2347,25 @@
                                                                                                                             <div
                                                                                                                                 class="product-slider-container">
                                                                                                                                 <div class="product-slider"
-                                                                                                                                data-slider-options="{&quot;arrows&quot;:false,&quot;dots&quot;:true,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:500}">
+                                                                                                                                    data-slider-options="{&quot;arrows&quot;:false,&quot;dots&quot;:true,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:500}">
                                                                                                                                     <div
                                                                                                                                         class="product-item-wrapper slider-item elementor-repeater-item-65d9f6e">
                                                                                                                                         <div
                                                                                                                                             class="product-item">
+                                                                                                                                            <div id="mobileAboutMe"
+                                                                                                                                                class="product-image-wrapper">
+                                                                                                                                                <img decoding="async"
+                                                                                                                                                    class="product-image"
+                                                                                                                                                    src="assets/images/team_mem_1_img.JPG"
+                                                                                                                                                    title=""
+                                                                                                                                                    alt="" />
+                                                                                                                                            </div>
                                                                                                                                             <div
                                                                                                                                                 class="product-wrapper">
                                                                                                                                                 <h2
                                                                                                                                                     class="product-heading agrarium-heading">
                                                                                                                                                     <span
-                                                                                                                                                        class="product-subtitle agrarium-subheading">About
-                                                                                                                                                        Me</span><span
+                                                                                                                                                        class="product-subtitle agrarium-subheading">Management Desk</span><span
                                                                                                                                                         class="product-title agrarium-heading-content">Parathibhai
                                                                                                                                                         Jethabhai
                                                                                                                                                         Chaudhary</span>
@@ -2449,7 +2476,7 @@
                                                                                                                                                         More</a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
-                                                                                                                                            <div
+                                                                                                                                            <div id="pcAboutMe"
                                                                                                                                                 class="product-image-wrapper">
                                                                                                                                                 <img decoding="async"
                                                                                                                                                     class="product-image"
@@ -2738,7 +2765,8 @@
                                                                                             title="Olive Oil Extra Virgin / 500ml"
                                                                                             alt="Olive Oil Extra Virgin / 500ml" />
                                                                                     </div>
-                                                                                    <div class="mobileMargin product-wrapper">
+                                                                                    <div
+                                                                                        class="mobileMargin product-wrapper">
                                                                                         <h2
                                                                                             class="product-heading agrarium-heading">
                                                                                             <span
@@ -3504,7 +3532,9 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <a class="text-dark" href="https://goo.gl/maps/jmAuU8duUyYWNX2V7" >B Block, Second Floor, Gopal Arcade, Deesa
+                                                                    <a class="text-dark"
+                                                                        href="https://goo.gl/maps/jmAuU8duUyYWNX2V7">B
+                                                                        Block, Second Floor, Gopal Arcade, Deesa
                                                                         Highway, Palanpur Gujarat - 385001, India</a>
                                                                 </div>
                                                             </div>
@@ -3532,7 +3562,8 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <a class="text-dark" href="tel:+919925029449">+91 9925029449</a>
+                                                                    <a class="text-dark" href="tel:+919925029449">+91
+                                                                        9925029449</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3559,7 +3590,8 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <a class="text-dark" href="mailto:info@gopalbadri.com">info@gopalbadri.com</a>
+                                                                    <a class="text-dark"
+                                                                        href="mailto:info@gopalbadri.com">info@gopalbadri.com</a>
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -366,6 +366,29 @@
         .page-title-container .page-title-bg {
             background-image: url("assets/images/about\ us\ hero\ sec\ image.jpg");
         }
+        #mobileAboutMe {
+            display: none;
+        }
+
+        #pcAboutMe {
+            display: block;
+        }
+        @media (max-width:768px) {
+            .elementor-widget-counter .elementor-counter .elementor-counter-number-wrapper{
+                height: 1.2em;
+            }
+            .logoOverlapImg{
+                display: none !important;
+            }
+            #mobileAboutMe {
+                display: block !important;
+                margin-bottom: 20px;
+            }
+
+            #pcAboutMe {
+                display: none !important;
+            }
+        }
     </style>
     <script type='text/javascript' src='assets/js/jquery/jquery.min.js'></script>
     <script type='text/javascript' src='assets/js/jquery/jquery-migrate.min.js'></script>
@@ -947,7 +970,7 @@
                                                                                             <img decoding="async"
                                                                                                 width="176" height="217"
                                                                                                 src="assets/images/logo 3.svg"
-                                                                                                class="attachment-large size-large"
+                                                                                                class="attachment-large size-large logoOverlapImg"
                                                                                                 alt="" loading="lazy" />
                                                                                         </div>
                                                                                     </div>
@@ -1568,6 +1591,36 @@
                                                                                     <div
                                                                                         class="elementor-widget-container">
                                                                                         <div class="elementor-row">
+                                                                                            
+                                                                                            <div id="mobileAboutMe" class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fbc05b1 elementor-hidden-tablet"
+                                                                                                data-id="fbc05b1"
+                                                                                                data-element_type="column">
+                                                                                                <div
+                                                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                                                    <div
+                                                                                                        class="elementor-widget-wrap">
+                                                                                                        <div class="elementor-element elementor-element-c04628d elementor-widget-tablet__width-auto scroll-motion-no elementor-invisible elementor-widget elementor-widget-image"
+                                                                                                            data-id="c04628d"
+                                                                                                            data-element_type="widget"
+                                                                                                            data-settings="{&quot;_animation&quot;:&quot;ta_under_strips&quot;,&quot;_animation_laptop&quot;:&quot;none&quot;}"
+                                                                                                            data-widget_type="image.default">
+                                                                                                            <div
+                                                                                                                class="elementor-widget-container">
+                                                                                                                <div
+                                                                                                                    class="elementor-image">
+                                                                                                                    <img decoding="async"
+                                                                                                                        width="544"
+                                                                                                                        height="628"
+                                                                                                                        src="assets/images/team_mem_1_img.JPG"
+                                                                                                                        class="attachment-full size-full"
+                                                                                                                        alt=""
+                                                                                                                        loading="lazy" />
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
                                                                                             <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-07287f3"
                                                                                                 data-id="07287f3"
                                                                                                 data-element_type="column"
@@ -1587,8 +1640,7 @@
                                                                                                                     <h2
                                                                                                                         class="agrarium-heading">
                                                                                                                         <span
-                                                                                                                            class="agrarium-subheading">About
-                                                                                                                            Us</span><span
+                                                                                                                            class="agrarium-subheading">Management Desk</span><span
                                                                                                                             class="agrarium-heading-content">Parathibhai
                                                                                                                             Jethabhai
                                                                                                                             Chaudhary</span>
@@ -1710,7 +1762,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fbc05b1 elementor-hidden-tablet"
+                                                                                            <div id="pcAboutMe" class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fbc05b1 elementor-hidden-tablet"
                                                                                                 data-id="fbc05b1"
                                                                                                 data-element_type="column">
                                                                                                 <div
