@@ -9,9 +9,24 @@
 
     <script src="assets/js/jquery3.6.1.js"></script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function(){ $("head").load("head.html") });
+    </script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#scripts").load("scripts.html");
+            $("#head").load("head.html");
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
     </script>
+    <div id="scripts"></div>
+    <div id="head"></div>
 </head>
 
 <body
@@ -19,9 +34,9 @@
 
     <div id="qodef-page-wrapper" class="">
         <div id="header"></div>
-        <script>
+        <!-- <script>
             $("#header").load("header.html");
-        </script>
+        </script> -->
         <header id="qodef-page-header" role="banner">
             <div id="qodef-page-header-inner" class=" qodef-skin--light">
                 <div class="qodef-tabbed-header-left-wrapper">
@@ -3169,8 +3184,8 @@
                             class="qodef-shortcode qodef-m  qodef-single-image qodef-layout--default    qodef-direction--from-left ">
                             <div class="qodef-m-image "> <a itemprop="url" href="https://halstein.qodeinteractive.com/"
                                     target="_blank"> <img width="191" height="51"
-                                        src="assets/uploads/2021/10/footer-logo-2.png"
-                                        class="attachment-full size-full" alt="t" decoding="async" loading="eager"> </a>
+                                        src="assets/uploads/2021/10/footer-logo-2.png" class="attachment-full size-full"
+                                        alt="t" decoding="async" loading="eager"> </a>
                             </div>
                         </div>
                     </div>
