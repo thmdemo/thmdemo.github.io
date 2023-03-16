@@ -5,12 +5,25 @@
 
 :root {
     --color: #DEA611;
+    --white: white;
+    --black: black;
     --pfamily: 'Poppins', sans-serif;
     --hfamily: 'Quicksand', sans-serif;
 }
 
 .container {
     width: 70rem;
+}
+
+.navbar-nav .nav-link {
+    color: var(--black);
+}
+.nav .nav-link{
+    color:var(--black);
+}
+.navbar-nav .nav-link:hover {
+    color: var(--color);
+    font-weight: 500;
 }
 
 header {
@@ -46,7 +59,10 @@ header {
 }
 
 .hero-section-1,
-.hero-section-2 {
+.hero-section-2,
+.hero-section-3,
+.hero-section-4,
+.hero-section-5 {
     height: 25rem;
     width: 100%;
     background-repeat: no-repeat;
@@ -72,6 +88,18 @@ header {
 
 .hero-section-2 {
     background-image: url("./assets/images/machine.png");
+}
+
+.hero-section-3 {
+    background-image: url("./assets/images/ekayu-main-bg.jpg");
+}
+
+.hero-section-4 {
+    background-image: url("./assets/images/ekayu-main-bg.jpg");
+}
+
+.hero-section-5 {
+    background-image: url("./assets/images/ekayu-main-bg.jpg");
 }
 
 a,
@@ -143,4 +171,9 @@ footer {
     height: 100%;
     object-fit: cover;
     padding: 0 1rem;
+}
+
+q {
+    color: grey;
+    font-size: xx-large;
 }
