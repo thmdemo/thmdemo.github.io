@@ -1,34 +1,76 @@
-/* * {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-} */
+* {
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'kastelov', sans-serif;
+}
+
+@font-face {
+    font-family: 'kastelov';
+    src: url("./assets/fonts/kastelov\ light.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'kastelov';
+    src: url("./assets/fonts/kastelov\ regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'kastelov';
+    src: url("./assets/fonts/kastelov\ semibold.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'kastelov';
+    src: url("./assets/fonts/kastelov\ bold.ttf") format("ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
 
 :root {
     --color: #DEA611;
     --white: white;
     --black: black;
     --pfamily: 'Poppins', sans-serif;
+    ;
     --hfamily: 'Quicksand', sans-serif;
+    ;
 }
 
 .container {
     width: 70rem;
 }
 
+.navbar-brand,
+.navbar {
+    padding: 0;
+}
+
 .navbar-nav .nav-link {
     color: var(--black);
 }
-.nav .nav-link{
-    color:var(--black);
+
+.nav .nav-link {
+    color: var(--black);
 }
+
 .navbar-nav .nav-link:hover {
     color: var(--color);
     font-weight: 500;
 }
 
-header {
+/* header {
     height: 5rem;
-}
+} */
 
 .brand-tagline {
     padding-top: 15%;
@@ -63,6 +105,7 @@ header {
 .hero-section-3,
 .hero-section-4,
 .hero-section-5 {
+    margin-top: 4%;
     height: 25rem;
     width: 100%;
     background-repeat: no-repeat;
@@ -71,7 +114,8 @@ header {
 }
 
 .model-box>.model {
-    width: 100%;
+    width: 70%;
+    /* height:2%; */
 }
 
 .img {
@@ -82,22 +126,23 @@ header {
 
 }
 
+/* index page */
 .hero-section-1 {
-    background-image: url("./assets/images/ekayu-main-bg.jpg");
+    background-image: url("./assets/images/WEBSITE_01\ 2.png");
 }
-
+/* tech page */
 .hero-section-2 {
-    background-image: url("./assets/images/machine.png");
+    background-image: url("./assets/images/layer\ 1\ 1.png");
 }
-
+/* about page */
 .hero-section-3 {
-    background-image: url("./assets/images/ekayu-main-bg.jpg");
+    background-image: url("./assets/images/WEBSITE_03\ 1.png");
 }
-
+/* products page */
 .hero-section-4 {
     background-image: url("./assets/images/ekayu-main-bg.jpg");
 }
-
+/* contact page */
 .hero-section-5 {
     background-image: url("./assets/images/ekayu-main-bg.jpg");
 }
@@ -122,14 +167,17 @@ h6 {
 .heading-light,
 .heading-dark {
     color: var(--color);
+    padding: 0;
+    margin-top: -1rem;
+    font-size: 2.5rem;
 }
 
 .heading-light {
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .heading-dark {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .heading-small {
@@ -173,7 +221,47 @@ footer {
     padding: 0 1rem;
 }
 
-q {
-    color: grey;
+.blockquote--quoted,
+.blockquote--quoted::before,
+.blockquote--quoted::after {
+    color: rgba(128, 128, 128, 0.446);
     font-size: xx-large;
+    display: block;
+    padding:0px;
+    margin:0px;
+}
+
+.blockquote--quoted::before,
+.blockquote--quoted::after {
+    /* content: '\201c'; */
+    font-size: 10rem;
+    align-self: center;
+    justify-content: center;
+    height:7rem;
+}
+.blockquote--quoted::before{
+    content: '\201c';
+}
+.blockquote--quoted::after{
+    content: '\201d';
+    line-height: 1;
+}
+
+.product-box {
+    box-sizing: border-box;
+    background-color: var(--color);
+    color: var(--black);
+    display: flex;
+    margin: 0.6rem;
+    padding: 1rem;
+}
+
+.product-box>.product-text {
+    margin: 1.2rem auto;
+    font-size: 1rem;
+    /* font-weight: 500; */
+}
+
+.brand-tagline-p{
+    padding-left: 10%;
 }

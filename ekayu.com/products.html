@@ -7,167 +7,236 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ekayu - home page</title>
 
-    <!-- external links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"></script>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@400;600;700&display=swap"
-        rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
-        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- internal links -->
-    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#link").load("links.html");
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <div id="link"></div>
 
 </head>
 
 <body>
 
     <!-- main navbar and image section -->
-    <div class="header">
-        <header>
-            <div class="container">
-                <nav class="navbar bg-light fixed-top">
-                    <div class="container">
-                        <a class="navbar-brand" href="./index.html">
-                            <img src="./assets/images/ekayu-logo.png" alt="Ekayu" srcset="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                            aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ekayu</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./technology.html">Technology</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./aboutus.html">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./products.html">Product</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./contactus.html">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-
-        <div class="hero-section-4">
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="col-md-6 col-sm-12 d-flex flex-column p-text brand-tagline justify-content-baseline">
-                       <h1 class="brand-tagline-text justify-content-baseline">About Us</h1>
-                    </div> -->
-                </div>
+    <div id="header"></div>
+    <div class="hero-section-4">
+        <div class="container">
+            <div class="row">
             </div>
         </div>
     </div>
 
     <div class="container">
         <div id="section-1">
-            <!-- <div class="container-fluid"> -->
             <ul class="nav nav-tabs justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Curries</a>
+                    <a class="nav-link active" aria-current="page" href="#curry">Curries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gravies</a>
+                    <a class="nav-link" href="#gravy">Gravies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Snacks</a>
+                    <a class="nav-link" href="#snack">Snacks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sauces & Dips</a>
+                    <a class="nav-link" href="#sauces">Sauces & Dips</a>
                 </li>
             </ul>
         </div>
-    </div>
 
-
-
-    <!-- footer section -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-
-                <div class="row justify-content-between">
-
-                    <div class="col-6 col-sm-6">
-                        <div class="footer-text">
-                            <div class="d-flex flex-column">
-                                <a>FAQ</a>
-                                <a>CONTACT</a>
-                                <a>CAREER</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-6">
-                        <div class="footer-text">
-                            <div class="social-links d-flex justify-content-end">
-
-                                <a href="https://www.youtube.com" class="social-links p-2">
-                                    <i class="fa-brands fa-xl fa-youtube"></i>
-                                </a>
-                                <a href="https://www.instagram.com" class="social-links p-2">
-                                    <i class="fa-brands fa-xl fa-instagram"></i>
-                                </a>
-                                <a href="https://www.facebook.com" class="social-links p-2">
-                                    <i class="fa-brands fa-xl fa-facebook"></i>
-                                </a>
-                                <a href="https://www.twitter.com" class="social-links p-2">
-                                    <i class="fa-brands fa-xl fa-twitter"></i>
-                                </a>
-
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <a href="#" class="text-light">Privacy Policy</a>
-                            </div>
-                        </div>
-                    </div>
-
+        <!-- curry -->
+        <div id="curry">
+            <img src="#" alt="">
+            <!-- 1 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Dal Makhani</span>
                 </div>
-
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Rajma Masala</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Palak paneer</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Chole Masala</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Aloo Matar</span>
+                </div>
             </div>
-
-            <hr>
-            <div class="row">
-                <!-- <div class="col-6"></div> -->
-                <div class="col-12 d-flex align-items-center align-content-center justify-content-center">
-                    <p class="p-text align-center"><i class="fa-regular fa-copyright"></i> 2023 EKAYU</p>
+            <!-- 2 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Paneer Makhani</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Mixed Veg</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Matar Paneer</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Dal Tadka</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Pav Bhaji</span>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">sambhar</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Gujarati Dal</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Gujarati Kadhi</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Kadhi Pakoda</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">veg Biryani</span>
                 </div>
             </div>
         </div>
-    </footer>
+
+        <!-- gravy -->
+        <div id="gravy">
+            <img src="#" alt="">
+            <!-- 1 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">All Purpose Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Brown Gravyi</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Biryani Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Red Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Makhani Gravy</span>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Tomato Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Yellow Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">White Gravy</span>
+                </div>
+                <div class="col-md-2 col-sm-3 product-box">
+                    <span class="product-text">Green Gravy</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- snacks -->
+        <div id="snacks">
+            <img src="#" alt="">
+            <!-- 1 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Fafda</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Dry Crispy Patra</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Jeera Stick</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Masala Khakhra</span>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Kichiya Papad</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Sev Usal</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Jeera Khari</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Ponk Patties</span>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Thepla</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Goba Puri</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Dry Samosa</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Dry Kachori</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- sauces and dips -->
+        <div id="sauces">
+            <img src="#" alt="">
+            <!-- 1 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Pizza Sauce</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Nagin Sauce</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Pesto Sauce</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Pasta Sauce</span>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row justify-content-center">
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Tandoori Sauce</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Peri Peri Dip</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">Green Chilly Dip</span>
+                </div>
+                <div class="col-md-2 product-box">
+                    <span class="product-text">All Purpose Dip</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div id="footer"></div>
 
 </body>
 
