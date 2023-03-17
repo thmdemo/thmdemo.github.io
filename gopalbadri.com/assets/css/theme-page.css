@@ -22060,7 +22060,7 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 
 /* ---------- Header Logo ---------- */
 .logo-container {
-    margin: 10px 15px 10px 20px;
+    margin: 0px 15px 10px 20px;
     width: 100%;
 }
 
