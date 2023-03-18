@@ -22,6 +22,9 @@
         rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="assets/js/anime.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- internal links -->
     <link rel="stylesheet" href="assets/css/index.css">
 
@@ -39,15 +42,56 @@
     <!-- main navbar and image section -->
     <div id="header"></div>
     <div class="hero-section-4">
-        <div class="container">
-            <div class="row">
+        <div class="container h-100" data-aos="zoom-in-up" data-aos-duration="5000">
+            <div class="row h-100 align-items-end">
+                <h1 class="hero-heading text-center">Products</h1>
             </div>
         </div>
     </div>
 
+
+
     <div class="container">
-        <div id="section-1">
-            <ul class="nav nav-tabs justify-content-center">
+        <div id="section-1" class="categories mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <a class="inner-circle text-dark" href="#curry">Curries</a>
+                    <div class="category" href="#curry">
+                        <div class="square"></div>
+                        <a class="image" href="#curry">
+                            <img src="assets/images/curries pav bhaji.jpg" alt="" style="max-width: 80%;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                    <a class="inner-circle text-dark" href="#gravy">Gravies</a>
+                    <div class="category" href="#gravy">
+                        <div class="square"></div>
+                        <a class="image" href="#gravy">
+                            <img src="assets/images/gravies soup.jpg" alt="" style="max-width: 80%;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <a class="inner-circle text-dark" href="#snacks">Snacks</a>
+                    <div class="category" href="#snacks">
+                        <div class="square"></div>
+                        <a class="image" href="#snacks">
+                            <img src="assets/images/snacks samosa.jpg" alt="" style="max-width: 80%;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
+                    <a class="inner-circle text-dark" href="#sauces">Sauces & Dips</a>
+                    <div class="category">
+                        <div class="square"></div>
+                        <a class="image" href="#sauces">
+                            <img src="assets/images/gravies soup.jpg" alt="" style="max-width: 80%;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <ul class="nav nav-tabs justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#curry">Curries</a>
                 </li>
@@ -60,186 +104,180 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#sauces">Sauces & Dips</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
 
         <!-- curry -->
-        <div id="curry">
-            <img src="#" alt="">
+        <div id="curry" style="margin: 5rem 0 !important;">
+            <img src="assets/images/Ekayu profile curries.png" alt="curries" style="max-width: 100%;" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
             <!-- 1 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 product-box">
+            <div class="row justify-content-center flex-wrap categoryName" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                <div class="product-box">
                     <span class="product-text">Dal Makhani</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Rajma Masala</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Palak paneer</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Chole Masala</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Aloo Matar</span>
                 </div>
-            </div>
-            <!-- 2 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Paneer Makhani</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Mixed Veg</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Matar Paneer</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Dal Tadka</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Pav Bhaji</span>
                 </div>
-            </div>
-            <!-- 3 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">sambhar</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Gujarati Dal</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Gujarati Kadhi</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Kadhi Pakoda</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">veg Biryani</span>
                 </div>
             </div>
         </div>
 
+        <div>
+            <hr/>
+        </div>
+
         <!-- gravy -->
-        <div id="gravy">
-            <img src="#" alt="">
+        <div id="gravy" style="margin: 5rem 0 !important;">
+            <img src="assets/images/Ekayu profile gravies.png" alt="gravies" style="max-width: 100%;" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
             <!-- 1 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 product-box">
+            <div class="row justify-content-center flex-wrap categoryName" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                <div class="product-box">
                     <span class="product-text">All Purpose Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Brown Gravyi</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Biryani Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Red Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Makhani Gravy</span>
                 </div>
-            </div>
-            <!-- 2 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Tomato Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Yellow Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">White Gravy</span>
                 </div>
-                <div class="col-md-2 col-sm-3 product-box">
+                <div class="product-box">
                     <span class="product-text">Green Gravy</span>
                 </div>
             </div>
         </div>
         
+        <div>
+            <hr/>
+        </div>
+
         <!-- snacks -->
-        <div id="snacks">
-            <img src="#" alt="">
+        <div id="snacks" style="margin: 5rem 0 !important;">
+            <img src="assets/images/Ekayu profile snacks.png" alt="snacks" style="max-width: 100%;" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
             <!-- 1 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 product-box">
+            <div class="row justify-content-center flex-wrap categoryName" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                <div class="product-box">
                     <span class="product-text">Fafda</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Dry Crispy Patra</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Jeera Stick</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Masala Khakhra</span>
                 </div>
-            </div>
-            <!-- 2 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Kichiya Papad</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Sev Usal</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Jeera Khari</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Ponk Patties</span>
                 </div>
-            </div>
-            <!-- 3 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Thepla</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Goba Puri</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Dry Samosa</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Dry Kachori</span>
                 </div>
             </div>
         </div>
         
+        <div>
+            <hr/>
+        </div>
+        
         <!-- sauces and dips -->
-        <div id="sauces">
-            <img src="#" alt="">
+        <div id="sauces" style="margin: 5rem 0 !important;">
+            <img src="assets/images/Ekayu profile sauces dips.png" alt="sauces" style="max-width: 100%;" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
             <!-- 1 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 product-box">
+            <div class="row justify-content-center flex-wrap categoryName" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                <div class="product-box">
                     <span class="product-text">Pizza Sauce</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Nagin Sauce</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Pesto Sauce</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Pasta Sauce</span>
                 </div>
-            </div>
-            <!-- 2 -->
-            <div class="row justify-content-center">
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Tandoori Sauce</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Peri Peri Dip</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">Green Chilly Dip</span>
                 </div>
-                <div class="col-md-2 product-box">
+                <div class="product-box">
                     <span class="product-text">All Purpose Dip</span>
                 </div>
             </div>
@@ -248,6 +286,7 @@
 
     <!-- footer section -->
     <div id="footer"></div>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

@@ -1,7 +1,5 @@
-* {
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: 'Quicksand', sans-serif; */
-    font-family: 'kastelov', sans-serif;
+@-ms-viewport {
+    width: device-width;
 }
 
 @font-face {
@@ -148,7 +146,9 @@ body {
 
 /* products page */
 .hero-section-4 {
-    background-image: url("../../assets/images/ekayu-main-bg.jpg");
+    background-image: url("../../assets/images/pages-hero-bg.jpg");
+    height: 20rem;
+    background-size: cover;
 }
 
 /* contact page */
@@ -157,7 +157,8 @@ body {
     height: 20rem;
 }
 
-.hero-section-5 .hero-heading {
+.hero-section-5 .hero-heading,
+.hero-section-4 .hero-heading {
     margin-bottom: -20px;
     font-size: 5rem;
     color: white;
@@ -270,12 +271,16 @@ footer {
     background-color: var(--color);
     color: var(--black);
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0.6rem;
     padding: 1rem;
+    width: 18%;
+    height: 85px;
+    text-align: center;
 }
 
 .product-box>.product-text {
-    margin: 1.2rem auto;
     font-size: 1rem;
     /* font-weight: 500; */
 }
@@ -429,4 +434,48 @@ footer {
     background-color: white;
     color: #000;
     transition-duration: .3s;
+}
+
+.categories .category {
+    position: relative;
+}
+
+.categories .category img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.categories .category .square {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: #f5c133;
+    width: 13rem;
+    height: 13rem;
+    z-index: -10;
+    clip-path: polygon(0% 0%, 140% 0%, 0% 140%);
+    border-radius: 20%;
+    transform: rotate(-90deg);
+}
+
+/* .categories .category .image{
+    position: relative;
+}
+
+.categories .category .inner-circle{
+    font-size: 1.2rem;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     background-color: #fff;
+     width: 9rem;
+     height: 9rem;
+     border-radius: 50%;
+} */
+
+.categories .inner-circle {
+    font-size: 1.3rem;
 }
