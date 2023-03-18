@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'kastelov';
-    src: url("./assets/fonts/kastelov\ light.ttf") format("ttf");
+    src: url("../../assets/fonts/kastelov\ light.ttf") format("ttf");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'kastelov';
-    src: url("./assets/fonts/kastelov\ regular.ttf") format("ttf");
+    src: url("../../assets/fonts/kastelov\ regular.ttf") format("ttf");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'kastelov';
-    src: url("./assets/fonts/kastelov\ semibold.ttf") format("ttf");
+    src: url("../../assets/fonts/kastelov\ semibold.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'kastelov';
-    src: url("./assets/fonts/kastelov\ bold.ttf") format("ttf");
+    src: url("../../assets/fonts/kastelov\ bold.ttf") format("ttf");
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -41,9 +41,11 @@
     --white: white;
     --black: black;
     --pfamily: 'Poppins', sans-serif;
-    ;
     --hfamily: 'Quicksand', sans-serif;
-    ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -106,7 +108,7 @@
 .hero-section-4,
 .hero-section-5 {
     margin-top: 4%;
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,24 +129,38 @@
 }
 
 /* index page */
-.hero-section-1 {
-    background-image: url("./assets/images/WEBSITE_01\ 2.png");
+.bg-image {
+    background-image: url("../../assets/images/WEBSITE_012_new.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 /* tech page */
 .hero-section-2 {
-    background-image: url("./assets/images/layer\ 1\ 1.png");
+    background-image: url("../../assets/images/layer11.png");
 }
+
 /* about page */
 .hero-section-3 {
-    background-image: url("./assets/images/WEBSITE_03\ 1.png");
+    background-image: url("../../assets/images/WEBSITE_031.png");
 }
+
 /* products page */
 .hero-section-4 {
-    background-image: url("./assets/images/ekayu-main-bg.jpg");
+    background-image: url("../../assets/images/ekayu-main-bg.jpg");
 }
+
 /* contact page */
 .hero-section-5 {
-    background-image: url("./assets/images/ekayu-main-bg.jpg");
+    background-image: url("../../assets/images/pages-hero-bg.jpg");
+    height: 20rem;
+}
+
+.hero-section-5 .hero-heading {
+    margin-bottom: -20px;
+    font-size: 5rem;
+    color: white;
 }
 
 a,
@@ -227,8 +243,8 @@ footer {
     color: rgba(128, 128, 128, 0.446);
     font-size: xx-large;
     display: block;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .blockquote--quoted::before,
@@ -237,12 +253,14 @@ footer {
     font-size: 10rem;
     align-self: center;
     justify-content: center;
-    height:7rem;
+    height: 7rem;
 }
-.blockquote--quoted::before{
+
+.blockquote--quoted::before {
     content: '\201c';
 }
-.blockquote--quoted::after{
+
+.blockquote--quoted::after {
     content: '\201d';
     line-height: 1;
 }
@@ -262,6 +280,153 @@ footer {
     /* font-weight: 500; */
 }
 
-.brand-tagline-p{
+.brand-tagline-p {
     padding-left: 10%;
+}
+
+.hero-text {
+    font-family: var(--hfamily);
+    font-size: 4.5rem;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.exploreNowBtn {
+    padding: 5px 20px;
+    font-size: medium;
+    text-transform: uppercase;
+    background-color: var(--color);
+}
+
+.mb-0 {
+    font-weight: 400;
+}
+
+.info-section .row {
+    align-items: center;
+}
+
+.bg-image-about {
+    /* background-image: url('../../assets/images/WEBSITE_012_new.png'); */
+}
+
+.foodSafetyBg img {
+    width: 40%;
+    height: 40%;
+}
+
+.offcanvas-backdrop.fade.show {
+    pointer-events: none
+}
+
+.contactDiv {
+    position: relative;
+}
+
+.contactDiv h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contactDiv p {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+.contactDiv a {
+    color: black;
+}
+
+.contactDiv .circle {
+    width: 70px;
+    height: 70px;
+    background-color: #f5c133;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    z-index: -10;
+    border-radius: 50%;
+}
+
+
+.contact-form-wrapper {
+    padding: 100px 0;
+}
+
+.contact-form {
+    padding: 30px 40px;
+    background-color: #f5c133;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+    border-color: #000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #000;
+}
+
+.contact-form .title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contact-form .description {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+    text-align: center;
+}
+
+.contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+    background-color: white;
+    color: #000;
+    transition-duration: .3s;
 }
