@@ -78,6 +78,20 @@ body {
     margin-right: 1rem;
 }
 
+.navbar-nav .nav-item:last-child {
+    background-color: #DEA611;
+    color: #000;
+    padding: 0 0.9rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item:last-child .nav-link:hover {
+    color: #000 !important;
+}
+
 /* header {
     height: 5rem;
 } */
@@ -457,8 +471,8 @@ footer {
 .categories .category img {
     border-radius: 50%;
     border: 5px solid white;
-    width: 12rem;
-    height: 12rem;
+    width: 12rem !important;
+    height: 12rem !important;
     object-fit: cover;
 }
 
@@ -589,7 +603,13 @@ footer {
     background-color: #dea611;
 }
 
+#curry, #gravy, #snacks, #sauces{
+    margin: 8rem 0 !important;
+}
 
+.contactContainer{
+    margin-top: 8rem !important;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -611,11 +631,14 @@ footer {
     }
 
     .hideOverflowOnMobile {
-        overflow: hidden;
+        overflow-x: hidden;
     }
+    
 
     #section-1 {
         padding-top: 3rem;
+        padding-right: 0.6rem;
+        padding-left: 0.6rem;
     }
 
     #section-1 img {
@@ -630,5 +653,65 @@ footer {
 
     .mobileMarginTop{
         margin-top: 2rem;
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+
+    .hero-section-3{
+        background-position: 20%;
+    }
+
+    .categories .category img {
+        width: 12rem !important;
+    }
+    
+    .categories .category .square {
+        left: 18%;
+        top: 13%;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .categories .row .col-md-3{
+        margin-top: 2rem;
+    }
+
+    .product-box{
+        width: 20%;
+        margin: 0.3rem;
+    }
+
+    .product-box>.product-text{
+        font-size: 0.9rem;
+    }
+
+    #curry, #gravy, #snacks, #sauces{
+        margin: 4rem 0 !important;
+    }
+
+    .contactDiv{
+        margin-top: 4rem;
+    }
+
+    .contactContainer{
+        margin-top: 1rem !important;
+    }
+
+    .contactDiv h4{
+        font-size: 1.5rem;
+    }
+
+    .contactDiv .circle{
+        width: 45px;
+        height: 45px;
+        left: 44%;
+    }
+
+    .contactDiv a{
+        font-size: 1rem;
+    }
+
+    .box-fill img{
+        padding: 0 0.5rem;
     }
 }
