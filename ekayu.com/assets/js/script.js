@@ -21,3 +21,4 @@ AOS.init();
 // seekProgressEl.oninput = function () {
 //     animation.seek(animation.duration * (seekProgressEl.value / 100));
 // };
+$('[data-aos]').parent().addClass('hideOverflowOnMobile');

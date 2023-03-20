@@ -2,6 +2,9 @@
     width: device-width;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Slab:wght@100;300;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
 @font-face {
     font-family: 'kastelov';
     src: url("../../assets/fonts/kastelov\ light.ttf") format("ttf");
@@ -44,10 +47,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
 }
 
 .container {
-    width: 70rem;
+    /* width: 70rem; */
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .navbar-brand,
@@ -136,7 +142,9 @@ body {
 
 /* tech page */
 .hero-section-2 {
-    background-image: url("../../assets/images/layer11.png");
+    background-image: url("../../assets/images/pages-hero-bg.jpg");
+    height: 20rem;
+    background-size: cover;
 }
 
 /* about page */
@@ -155,10 +163,12 @@ body {
 .hero-section-5 {
     background-image: url("../../assets/images/pages-hero-bg.jpg");
     height: 20rem;
+    background-size: cover;
 }
 
 .hero-section-5 .hero-heading,
-.hero-section-4 .hero-heading {
+.hero-section-4 .hero-heading,
+.hero-section-2 .hero-heading {
     margin-bottom: -20px;
     font-size: 5rem;
     color: white;
@@ -315,8 +325,8 @@ footer {
 }
 
 .foodSafetyBg img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
 }
 
 .offcanvas-backdrop.fade.show {
@@ -344,7 +354,7 @@ footer {
 .contactDiv .circle {
     width: 70px;
     height: 70px;
-    background-color: #f5c133;
+    background-color: #ffd45e;
     position: absolute;
     top: -10%;
     left: 40%;
@@ -478,4 +488,143 @@ footer {
 
 .categories .inner-circle {
     font-size: 1.3rem;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.dfont{
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.categoryName .product-box:nth-child(1){
+    background-color: #dea611;
+}
+
+.categoryName .product-box:nth-child(2){
+    background-color: #e1af29;
+}
+.categoryName .product-box:nth-child(3){
+    background-color: #e5b841;
+}
+.categoryName .product-box:nth-child(4){
+    background-color: #e8c158;
+}
+.categoryName .product-box:nth-child(5){
+    background-color: #ebca70;
+}
+.categoryName .product-box:nth-child(6){
+    background-color: #efd388;
+}
+.categoryName .product-box:nth-child(7){
+    background-color: #f2dba0;
+}
+.categoryName .product-box:nth-child(8){
+    background-color: #f5e4b8;
+}
+.categoryName .product-box:nth-child(9){
+    background-color: #f8edcf;
+}
+.categoryName .product-box:nth-child(10){
+    background-color: #efd388;
+}
+.categoryName .product-box:nth-child(11){
+    background-color: #ebca70;
+}
+.categoryName .product-box:nth-child(12){
+    background-color: #e8c158;
+}
+.categoryName .product-box:nth-child(13){
+    background-color: #e5b841;
+}
+.categoryName .product-box:nth-child(14){
+    background-color: #e1af29;
+}
+.categoryName .product-box:nth-child(15){
+    background-color: #dea611;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hideOverflowOnMobile {
+        overflow: hidden;
+    }
+
+    #section-1 {
+        padding-top: 3rem;
+    }
+
+    #section-1 img {
+        width: 90% !important;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section-5 .hero-heading, .hero-section-4 .hero-heading, .hero-section-2 .hero-heading{
+        margin-bottom: -14px;
+        font-size: 3rem;
+    }
+
+    .mobileMarginTop{
+        margin-top: 2rem;
+    }
 }
