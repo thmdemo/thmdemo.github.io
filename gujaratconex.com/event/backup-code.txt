@@ -1,0 +1,281 @@
+
+<div class="vc_row-full-width vc_clearfix"></div>
+<div id="speakers" data-vc-full-width="true" data-vc-full-width-init="false"
+    data-vc-kd-parallax="1.25"
+    class="vc_row wpb_row vc_row-fluid vc_custom_1653990069922 vc_row-has-fill vc_row-has-padding-bottom vc_row-bg-position-top vc_general kd_vc_parallax kd_vc_parallax-content-moving">
+    <div class="parallax-overlay" data-vc-kd-parallax="1.25"></div>
+    <!-- <div class="kd-overlay gradient-overlay"></div> -->
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner vc_custom_1652100919961">
+            <div class="wpb_wrapper">
+                <div
+                    class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1652101195072 vc_row-has-padding-top vc_row-bg-position-top">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <header
+                                    class="kd-section-title col-lg-12 text-center  vc_custom_1652282022524 kd-animated fadeIn"
+                                    data-animation-delay="200">
+                                    <!-- <p class="st-overline custom-color"
+                                        style="color:rgba(255,255,255,0.85);font-size:14px;margin-bottom:15px;">
+                                        OUR CHIEF GUESTS</p> -->
+                                    <h2 class="kd-main-title separator_off"
+                                        style="color: #1066AE;font-size: 42px;line-height: 52px;">
+                                        Our Honored Chief Guests</h2>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1652101174496 vc_row-bg-position-top">
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div
+                            class="vc_column-inner vc_custom_1654516404248   vc_custom_1654516404248">
+                            <div class="wpb_wrapper">
+                                <div
+                                    class="team-member design-creative  kd-animated fadeInUp">
+                                    <div class="team-content">
+                                        <div class="team-image"><img
+                                                src="assets/narendra modiji.png" alt="">
+                                            <div class="team-content-hover">
+                                                <div class="team-socials"><a href="#"
+                                                        target="_blank"><span
+                                                            class="fab fa-facebook-f"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-twitter"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-linkedin-in"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 style="color: #1066AE;">Shri Narendra Modi
+                                        </h4>
+                                        <p class="team-subtitle"
+                                            style="color: rgba(16,102,174,0.85);">
+                                            Prime Minister of India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div
+                            class="vc_column-inner vc_custom_1654516397960   vc_custom_1654516397961">
+                            <div class="wpb_wrapper">
+                                <div class="team-member design-creative  kd-animated fadeInUp"
+                                    data-animation-delay="200">
+                                    <div class="team-content">
+                                        <div class="team-image"><img
+                                                src="assets/amit shahji.png" alt=""
+                                                style="height:270px;object-position: top;object-fit: cover;">
+                                            <div class="team-content-hover">
+                                                <div class="team-socials"><a href="#"
+                                                        target="_blank"><span
+                                                            class="fab fa-facebook-f"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-twitter"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-linkedin-in"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 style="color: #1066AE;">Shri Amit Shah</h4>
+                                        <p class="team-subtitle"
+                                            style="color: rgba(16,102,174,0.85);">
+                                            Home Minister of India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div
+                            class="vc_column-inner vc_custom_1654516416535   vc_custom_1654516416535">
+                            <div class="wpb_wrapper">
+                                <div class="team-member design-creative  kd-animated fadeInUp"
+                                    data-animation-delay="600">
+                                    <div class="team-content">
+                                        <div class="team-image"><img
+                                                src="assets/nitin gadkariji.png" alt="">
+                                            <div class="team-content-hover">
+                                                <div class="team-socials"><a href="#"
+                                                        target="_blank"><span
+                                                            class="fab fa-facebook-f"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-twitter"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-linkedin-in"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 style="color: #1066AE;">Shri Nitin Gadkari
+                                        </h4>
+                                        <p class="team-subtitle"
+                                            style="color: rgba(16,102,174,0.85);">
+                                            Minister of Road Transport and Highways of
+                                            India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div
+                            class="vc_column-inner vc_custom_1654516411721   vc_custom_1654516411721">
+                            <div class="wpb_wrapper">
+                                <div class="team-member design-creative  kd-animated fadeInUp"
+                                    data-animation-delay="400">
+                                    <div class="team-content">
+                                        <div class="team-image"><img
+                                                src="assets/Bhupendrabhai Patel.png"
+                                                alt="">
+                                            <div class="team-content-hover">
+                                                <div class="team-socials"><a href="#"
+                                                        target="_blank"><span
+                                                            class="fab fa-facebook-f"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-twitter"></span></a><a
+                                                        href="#" target="_blank"><span
+                                                            class="fab fa-linkedin-in"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 style="color: #1066AE;">Shri Bupendra Patel
+                                        </h4>
+                                        <p class="team-subtitle"
+                                            style="color: rgba(16,102,174,0.85);">
+                                            Chief Minister of Gujarat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+<div data-vc-full-width="true" data-vc-full-width-init="false"
+    data-vc-kd-parallax="1.25"
+    class="vc_row wpb_row vc_row-fluid vc_custom_1654516583117 vc_custom_1654516583118 vc_row-has-fill vc_row-has-padding-bottom vc_row-bg-position-top vc_general kd_vc_parallax kd_vc_parallax-content-moving">
+    <div class="parallax-overlay" data-vc-kd-parallax="1.25"></div>
+    <div class="kd-overlay gradient-overlay"></div>
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner vc_custom_1652100919961">
+            <div class="wpb_wrapper">
+                <div
+                    class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1654516589027 vc_custom_1654516589028 vc_row-has-padding-top vc_row-bg-position-top">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <header
+                                    class="kd-section-title col-lg-12 text-center  vc_custom_1652279782625 kd-animated fadeIn"
+                                    data-animation-delay="200">
+                                    <h2 class="kd-main-title separator_off"
+                                        style="color: #ffffff;font-size: 42px;line-height: 52px;">
+                                        Messages from GCA Head and other Association
+                                        Heads</h2>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fm-6416008746846"
+                    class="slider clients carousel-module lift-effect black-navigation svg-color"
+                    style="fill: #ffffff;">
+                    <div class="clients-content kd-animated fadeInUp"
+                        style="margin-right: 1rem;">
+                        <div>
+                            <img src="assets/Male_avatar_g98d.png" alt=""
+                                style="width: 100px;height: 100px;border-radius: 50%;object-fit: cover;">
+                        </div>
+                        <div>
+                            <h3
+                                style="color: white;margin-bottom: 0.3rem;margin-top: 0.2rem;">
+                                SHRI ARVIND PATEL</h3>
+                            <h6 style="color: white">Chairman</h6>
+                        </div>
+                        <div>
+                            <blockquote>
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clients-content kd-animated fadeInUp"
+                        style="margin-right: 1rem;">
+                        <div>
+                            <img src="assets/Male_avatar_g98d.png" alt=""
+                                style="width: 100px;height: 100px;border-radius: 50%;object-fit: cover;">
+                        </div>
+                        <div>
+                            <h3
+                                style="color: white;margin-bottom: 0.3rem;margin-top: 0.2rem;">
+                                SHRI KISHOREBHAI VIRAMGAMA</h3>
+                            <h6 style="color: white">Vice - Chairman
+                            </h6>
+                        </div>
+                        <div>
+                            <blockquote>
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clients-content kd-animated fadeInUp"
+                        style="margin-right: 1rem;">
+                        <div>
+                            <img src="assets/Male_avatar_g98d.png" alt=""
+                                style="width: 100px;height: 100px;border-radius: 50%;object-fit: cover;">
+                        </div>
+                        <div>
+                            <h3
+                                style="color: white;margin-bottom: 0.3rem;margin-top: 0.2rem;">
+                                SHRI KAMLESH N. SHAH</h3>
+                            <h6 style="color: white">Secretary</h6>
+                        </div>
+                        <div>
+                            <blockquote>
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clients-content kd-animated fadeInUp"
+                        style="margin-right: 1rem;">
+                        <div>
+                            <img src="assets/Male_avatar_g98d.png" alt=""
+                                style="width: 100px;height: 100px;border-radius: 50%;object-fit: cover;">
+                        </div>
+                        <div>
+                            <h3
+                                style="color: white;margin-bottom: 0.3rem;margin-top: 0.2rem;">
+                                SHRI PARESH VACHHANI</h3>
+                            <h6 style="color: white">Joint Secretary</h6>
+                        </div>
+                        <div>
+                            <blockquote>
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
