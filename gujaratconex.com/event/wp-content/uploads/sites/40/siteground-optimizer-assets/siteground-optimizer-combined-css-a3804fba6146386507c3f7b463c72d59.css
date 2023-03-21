@@ -10765,7 +10765,7 @@ body.maintenance-mode .wpcf7-submit {
   border: none;
   border-radius: 0;
   box-shadow: none;
-  min-width: 260px;
+  min-width: 330px;
   left: -16px;
   top: auto;
   overflow: visible;
@@ -24866,7 +24866,7 @@ body .testimonials.slider.with-image .tt-container h6 p {
   -o-transition: .2s;
   transition: .2s;
   width: auto;
-  max-width: 50%;
+  max-width: 65%;
   height: auto;
   cursor: pointer
 }
@@ -31675,7 +31675,7 @@ ul.redux-social-media-list li:before {
 }
 
 .kd-overlay.gradient-overlay {
-  background: linear-gradient(90deg, rgba(16,102,174,1) 0%, rgba(240,130,25,1) 83%, rgba(234,94,32,1) 100%);
+  background: linear-gradient(90deg,var(--gradient-start-color) 0%,var(--gradient-end-color) 100%);
   opacity: .8
 }
 
@@ -36755,7 +36755,7 @@ div.wpforms-container-full .wpforms-form textarea,
 .tt_button.modal-menu-item.btn_gradient_color,
 .tt_button.btn_gradient_color,
 .vc_row.vc_row-gradient-color-overlay {
-  background: linear-gradient(90deg, rgba(16,102,174,1) 0%, rgba(240,130,25,1) 83%, rgba(234,94,32,1) 100%) !important;
+  background: linear-gradient(90deg,var(--gradient-start-color) 0%,var(--gradient-end-color) 100%) !important;
 }
 
 .vc_row.vc_row-gray-color-overlay {
