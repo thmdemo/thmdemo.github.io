@@ -1,3 +1,7 @@
+:root{
+  --head-font-family: ;
+}
+
 /* Common XS1 and XS2 */
 @media all and (max-width: 767px) {
   .dsp-no-wrapper-xs1-wr20 {
@@ -503,6 +507,26 @@ body.noscroll {
   background: #fff;
   color: #BD9A5F;
   border: 1px solid #BD9A5F;
+}
+
+.cta-btn {
+  font-family: "Space Grotesk";
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  /* height: 50px; */
+  /* margin-top: 29px; */
+  padding: 12px 18px;
+  border: 1px solid black;
+  background: rgba(0, 0, 0);
+  margin-left: 10rem;
+  margin-top:-10px;
+}
+
+.cta-btn:hover {
+  background: #08695A;
+  color: white;
+  border: 1px solid #08695A;
 }
 
 /* Common xs1, xs2 */
@@ -6231,37 +6255,37 @@ body.noscroll {
 /* Common sm, md, lg */
 @font-face {
   font-family: "Playfair Display";
-  src: url("../../Files/Fonts/SpaceGrotesk/PlayfairDisplay-Bold.ttf");
+  src: url("/assets/fonts/fonts-2/PLAYFAIRDISPLAY-VARIABLEFONT_WGHT\ \(5\).TTF");
   font-weight: 700;
 }
 @font-face {
   font-family: "Playfair Display";
-  src: url("../../Files/Fonts/SpaceGrotesk/PlayfairDisplay-Regular.ttf");
+  src: url("/assets/fonts/fonts-2/PLAYFAIRDISPLAY-VARIABLEFONT_WGHT\ \(1\).TTF");
   font-weight: 400;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../Files/Fonts/SpaceGrotesk/SpaceGroteska-Light.ttf");
+  src: url("/assets/fonts/fonts-1/BWALETANO10-LIGHT.OTF");
   font-weight: 300;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../Files/Fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf");
+  src: url("/assets/fonts/fonts-1/BWALETANO10-REGULAR.OTF");
   font-weight: 400;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../Files/Fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf");
+  src: url("/assets/fonts/fonts-1/BWALETANO10-MEDIUM.OTF");
   font-weight: 500;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../Files/Fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.ttf");
+  src: url("/assets/fonts/fonts-1/BWALETANO10-BOLD.OTF");
   font-weight: 600;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../Files/Fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf");
+  src: url("/assets/fonts/fonts-1/BWALETANO10-EXTRABOLD.OTF");
   font-weight: 700;
 }
 body {
