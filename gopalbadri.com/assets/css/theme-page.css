@@ -21322,7 +21322,7 @@ body.admin-bar .agrarium_video_container .agrarium_close_popup_layer .agrarium_c
 }
 
 .footer .wrapper-socials li {
-    margin: 7px 7px;
+    margin: 7px 7px !important;
     padding: 0;
 }
 
@@ -22060,7 +22060,7 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 
 /* ---------- Header Logo ---------- */
 .logo-container {
-    margin: 10px 15px 10px 20px;
+    margin: 0px 15px 10px 20px;
     width: 100%;
 }
 

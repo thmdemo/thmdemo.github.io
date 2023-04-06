@@ -5290,7 +5290,7 @@ header .widget_shopping_cart:hover .widget_shopping_cart_content {
 
 .qodef-button.qodef-layout--textual-full-width .qodef-m-icon {
     display: inline-flex;
-    margin: 0 0 0 19px
+    margin: 0 0 0 19px;
 }
 
 .qodef-button.qodef-layout--textual-full-width svg.qodef-svg--banner-arrow polyline {
@@ -5304,7 +5304,7 @@ header .widget_shopping_cart:hover .widget_shopping_cart_content {
 }
 
 .qodef-button.qodef-layout--textual {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     background-color: transparent;
     border: 0;
