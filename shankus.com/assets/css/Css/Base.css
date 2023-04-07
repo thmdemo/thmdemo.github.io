@@ -605,7 +605,7 @@ body.noscroll {
   border: 1px solid black;
   background: rgba(0, 0, 0);
   margin-left: 10rem;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 
 .cta-btn:hover {
@@ -5839,11 +5839,12 @@ body.noscroll {
 
 .comp-header-01 #menu-primary {
   z-index: 1;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   display: flex;
-  justify-content: center;
-  left: 0;
+  justify-content: flex-end;
+  align-items: center;
+  /* left: 0; */
 }
 
 .comp-header-01 #menu-primary ul {
@@ -6038,13 +6039,13 @@ body.noscroll {
 }
 
 .f-scrolled .comp-header-01 {
-  background: #FFFFFF;
+  background: #BD9A5F;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
   transform: translateY(-35px);
 }
 
 .f-scrolled .comp-header-01 .c-wrapper {
-  height: 69px;
+  height: 90px;
 }
 
 .f-scrolled .comp-header-01 #site-logo .logo-1 {
