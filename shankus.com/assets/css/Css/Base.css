@@ -781,7 +781,7 @@ body.noscroll {
   }
 
   .section-02 .c-container-01 {
-    width: 136px;
+    width: 176px;
     height: 196px;
     background: #BD9A5F;
     border-radius: 0px 0px 68px 0px;
@@ -897,7 +897,7 @@ body.noscroll {
     font-weight: 400;
     font-size: 10em;
     line-height: 213px;
-    color: rgb(110, 45, 45);
+    color: rgb(255, 255, 255);
     width: fit-content;
     position: absolute;
     left: 0;
@@ -1112,17 +1112,16 @@ body.noscroll {
     position: absolute;
     top: -45px;
     left: -125px;
-    width: calc(100% - 200px);
+    width: calc(150% - 392px);
     z-index: 9;
   }
 
   .section-03 .c-item-02 .c-item-02-E .c-unit-01 {
     font-family: "Playfair Display";
     font-weight: 400;
-    font-size: 10em;
+    font-size: 5em;
     line-height: 213px;
-    color: rgb(110, 45, 45);
-    ;
+    color: rgb(255, 255, 255);
     width: fit-content;
     position: absolute;
     right: 0;
@@ -1368,7 +1367,7 @@ body.noscroll {
   }
 
   .section-04 .c-container-02 .c-wrapper .c-item-03 {
-    width: 512px;
+    width: 557px;
     font-weight: 300;
     font-size: 1.125em;
     line-height: 23px;
@@ -3338,7 +3337,7 @@ body.noscroll {
   margin: 0 12px 32px 0;
   background: #FFFFFF;
   box-shadow: 0px 0px 19px rgba(165, 165, 165, 0.21);
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A {
@@ -3360,7 +3359,7 @@ body.noscroll {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 53px;
   color: #015D4F;
 }
@@ -3370,7 +3369,7 @@ body.noscroll {
   font-family: "BWALETANO";
   font-style: normal;
   font-weight: 300;
-  font-size: 0.937em;
+  font-size: 1em;
   line-height: 19px;
   color: #80837D;
   width: 469px;
@@ -5416,7 +5415,7 @@ body.noscroll {
 }
 
 .comp-footer-01 .c-column-01 .c-wrapper .c-container-01 {
-  font-family: "Playfair Display";
+  font-family: "BWALETANO";
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
@@ -5474,7 +5473,7 @@ body.noscroll {
   font-family: "BWALETANO";
   font-style: normal;
   font-weight: 700;
-  font-size: 0.812em;
+  font-size: 1rem;
   line-height: 17px;
   /* identical to box height */
   text-align: center;
@@ -7566,4 +7565,51 @@ a {
   font-family: 'BWALETANO';
   line-height: 1.5;
   padding: 1rem;
+}
+
+.table-section{
+  padding: 2rem 16rem;
+}
+
+.table tr{
+  border: 2px #BD9A5F solid;
+}
+
+.center{
+  text-align: center;
+}
+
+.table-head{
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 700;
+  color: #6d2f18;
+}
+
+.text-bold-yellow{
+  font-weight: 700;
+  color: #BD9A5F;
+}
+.table-section .c-wrapper{
+  padding-bottom: 0;
+}
+.table-section .c-wrapper>.c-item-03 {
+  width: fit-content;
+  height: 39px;
+  background: #BD9A5F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 51px; */
+  font-weight: 500;
+  font-size: 0.8125em;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  transition: transform 0.25s;
+}
+.table *,
+.table *::before,
+.table *::after { 
+  list-style: circle;
 }
