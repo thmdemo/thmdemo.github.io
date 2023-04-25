@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 25 Apr 2023 11:04:01 at https://www.maman-corp.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.maman-corp.com/ -O1 "C:\My Web Sites\Dharmadev Infra" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:05:16	Warning: 	File not parsed, looks like binary: https://www.maman-corp.com/assets/fonts/gt-walsheim-bold.woff2
+11:05:16	Warning: 	File not parsed, looks like binary: https://www.maman-corp.com/assets/fonts/gt-walsheim-medium.woff2
+11:05:16	Warning: 	File not parsed, looks like binary: https://www.maman-corp.com/assets/fonts/roboto-medium.woff2
+11:05:16	Warning: 	File not parsed, looks like binary: https://www.maman-corp.com/assets/fonts/roboto-regular.woff2
+11:05:16	Warning: 	File not parsed, looks like binary: https://www.maman-corp.com/assets/fonts/montserrat-bold.woff2
+11:05:16	Warning: 	Link https://www.maman-corp.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 15 seconds : 134 links scanned, 133 files written (43309054 bytes overall) [41906744 bytes received at 558756 bytes/sec], 1872449 bytes transferred using HTTP compression in 22 files, ratio 16%, 28.2 requests per connection
+(No errors, 6 warnings, 0 messages)
