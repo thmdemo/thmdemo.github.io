@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 @font-face {
     font-family: "Biotif";
     src: url("../fonts/Biotif-Book.otf");
@@ -123,8 +125,8 @@ table {
     position: relative;
     z-index: 10;
     max-width: 1290px;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
 }
 
 .row.row-full {
@@ -396,6 +398,7 @@ header .row {
 .logo img {
     max-width: 200px;
     transition: 0.2s;
+    filter: invert(150%);
 }
 header.scrolled .logo img {
     max-width: 166px;
@@ -456,7 +459,7 @@ header.scrolled .logo img {
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-30%);
     padding-top: 10px;
     opacity: 0;
     visibility: hidden;
@@ -475,7 +478,7 @@ header.scrolled .logo img {
 }
 
 .subnav-left {
-    width: 250px;
+    /* width: 250px; */
     min-width: 250px;
     padding: 20px 20px 20px 20px;
 }
@@ -624,7 +627,7 @@ main {
     align-items: center;
     background: #000;
     color: #fff;
-    padding: 190px 0 70px;
+    padding: 150px 0;
     position: relative;
     margin-bottom: 90px;
     min-height: calc(100vh - 94px);
@@ -695,7 +698,7 @@ main {
  } */
 
 .title-123 {
-    font-size: 75px;
+    font-size: 50px;
     line-height: 0.85;
     line-height: 1.2;
     letter-spacing: -0.06em;
@@ -719,6 +722,7 @@ main {
 }
 
 .text-18 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.67;
@@ -13062,7 +13066,7 @@ input[type=number] {
 }
 .subnav-nav.subnav-simple ul.columns-3 li a {
     padding: 0 10px 10px 10px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
 }
 @media screen and (max-width: 639px) {
    
@@ -13116,11 +13120,12 @@ input[type=number] {
     align-self: center;
     justify-self: center;
     /* padding: auto; */
-    color: #ADAFC349;
+    color: rgba(0, 0, 0, 0.8);
 }
 .project-title{
     font-size: 1.3rem;
     font-family: 'Marcellus', Courier, monospace;
+    color: #000;
 
 }
 .project-1{
@@ -13137,37 +13142,50 @@ input[type=number] {
     margin: 8rem 0rem;
     color: #dddddd;
 }
+
+.advisors-sec{
+    height: 60vh;
+}
 .founder{
     margin:2px;
     padding:2px 2px;
 }
 .founder-photo-div{
+    position: relative;
     margin: 0px -3px;
+    color: white;
+    /* height: 50vh; */
 }
-.founder-photo:hover .founder-detail {
-    /* content:attr(data-legend); */
-    /* position:absolute; */
-    /* left:0;
-    bottom:0;
-    right:0; */
-    text-align:center;
-    z-index: 10;
-    visibility: visible;
-    /* transform:translateY(100%); */
-    color: #000000;
-    background: #08EEFF;
+
+.founder-photo-div img{
+    position: relative;
 }
 
 .founder-detail{
-    /* position: absolute; */
-    padding: 0rem 1rem;
-    z-index: 10;
-    color: white;
-    visibility: hidden;
-    /* background-color: #000000; */
-    margin-top: -9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+    transition-duration: 0.6s;
+    z-index: 100;
+    padding: 2rem;
+    top: 0;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+.founder-photo-div:hover .founder-detail {
+    opacity: 1;
+    transition-duration: 0.6s;
 }
 
+.founder-detail h4{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
 
 i{
     margin-right: 5px;
@@ -13175,3 +13193,130 @@ i{
 /* .image{
     transition: 0.2s 1s ease-in-out;
 } */
+
+
+.nav-bar small{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.mega-menu-link-2 li{
+    width: 25vw;
+}
+
+.mega-menu-link-2 li a{
+    font-size: 1.3rem !important;
+}
+
+.row.pcard-hero{
+    padding-top: 50px;
+    /* padding-bottom: 75px; */
+}
+
+.pcard{
+    padding: 1.3rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+.pcard img{
+    width: 48px;
+    height: 48px;
+}
+
+.pcard p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.pcard small{
+    margin-top: 1rem;
+    color: #000;
+    font-size: 0.85rem;
+}
+
+.pcard .link-green-to-white{
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+}
+
+.pcard .link-green-to-white:hover{
+    color:rgba(0, 0, 0)
+}
+
+.title-card-hero{
+    padding-right: 2rem;
+}
+
+.intro-title-text-cta{
+    position: relative;
+    animation: herobackgroundanim 10s infinite;
+}
+
+.intro-title-text-cta:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+@keyframes herobackgroundanim {
+    0% {
+        background-image: url('../img/business\ networking\ hero\ img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25% {
+        background-image: url('../img/consulting\ hero\ img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50% {
+        background-image: url('../img/funding\ hero\ img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100% {
+        background-image: url('../img/business\ networking\ hero\ img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+  }
+
+  .pcard:hover{
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    animation: none !important;
+  }
+
+  .pcard:nth-child(2n+1){
+    -webkit-animation: tilt-shaking 3s linear infinite;
+    -moz-animation: tilt-shaking 3s linear infinite;
+    animation: tilt-shaking 3s linear infinite;
+  }
+
+  .pcard:nth-child(2n+0){
+    animation-delay: 2s !important;
+    -webkit-animation: tilt-shaking-even 3s linear infinite !important;
+    -moz-animation: tilt-shaking-even 3s linear infinite !important;
+    animation: tilt-shaking-even 3s linear infinite !important;
+  }
+
+  @keyframes tilt-shaking-even {
+    0% { transform: rotate(7deg); }
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(-7deg);}
+    75% { transform: rotate(0deg); }
+    100% { transform: rotate(7deg); }
+  }
+  
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg);}
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
