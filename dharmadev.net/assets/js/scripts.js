@@ -2371,7 +2371,7 @@
                     };
                     "landing" === this.screenNavigator.currentScreen.id && (t.logo.color = "light", this.pagination.hide(), this.scrollCTA.hide()), this.updateRequest(t)
                 }, e.prototype.onStepAnimateInStart = function (t) {
-                    var e = "screen-7" === this.screenNavigator.currentScreen.id && "step-2" === t.id;
+                    var e = "screen-9" === this.screenNavigator.currentScreen.id && "step-2" === t.id;
                     this.updateRequest(t.elementsToUpdate), t.elementsToUpdate["scroll-cta"] && this.scrollCTA.update(t.elementsToUpdate["scroll-cta"]), this.pagination.updateIndex(this.screenNavigator.currentScreen.index), t.elementsToUpdate.pagination && this.pagination.update(t.elementsToUpdate.pagination), this.pagination.show(), this.scrollCTA.reverse(e), this.scrollCTA.show()
                 }, e.prototype.onStepAnimateInComplete = function (t) {
                     "step-1" === t.stepId && this.pagination.startTimer(t.screenIndex)
