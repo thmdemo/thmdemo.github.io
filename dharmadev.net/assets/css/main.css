@@ -1090,7 +1090,8 @@ button:disabled {
     bottom: 0;
     left: 0;
     visibility: hidden;
-    z-index: 200
+    z-index: 200;
+    background-color: #000;
 }
 
 #main-loading__overlay {
@@ -1115,20 +1116,22 @@ button:disabled {
 
 #ajax-loading__inner,
 #main-loading__inner {
-    background-color: #fff
+    /* background-color: #fff */
+    background-color: #000
 }
 
 #main-loading__lines {
     position: absolute;
     top: 0;
-    left: 0
+    left: 0;
+    z-index: -1;
 }
 
 #main-loading__lines svg,
 #main-loading__logo svg {
     display: block;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 #main-loading__lines path {
@@ -1142,7 +1145,8 @@ button:disabled {
     width: 154px;
     height: 79px;
     margin-top: -40px;
-    margin-left: -77px
+    margin-left: -77px;
+    z-index: 1000;
 }
 
 #main-loading__progress {
@@ -1151,7 +1155,8 @@ button:disabled {
     left: 0;
     width: 100%;
     text-align: center;
-    line-height: 1em
+    line-height: 1em;
+    z-index: 1000;
 }
 
 #main-loading__progress__value {
@@ -1164,7 +1169,8 @@ button:disabled {
 #ajax-loading__txt,
 #main-loading__progress__txt {
     font-size: 10px;
-    color: #575757;
+    /* color: #575757; */
+    color: #aaaaaa;
     text-transform: uppercase
 }
 
@@ -1819,7 +1825,7 @@ button:disabled {
     }
 
     .home-screen__step__content__subtitle {
-        font-size: 42px;
+        font-size: 37px;
         line-height: 1em
     }
 }
@@ -7923,12 +7929,12 @@ fieldset#contact__form__message {
     /* position: absolute; */
     /* width: 80vw; */
     /* max-width: 41em; */
-    min-height: 25em;
+    /* min-height: 25em; */
     border-radius: 0.6em;
     /* transform: translate(-50%, -50%); */
     left: 50%;
     top: 50%;
-    box-shadow:  1.1em 1.4em 1.1em 0  rgba(1, 17, 39, 0.15);
+    /* box-shadow:  1.1em 1.4em 1.1em 0  rgba(1, 17, 39, 0.15); */
     display: flex;
 }
 
@@ -7950,7 +7956,7 @@ fieldset#contact__form__message {
     top: 0;
     bottom: 0;
     border: none;
-    color: #0a69ed;
+    color: #d62323;
     box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
     cursor: pointer;
     border-radius: 50%;
