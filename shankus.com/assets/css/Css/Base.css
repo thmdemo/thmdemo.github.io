@@ -1,4 +1,5 @@
 :root {
+
   --head-fontfamily: Playfair Display;
   --content-fontfamily: BWALETANO;
 }
@@ -1121,7 +1122,9 @@ body.noscroll {
     font-weight: 400;
     font-size: 5em;
     line-height: 213px;
+
     color: rgb(255, 255, 255);
+
     width: fit-content;
     position: absolute;
     right: 0;
@@ -7428,7 +7431,6 @@ a {
   border: 1px solid #ECECEC;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
-
 #customers-testimonials .shadow-effect p {
   font-family: inherit;
   font-size: 17px;
@@ -7482,6 +7484,7 @@ a {
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 
+
 #customers-testimonials.owl-carousel .owl-dots {
   display: inline-block;
   width: 100%;
@@ -7491,7 +7494,6 @@ a {
 #customers-testimonials.owl-carousel .owl-dots .owl-dot {
   display: inline-block;
 }
-
 #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
   background: #BD9A5F;
   display: inline-block;
@@ -7502,6 +7504,7 @@ a {
   transition: all 250ms ease-out 0s;
   width: 20px;
 }
+
 
 .testimonials.section-04 {
   padding-bottom: 30px;
@@ -7565,6 +7568,7 @@ a {
   font-family: 'BWALETANO';
   line-height: 1.5;
   padding: 1rem;
+
 }
 
 .table-section{
@@ -7612,4 +7616,5 @@ a {
 .table *::before,
 .table *::after { 
   list-style: circle;
+
 }
