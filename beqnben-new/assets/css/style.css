@@ -1795,6 +1795,7 @@ main {
     line-height: 1.33;
     color: #1C1C1C;
     margin-bottom: 34px;
+    font-family: 'Biotif', sans-serif;
 }
 
 .t-carousel-item-author {
@@ -1802,6 +1803,7 @@ main {
     font-size: 18px;
     line-height: 1.33;
     color: #1C1C1C;
+    font-family: 'Biotif', sans-serif;
 }
 
 .t-carousel-item-author span {
@@ -2069,6 +2071,7 @@ main {
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    /* font-family: 'Biotif', sans-serif; */
 }
 
 .fr-list-link {
@@ -14923,7 +14926,7 @@ input[type=number] {
 
 
 .advisors-sec{
-    height: 60vh;
+    height: 110vh;
 }
 .founder{
     margin:2px;
@@ -14931,11 +14934,14 @@ input[type=number] {
 }
 .founder-photo-div{
     position: relative;
-    margin: 0px -3px;
+    /* margin: 0px -3px; */
     color: white;
     /* height: 50vh; */
 }
 
+.founder-photo-div{
+    margin-bottom: 1.3rem;
+}
 
 .founder-photo-div img{
     position: relative;
@@ -14957,14 +14963,38 @@ input[type=number] {
     font-size: 0.9rem;
     line-height: 1.7;
 }
+
+.meetAdvisor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 1;
+    transition-duration: 0.6s;
+    z-index: 100;
+    padding: 2rem;
+    top: 0;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
 .founder-photo-div:hover .founder-detail {
     opacity: 1;
     transition-duration: 0.6s;
 }
 
+
+
 .founder-detail h4{
     font-size: 1.6rem;
     line-height: 1.5;
+}
+
+.founder-detail .small-content{
+    font-family: 'Biotif', sans-serif;
 }
 
 i {
