@@ -849,7 +849,7 @@ main {
 }
 
 .text-18 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Biotif', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.67;
@@ -14865,6 +14865,7 @@ input[type=number] {
 .stats-section-2 {
     padding: 10%;
     font-family: 'Biotif', Courier, monospace;
+    padding-left: 0;
 }
 
 .stats-section-2 .btn-yellow,
@@ -14976,7 +14977,7 @@ i {
 
 
 .nav-bar small{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Biotif', sans-serif;
     font-weight: 300;
 }
 
@@ -15011,6 +15012,7 @@ i {
 }
 
 .pcard small{
+    font-family: 'Biotif', sans-serif;
     margin-top: 1rem;
     color: #000;
     font-size: 0.85rem;
@@ -15066,22 +15068,22 @@ i {
   }
 
   .pcard:hover{
-    -webkit-animation: none !important;
+    /* -webkit-animation: none !important;
     -moz-animation: none !important;
-    animation: none !important;
+    animation: none !important; */
   }
 
   .pcard:nth-child(2n+1){
-    -webkit-animation: tilt-shaking 3s linear infinite;
+    /* -webkit-animation: tilt-shaking 3s linear infinite;
     -moz-animation: tilt-shaking 3s linear infinite;
-    animation: tilt-shaking 3s linear infinite;
+    animation: tilt-shaking 3s linear infinite; */
   }
 
   .pcard:nth-child(2n+0){
-    animation-delay: 2s !important;
+    /* animation-delay: 2s !important;
     -webkit-animation: tilt-shaking-even 3s linear infinite !important;
     -moz-animation: tilt-shaking-even 3s linear infinite !important;
-    animation: tilt-shaking-even 3s linear infinite !important;
+    animation: tilt-shaking-even 3s linear infinite !important; */
   }
 
   @keyframes tilt-shaking-even {
