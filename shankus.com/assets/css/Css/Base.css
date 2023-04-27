@@ -601,12 +601,13 @@ body.noscroll {
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   color: #fff;
+  width: fit-content;
   /* height: 50px; */
   /* margin-top: 29px; */
   padding: 12px 18px;
   border: 1px solid black;
   background: rgba(0, 0, 0);
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
   /* margin-top: -10px; */
 }
 
@@ -5844,7 +5845,7 @@ body.noscroll {
 .comp-header-01 #menu-primary {
   z-index: 1;
   /* position: absolute; */
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
