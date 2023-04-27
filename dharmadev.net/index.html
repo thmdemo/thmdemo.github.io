@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html class="no-js desktop ">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="">
+
+  <!-- bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"> -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"> -->
+  <link rel="icon" type="image/png" href="./assets/img/dharmadev-logo.jpg" sizes="16x16">
+  <link rel="icon" type="image/png" href="./assets/img/dharmadev-logo.jpg" sizes="32x32">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Dharmadev Infrastructure</title>
+
+  <script src="assets/js/lib/modernizr-custom.min.js"></script>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-60417875-24');
+  </script>
+</head>
+
+<body class="page-id-home">
+
+  <div id="top-bar">
+  </div>
+  <a class=" " href="index.html" id="logo">
+    <!-- logo in top navbar -->
+    <img src="./assets/img/dharmadev-logo.jpg" alt="logo of Dharmadev Infrastructure">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="156.9" height="49.1" viewBox="0 0 156.9 49.1">
+      <path d="M78 4.6h4.1l3.4 5.5 3.4-5.5H93v14.1h-3.9v-8.1l-3.6 5.5h-.1l-3.6-5.5v8.1H78V4.6z" />
+      <path d="M100 4.5h3.8l6 14.2h-4.2l-1-2.5h-5.4l-1 2.5H94l6-14.2zm3.5 8.7l-1.6-4-1.6 4h3.2z" />
+      <path d="M110.8 4.6h4.1l3.4 5.5 3.4-5.5h4.1v14.1h-3.9v-8.1l-3.6 5.5h-.1l-3.6-5.5v8.1h-3.9V4.6z" />
+      <path d="M132.8 4.5h3.8l6 14.2h-4.2l-1-2.5H132l-1 2.5h-4.1l5.9-14.2zm3.4 8.7l-1.6-4-1.6 4h3.2z" />
+      <path d="M143.5 4.6h3.7l5.8 7.5V4.6h3.9v14.1h-3.4l-6-7.7v7.7h-3.9V4.6z" />
+      <path
+        d="M85.3 38.1c-1 0-2-.2-2.8-.5-.9-.4-1.7-.9-2.3-1.5-.7-.7-1.2-1.4-1.6-2.3-.4-.9-.6-1.9-.6-2.9s.2-2 .6-2.9c.4-.9.9-1.7 1.6-2.3.7-.7 1.4-1.2 2.4-1.6.9-.4 1.9-.6 3-.6.7 0 1.4.1 2 .2.6.1 1.1.3 1.6.6s.9.6 1.3.9c.4.4.8.8 1.1 1.2l-2.9 2.3c-.4-.5-.8-.9-1.3-1.2-.5-.3-1.1-.4-1.8-.4-.5 0-1 .1-1.4.3-.4.2-.8.5-1.1.8-.3.3-.5.7-.7 1.2-.2.5-.3.9-.3 1.5 0 .5.1 1 .3 1.5.2.5.4.9.7 1.2.3.3.6.6 1.1.8s.9.3 1.4.3c.4 0 .7 0 1-.1.3-.1.6-.2.8-.4.2-.2.5-.3.7-.5l.7-.7 2.9 2.1c-.3.5-.7.9-1.1 1.3-.4.4-.8.7-1.4 1s-1.1.5-1.7.7c-.7-.1-1.4 0-2.2 0z" />
+      <path
+        d="M100 38.1c-1.1 0-2.1-.2-3-.6-.9-.4-1.7-.9-2.4-1.6-.7-.7-1.2-1.4-1.6-2.3-.4-.9-.6-1.8-.6-2.8 0-1 .2-2 .6-2.9.4-.9.9-1.7 1.6-2.3.7-.7 1.5-1.2 2.4-1.6.9-.4 1.9-.6 3-.6s2.1.2 3 .6c.9.4 1.7.9 2.4 1.6.7.7 1.2 1.4 1.6 2.3s.6 1.8.6 2.8c0 1-.2 2-.6 2.9-.4.9-.9 1.7-1.6 2.3-.7.7-1.5 1.2-2.4 1.6-.9.4-1.9.6-3 .6zm0-3.5c.5 0 1-.1 1.5-.3.4-.2.8-.5 1.1-.8.3-.3.6-.7.7-1.2.2-.5.3-.9.3-1.5 0-.5-.1-1-.3-1.5-.2-.5-.4-.9-.7-1.2-.3-.4-.7-.6-1.2-.8-.4-.2-.9-.3-1.5-.3-.5 0-1 .1-1.5.3-.4.2-.8.5-1.1.8-.3.3-.6.7-.7 1.2-.2.5-.3.9-.3 1.5 0 .5.1 1 .3 1.5.2.5.4.9.7 1.2s.7.6 1.1.8c.6.1 1.1.3 1.6.3z" />
+      <path
+        d="M109.2 23.7h6.7c1.1 0 2 .1 2.8.4.8.3 1.4.6 1.8 1.1.8.8 1.3 1.9 1.3 3.3 0 1.1-.3 2-.8 2.7-.5.7-1.2 1.3-2.1 1.6l3.4 4.9h-4.5l-2.8-4.3h-1.7v4.3h-3.9v-14zm6.5 6.8c.7 0 1.2-.2 1.6-.5.4-.3.5-.7.5-1.2 0-.6-.2-1-.6-1.3-.4-.3-.9-.4-1.6-.4H113v3.4h2.7z" />
+      <path
+        d="M123.4 23.7h6.1c.9 0 1.7.1 2.4.3.7.2 1.3.5 1.9 1 .5.4.9.9 1.2 1.6.3.6.4 1.3.4 2.1s-.1 1.6-.5 2.2c-.3.6-.7 1.2-1.3 1.6-.5.4-1.2.8-1.9 1s-1.6.3-2.4.3h-1.9v4h-3.9V23.7zm5.7 7c.7 0 1.2-.2 1.6-.5.4-.3.6-.8.6-1.3 0-.6-.2-1.1-.6-1.4-.4-.3-1-.5-1.7-.5h-1.8v3.8h1.9z" />
+      <g fill="#CB071D">
+        <path d="M57.2 0H0v49.1h8.2V8.2h8.2v40.9h8.1V8.2h32.7v24.5h8.2V0z" />
+        <path d="M40.9 24.5h8.2v-8.1H32.7v32.7h32.7v-8.2H40.9z" />
+      </g>
+    </svg> -->
+  </a>
+  <nav class="" id="nav">
+
+    <input id="nav-is-open" type="checkbox" value="" aria-hidden="true">
+
+    <label id="nav-toggle" class="" for="nav-is-open">
+      <span id="nav-toggle__list">
+        <span class="nav-toggle__list__line"></span>
+        <span class="nav-toggle__list__line"></span>
+        <span class="nav-toggle__list__line"></span>
+      </span>
+      <span id="nav-toggle__cross">
+        <span class="nav-toggle__cross__line"></span>
+        <span class="nav-toggle__cross__line"></span>
+      </span>
+    </label>
+
+    <div id="nav__content">
+      <div id="nav__content__inner">
+        <div id="nav__content__bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+            <path fill="none" stroke="#E02D2D" stroke-width="64" stroke-miterlimit="10" d="M-41 715l398-398L-15-55" />
+            <path fill="none" stroke="#C40E0E" stroke-width="64" stroke-miterlimit="10" d="M541.5 122.8L701.7-37.5" />
+            <path fill="none" stroke="#D14B4B" stroke-width="64" stroke-miterlimit="10"
+              d="M1007 353L813.8 159.9 513 461.9l506.9 515.9" />
+            <path fill="none" stroke="#CE0D0D" stroke-width="64" stroke-miterlimit="10" d="M634.8 376.7l259.4 259.4" />
+            <path fill="none" stroke="#ED1818" stroke-width="64" stroke-miterlimit="10"
+              d="M784.6 345.1L958 516.5 1499.1-37" />
+          </svg>
+        </div>
+        <ul class="nav__list" id="nav__main-list">
+
+          <li class="nav__item" data-id="home">
+            <a class="nav__link" href="index.html">
+              <span class="nav__link__label">Home</span>
+            </a>
+          </li>
+          <li class="nav__item" data-id="solutions">
+            <a class="nav__link" href="#">
+              <span class="nav__link__label">Solutions</span>
+            </a>
+          </li>
+          <li class="nav__item" data-id="process">
+            <a class="nav__link" href="#">
+              <span class="nav__link__label">Process</span>
+            </a>
+          </li>
+          <li class="nav__item" data-id="projects">
+            <a class="nav__link" href="#">
+              <span class="nav__link__label">Projects</span>
+            </a>
+          </li>
+          <li class="nav__item" data-id="about">
+            <a class="nav__link" href="#">
+              <span class="nav__link__label">About us</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="nav__list" id="nav__side-list">
+          <li class="nav__item" data-id="contact">
+            <a class="nav__link" href="#">
+              <span class="nav__link__label">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <div id="page-container">
+
+    <section class="page" id="home-page" data-title="Maman Corp">
+
+      <!-- first section -->
+      <section class="home-screen" id="home-landing">
+
+        <div id="home-landing__bg">
+          <video id="home-landing__bg__video" preload="auto" loop muted>
+            <source src="./assets/video/home-landing.mp4">
+          </video>
+        </div>
+
+        <div id="home-landing__content">
+          <div id="home-landing__content__text">
+            <div id="home-landing__content__text__bg"></div>
+
+            <div id="home-landing__content__text__heading">
+              <div id="home-landing__content__text__heading__baseline">Experts since 1997</div>
+              <h1 id="home-landing__content__text__heading__title">Dharmadev Infrastructure Ltd is an integrated real
+                estate and hospitality group.</h1>
+            </div>
+            <p id="home-landing__content__text__body">
+              Development of Gujarat with existence of more than two decades in
+              offering world class townships, residential & commercial projects, retail centers, corporate parks,
+              warehouses, SEZ, plotting etc with a major presence in Ahmedabad, Surat, & Vadodara and upcoming
+              commercial projects in Mumbai.
+            </p>
+          </div>
+          <button id="home-landing__content__cta">
+            <div id="home-landing__content__cta__bg"></div>
+            <div id="home-landing__content__cta__label">Scroll to discover</div>
+          </button>
+        </div>
+
+        <button id="home-landing__scroll">
+          <div id="home-landing__scroll__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="34" viewBox="0 0 20 34">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0v26.2l-8-8.1v5.7L10 34l10-10.2v-5.7l-8 8.1V0H8z" />
+            </svg>
+          </div>
+        </button>
+
+        <div id="home-landing__lines">
+          <div class="home-landing__line"></div>
+          <div class="home-landing__line"></div>
+          <div class="home-landing__line"></div>
+        </div>
+
+      </section>
+
+      <!-- slide 1 - Our Story -->
+      <section class="home-screen" id="home-screen-1" name="story">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-1.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our story</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">
+              Quality is not only our standard.
+              <br>
+              It's also an attitude instilled in our company.
+            </h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our story</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">
+                Quality is not only our standard.
+                <br>
+                It's also an attitude instilled in our company.
+              </h2>
+              <div class="home-screen__step-2__content__inner__body">
+                <span class="bold">Dharmadev Infrastructure</span>
+                began in 2000 as an Infrastructure company in Gujarat. In a short span the
+                group has
+                completed more than 100 projects in the commercial and residential segments with prominent projects viz.
+                <span class="bold">Neelkath Villa & Orchid at Bopal</span>,
+                <span class="bold">Neelkanth Retreat at Vasna, Neelkanth Riverview at Shahibaug</span>,
+                <span class="bold">Neelkanth Elegance at Satellite and Swaminarayan Park</span> at Vasna, Naroda and
+                Swaminarayan city at Narol as
+                its current residential projects.
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our story</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- slide 2 - managment team -->
+      <section class="home-screen" id="home-screen-2" name="client-commitment">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-2.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our Managment team
+            </h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">Managed by rare and
+              seasoned professionals in real estate sector.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2"
+          data-ui="{&quot;nav-toggle&quot;:{&quot;color&quot;:&quot;light&quot;},&quot;scroll-cta&quot;:{&quot;color&quot;:&quot;light&quot;}}">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our Managment
+                team</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">Managed by
+                rare and seasoned professionals in real estate sector.</h2>
+              <div class="home-screen__step-2__content__inner__body">
+                The company is geared to sustain itself in the competitive world of realty business with constant
+                training and global exposure to R&D initiatives in infrastructure development.
+
+                We focus on creating and maintaining a rewarding and welcoming workplace for our people around the
+                world. We strive to attract and retain the most talented individuals, encouraging and enabling them to
+                succeed in their respective domain area while contributing their competencies towards business growth
+                and development.
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">
+                  Discover more about our Project
+                  commitment</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 3 - vision -->
+      <section class="home-screen" id="home-screen-3" name="vision">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-3.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our vision</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">To be a leading
+              infrastructure group in all infrastructure properties
+              with focus on quality, customer care and state-of-the-art technology.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2"
+          data-ui="{&quot;logo&quot;:{&quot;color&quot;:&quot;light&quot;},&quot;pagination&quot;:{&quot;color&quot;:&quot;light&quot;}}">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our vision</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">To be a
+                leading infrastructure group in all infrastructure
+                properties with focus on quality, customer care and state-of-the-art technology.</h2>
+              <div class="home-screen__step-2__content__inner__body">
+                <ul>
+                  <li>
+                    IPO Planning
+                  </li>
+                  <li>
+                    Construction of Swaminarayan Temples in Mumbai & Ahmedabad
+                  </li>
+                  <li>
+                    Construction of Townships in Mumbai
+                  </li>
+                  <li>
+                    Construction of Corporate House in Mumbai
+                  </li>
+                  <li>
+                    Construction of Hotels in Metro cities in India
+                  </li>
+                  <li>
+                    Star category Hotels construction in India and abroad
+                  </li>
+                  <li>
+                    Plans to start real estate and Motel business abroad
+                  </li>
+                  <li>
+                    Establishment of Voluntary/Social Organizations for Health Care & Educational Promotion in society
+                  </li>
+                </ul>
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our vision</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 4 - Mission -->
+      <section class="home-screen" id="home-screen-4" name="expertise">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-4.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our Mission</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">
+              To deliver valuable property to our esteemed customers, business partners, stake holders team members and
+              community.
+            </h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2"
+          data-ui="{&quot;nav-toggle&quot;:{&quot;color&quot;:&quot;light&quot;}}">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">
+                Our Mission
+              </h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">
+                To deliver valuable property to our esteemed customers, business partners, stake holders team members
+                and community.
+              </h2>
+              <div class="home-screen__step-2__content__inner__body">
+                <ul>
+                  <li>
+                    To offer utmost satisfaction to our valued customers by developing innovative properties and
+                    services
+                  </li>
+                  <li>
+                    To serve our customers with quick response, timely delivery, long-term productive relationships,
+                    ethics and transparency
+                  </li>
+                  <li>
+                    To hire, develop, retain best talents and give them an opportunity to prosper in their career.
+                  </li>
+                  <li>
+                    To create an environment as a learning organization and to share knowledge for individual and
+                    organization growth and success.
+                  </li>
+                  <li>
+                    To devote to corporate social responsibility and corporate governance in response to the sustainable
+                    development agenda and millennium
+                    development goals.
+                  </li>
+                </ul>
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our expertise</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 5 - who we are -->
+      <section class="home-screen" id="home-screen-5" name="who-we-are">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-5.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Who we are</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">Our highly skilled
+              team is always at your service.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Who we are</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">Our highly
+                skilled team is always at your service.</h2>
+              <div class="home-screen__step-2__content__inner__body">In a short span the group has completed more than
+                100 projects in the commercial and residential segments with prominent projects viz. Neelkath Villa &
+                Orchid at Bopal, Neelkanth Retreat at Vasna, Neelkanth Riverview at Shahibaug, Neelkanth Elegance at
+                Satellite and Swaminarayan Park at Vasna, Naroda and Swaminarayan city at Narol as its current
+                residential projects.
+
+                <!-- In the past the company has fulfilled dreams of owning a residential property of numerous citizens of
+                Gujarat ,investors within India and abroad ranging from high end customers in search of a bungalow to a
+                common man in need for a shelter of his own. -->
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about who we are</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 6 - Project Services -->
+      <section class="home-screen" id="home-screen-6" name="services">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-6.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our Project services</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">Building the best
+              Infrastructure.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <!-- <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our Project
+                services</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">Building
+                the best Infrastructure.</h2>
+              <div class="home-screen__step-2__content__inner__body">The projects adhere to the highest standards of
+                purity, strength and quality from raw material to final structure. This Group which initially earned a
+                name for itself in luxurious and comfortable residences in the city of Ahmedabad is now establishing a
+                national presence through its unique contribution in the low cost affordable housing segment. The
+                company owns several landmark budget and premium hotels under its brand of NK Group of Hotels with the
+                notable possession of Neelkanth Patang (A 221 Feet High Revolving Restaurant) the majestic tower, an
+                icon of Ahmedabad.</div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our Project
+                  services</span>
+              </a>
+            </div>
+          </div>
+
+        </section> -->
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">
+
+              </h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">
+                Testimonials
+              </h2>
+              <!-- testimonial -->
+              <div class="home-screen__step-2__content__inner__body">
+                <div class="wrapper-testimonial m-2">
+                  <div class="testimonial-container" id="testimonial-container"></div>
+                  <button id="prev">&lt;</button>
+                  <button id="next">&gt;</button>
+                </div>
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our Project
+                  services</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+      </section>
+
+      <!-- slide 7 - Projects -- cards -- animation from section 3 -->
+      <section class="home-screen" id="home-screen-7" name="services">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-6.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our Projects</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">Building the best
+              Infrastructure.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our Projects</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">Building
+                the best Infrastructure.</h2>
+              <div class="home-screen__step-2__content__inner__body">
+                <!-- <div class="card-div">
+                  <div class="card text-left">
+                    <img class="card-img-top" src="./assets/img/home-screen-7-step-2.jpg" alt="this is card">
+                    <div class="card-body">
+                      <h4 class="card-title">Title</h4>
+                      <p class="card-text">Body</p>
+                    </div>
+                  </div>
+                  <div class="card text-left">
+                    <img class="card-img-top" src="./assets/img/home-screen-7-step-2.jpg" alt="this is card">
+                    <div class="card-body">
+                      <h4 class="card-title">Title</h4>
+                      <p class="card-text">Body</p>
+                    </div>
+                  </div>
+                </div> -->
+                <div class="row card-div">
+                  <!-- card 1 -->
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="card">
+                      <div class="image">
+                        <img src="	https://dharmadev.net/images/project/swaminaryan_park_naroda/1.jpg" height="200px"
+                          width="100%">
+                      </div>
+                      <div class="text">
+                        <span class="card-title bold">
+                          Residencial Projects
+                        </span>
+                        <p class="my-2">
+                          <a class="home-screen__step-2__content__inner__link" href="#">
+                            <span class="home-screen__step-2__content__inner__link__label">
+                              View
+                            </span>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="card">
+                      <div class="image">
+                        <img src="https://dharmadev.net/images/project/swaminarayan_business_park_narol/head/4.jpg"
+                          height="200px" width="100%">
+                      </div>
+                      <div class="text">
+                        <span class="card-title bold">
+                          Commercial Projects
+                        </span>
+                        <p class="my-2">
+                          <a class="home-screen__step-2__content__inner__link" href="#">
+                            <span class="home-screen__step-2__content__inner__link__label">
+                              View
+                            </span>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our Project
+                  services</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 8 -->
+      <section class="home-screen" id="home-screen-8" name="personal-commitment">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-7.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our personal commitment
+            </h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">At its heart,
+              construction isn't about structures. It's about people.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2"
+          data-ui="{&quot;nav-toggle&quot;:{&quot;color&quot;:&quot;light&quot;},&quot;scroll-cta&quot;:{&quot;color&quot;:&quot;light&quot;}}">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">Our personal
+                commitment</h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">At its
+                heart, construction isn't about structures. It's about people.</h2>
+              <div class="home-screen__step-2__content__inner__body">We are committed to construct and provide
+                residential apartments, commercial, corporate and institutional buildings, incorporating state of the
+                art advanced technology, latest techniques and designs, with premium quality environment friendly
+                materials, at reasonable cost within stipulated time frame meeting the comfort and needs of our customer
+                to outmost satisfaction at all times. We are an ISO 9001 2000 and KPMG certified company for adherence
+                to best Quality Standards.</div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our personal
+                  commitment </span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- slide 9 - Testimonial -->
+      <section class="home-screen" id="home-screen-9" name="services">
+
+        <!-- part 1 -->
+        <section class="home-screen__step home-screen__step-1">
+
+          <div class="home-screen__step-1__bg">
+            <video class="home-screen__step-1__bg__video" preload="auto" loop muted>
+              <source src="assets/video/home-6.mp4">
+            </video>
+            <canvas class="home-screen__step-1__bg__canvas"></canvas>
+          </div>
+
+          <div class="home-screen__step-1__lines">
+            <div class="home-screen__step-1__lines__line"></div>
+            <div class="home-screen__step-1__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step__content home-screen__step-1__content">
+            <h1 class="home-screen__step__content__title home-screen__step-1__content__title">Our Project services</h1>
+            <h2 class="home-screen__step__content__subtitle home-screen__step-1__content__subtitle">Building the best
+              Infrastructure.</h2>
+          </div>
+
+        </section>
+
+        <!-- part 2 -->
+        <section class="home-screen__step home-screen__step-2" data-ui="">
+
+          <div class="home-screen__step-2__img">
+            <div class="home-screen__step-2__img__overlay"></div>
+          </div>
+
+          <div class="home-screen__step-2__bg"></div>
+
+          <div class="home-screen__step-2__lines">
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+            <div class="home-screen__step-2__lines__line"></div>
+          </div>
+
+          <div class="home-screen__step-2__corner"></div>
+
+          <div class="home-screen__step__content home-screen__step-2__content">
+            <div class="home-screen__step-2__content__inner">
+              <h1 class="home-screen__step__content__title home-screen__step-2__content__inner__title">
+
+              </h1>
+              <h2 class="home-screen__step__content__subtitle home-screen__step-2__content__inner__subtitle">
+                Testimonials
+              </h2>
+              <!-- testimonial -->
+              <div class="home-screen__step-2__content__inner__body">
+                <div class="wrapper-testimonial m-2">
+                  <div class="testimonial-container" id="testimonial-container"></div>
+                  <button id="prev">&lt;</button>
+                  <button id="next">&gt;</button>
+                </div>
+              </div>
+              <a class="home-screen__step-2__content__inner__link" href="#">
+                <span class="home-screen__step-2__content__inner__link__label">Discover more about our Project
+                  services</span>
+              </a>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+
+      <div class=" " id="home-pagination">
+        <ul id="home-pagination__nav">
+          <li class="home-pagination__nav__item home-pagination__nav__item--selected">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="0"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="1"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="2"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="3"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="4"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="5"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="6"></button>
+          </li>
+          <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="7"></button>
+          </li>
+          <!-- <li class="home-pagination__nav__item ">
+            <svg class="home-pagination__nav__item__timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20">
+              <circle class="home-pagination__nav__item__timer__circle" cx="13" cy="10" r="6" />
+              <circle class="home-pagination__nav__item__timer__progress" cx="13" cy="10" r="6"
+                transform="rotate(-90, 13, 10)" />
+            </svg>
+            <button class="home-pagination__nav__item__btn" data-screen="8"></button>
+          </li> -->
+        </ul>
+        <div id="home-pagination__number">
+          <span id="home-pagination__number__current">1</span>
+          <span id="home-pagination__number__separator">/</span>
+          <span id="home-pagination__number__total">08</span>
+        </div>
+      </div>
+
+      <!-- scroll to down and back to scroll buttons-->
+      <div class="" id="home-scroll-cta">
+        <div id="home-scroll-cta__label" data-reverse="Back to the top">Scroll to explore</div>
+        <button id="home-scroll-cta__btn">
+          <div id="home-scroll-cta__btn__picto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="34" viewBox="0 0 20 34">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0v26.2l-8-8.1v5.7L10 34l10-10.2v-5.7l-8 8.1V0H8z" />
+            </svg>
+          </div>
+        </button>
+      </div>
+
+    </section>
+
+    <section class="page" id="main-loading-page">
+      <div id="main-loading__overlay"></div>
+      <div id="main-loading__outer">
+        <div id="main-loading__inner">
+          <div id="main-loading__lines">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M694.7 739L540.2 584.5l138.2-138.2 65.1 65" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M734.8 661.4l170.8-170.8-321.2-321.2-254.8 254.8" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M421.3 516.1l254.9-254.9" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M1549.7 745.8l-447.3-447.3" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10" d="M906.4 489.7L1771-374.8" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M676.2 261.2l663.5-663.6" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10" d="M582.2 167.2l-621-621" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10" d="M293.2-136l-924.1 924.2" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M220.6 649.7l-753.4-753.3" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10" d="M329.6 424.2L-92 845.8" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M-494.2 1712.7l924.5-924.5" />
+              <path fill="none" stroke="#F9F9F9" stroke-width="26" stroke-miterlimit="10"
+                d="M1077.4 1121.7L675.9 720.2" />
+            </svg>
+          </div>
+          <div id="main-loading__logo">
+            <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.9 41.75">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #1d1d1b
+                  }
+                </style>
+              </defs>
+              <title>logo-txt</title>
+              <path d="M0 .1h4.1l3.4 5.5L10.9.1H15v14.1h-3.9V6.1l-3.6 5.5h-.1L3.9 6.2v8.1H0V.1z" />
+              <path d="M22 0h3.8l6 14.2h-4.2l-1-2.5h-5.4l-1 2.5H16zm3.4 8.7l-1.6-4-1.6 4h3.2z" />
+              <path d="M32.7.1h4.1l3.4 5.5L43.6.1h4.1v14.1h-3.9V6.1l-3.6 5.5h-.1l-3.6-5.5v8.1h-3.9V.1h.1z" />
+              <path d="M54.7 0h3.8l6 14.2h-4.2l-1-2.5h-5.4l-1 2.5h-4.1zm3.5 8.7l-1.6-4-1.6 4h3.2z" />
+              <path d="M65.5.1h3.7L75 7.6V.1h3.9v14.1h-3.4l-6-7.7v7.7h-3.9V.1h-.1z" />
+              <path
+                d="M7.3 33.6a8.21 8.21 0 0 1-2.8-.5 7.63 7.63 0 0 1-2.3-1.5 7.33 7.33 0 0 1-1.6-2.3 8 8 0 0 1-.6-3 7.17 7.17 0 0 1 .6-2.9 6.34 6.34 0 0 1 1.6-2.3 6.74 6.74 0 0 1 2.4-1.6 7.31 7.31 0 0 1 3-.6 12.31 12.31 0 0 1 2 .2 4.42 4.42 0 0 1 1.6.6 14.63 14.63 0 0 1 1.3.9 12 12 0 0 1 1.1 1.2l-2.9 2.3a4.89 4.89 0 0 0-1.3-1.2 3.42 3.42 0 0 0-1.8-.4 3.19 3.19 0 0 0-1.4.3 2.14 2.14 0 0 0-1.2.8 3.46 3.46 0 0 0-.7 1.2 3.19 3.19 0 0 0-.3 1.4 4 4 0 0 0 .3 1.5 3.46 3.46 0 0 0 .7 1.2 3.13 3.13 0 0 0 1.1.8 2.77 2.77 0 0 0 1.3.3 3.08 3.08 0 0 0 1-.1 2 2 0 0 0 .8-.4c.2-.2.5-.3.7-.5l.7-.7 2.9 2.1a6.89 6.89 0 0 1-1.1 1.3 5 5 0 0 1-1.4 1 8.65 8.65 0 0 1-1.7.7 10.31 10.31 0 0 1-2 .2z" />
+              <path
+                d="M21.9 33.6a7.31 7.31 0 0 1-3-.6 7.76 7.76 0 0 1-2.4-1.6 7.33 7.33 0 0 1-1.6-2.3 6.71 6.71 0 0 1-.6-2.8 7.17 7.17 0 0 1 .6-2.9 6.34 6.34 0 0 1 1.6-2.3 7.76 7.76 0 0 1 2.4-1.6 7.8 7.8 0 0 1 6 0 7.76 7.76 0 0 1 2.4 1.6 7.33 7.33 0 0 1 1.6 2.3 6.71 6.71 0 0 1 .6 2.8 7.17 7.17 0 0 1-.6 2.9 6.34 6.34 0 0 1-1.6 2.3 7.76 7.76 0 0 1-2.4 1.6 7.31 7.31 0 0 1-3 .6zm.1-3.5a4 4 0 0 0 1.5-.3 4.44 4.44 0 0 0 1.1-.8 2.4 2.4 0 0 0 .7-1.2 3.65 3.65 0 0 0 .3-1.5 4 4 0 0 0-.3-1.5 3.46 3.46 0 0 0-.7-1.2 2.55 2.55 0 0 0-1.2-.8 3.34 3.34 0 0 0-1.5-.3 4 4 0 0 0-1.5.3 4.44 4.44 0 0 0-1.1.8 2.4 2.4 0 0 0-.7 1.2 3.65 3.65 0 0 0-.3 1.5 4 4 0 0 0 .3 1.5 3.46 3.46 0 0 0 .7 1.2 2.84 2.84 0 0 0 1.1.8 4.15 4.15 0 0 0 1.6.3z" />
+              <path
+                d="M31.2 19.2h6.7a7.89 7.89 0 0 1 2.8.4 4 4 0 0 1 1.8 1.1 4.52 4.52 0 0 1 1.3 3.3 4.55 4.55 0 0 1-.8 2.7 4.25 4.25 0 0 1-2.1 1.6l3.4 4.9h-4.5l-3-4.2h-1.7v4.3h-3.9V19.2zm6.5 6.8a2.54 2.54 0 0 0 1.6-.5 1.35 1.35 0 0 0 .5-1.2 1.49 1.49 0 0 0-.6-1.3 2.54 2.54 0 0 0-1.6-.4H35V26h2.7z" />
+              <path
+                d="M45.3 19.2h6.1a8.75 8.75 0 0 1 2.4.3 5 5 0 0 1 1.9 1 4 4 0 0 1 1.2 1.6 4.64 4.64 0 0 1 .4 2.1 4 4 0 0 1-.5 2.2 4 4 0 0 1-1.3 1.6 5.73 5.73 0 0 1-1.9 1 9.28 9.28 0 0 1-2.4.3h-1.9v4h-3.9V19.2h-.1zm5.8 7a2.54 2.54 0 0 0 1.6-.5 1.61 1.61 0 0 0 .6-1.3 1.68 1.68 0 0 0-.6-1.4 2.86 2.86 0 0 0-1.7-.5h-1.8v3.8h1.9v-.1z" />
+              <path class="cls-1"
+                d="M1.5 41.75a1.48 1.48 0 0 1 0-3 1.49 1.49 0 0 1 1.12.45l-.32.37a1.14 1.14 0 0 0-.8-.36 1 1 0 0 0 0 2 1.13 1.13 0 0 0 .82-.37l.32.33a1.48 1.48 0 0 1-1.14.58z" />
+              <path class="cls-1"
+                d="M5.33 41.75a1.45 1.45 0 0 1-1.49-1.48 1.47 1.47 0 0 1 1.5-1.49 1.48 1.48 0 1 1-.01 2.97zm0-2.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" />
+              <path class="cls-1" d="M10.3 38.83h.5v2.87h-.42l-1.58-2v2h-.5v-2.87h.47l1.53 2v-2z" />
+              <path class="cls-1"
+                d="M13.5 40a.91.91 0 0 1 .92.84.89.89 0 0 1-1 .86 1.76 1.76 0 0 1-1.19-.46l.3-.36a1.32 1.32 0 0 0 .9.37.42.42 0 0 0 .51-.36c0-.21-.12-.32-.65-.44a.91.91 0 0 1-1-.86.87.87 0 0 1 1-.83 1.59 1.59 0 0 1 1 .36l-.27.38a1.3 1.3 0 0 0-.78-.29.4.4 0 0 0-.47.34c.05.26.18.36.73.45z" />
+              <path class="cls-1" d="M17 41.7h-.49v-2.4h-.9v-.47h2.32v.47H17v2.4z" />
+              <path class="cls-1"
+                d="M21.16 41.7l-.7-1h-.64v1h-.5v-2.87h1.28a.92.92 0 0 1 1.06.91.86.86 0 0 1-.68.87l.77 1.08h-.59zm-.6-2.4h-.74v1h.74a.51.51 0 0 0 .59-.48.49.49 0 0 0-.59-.53z" />
+              <path class="cls-1"
+                d="M25.54 40.46a1.14 1.14 0 0 1-1.23 1.28 1.13 1.13 0 0 1-1.22-1.26v-1.65h.5v1.63a.7.7 0 0 0 .72.82.69.69 0 0 0 .72-.8v-1.65h.5v1.62z" />
+              <path class="cls-1"
+                d="M28.42 41.75a1.48 1.48 0 0 1 0-3 1.49 1.49 0 0 1 1.12.45l-.32.37a1.13 1.13 0 0 0-.8-.36 1 1 0 0 0 0 2 1.12 1.12 0 0 0 .82-.37l.32.33a1.48 1.48 0 0 1-1.14.58z" />
+              <path class="cls-1" d="M32.18 41.7h-.5v-2.4h-.91v-.47h2.32v.47h-.91v2.4z" />
+              <path class="cls-1" d="M35 38.83v2.87h-.5v-2.87h.5z" />
+              <path class="cls-1"
+                d="M38 41.75a1.45 1.45 0 0 1-1.49-1.48A1.5 1.5 0 1 1 38 41.75zm0-2.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" />
+              <path class="cls-1" d="M43 38.83h.49v2.87H43l-1.58-2v2H41v-2.87h.47l1.53 2v-2z" />
+              <path class="cls-1"
+                d="M48.26 40a.91.91 0 0 1 .92.84.89.89 0 0 1-1 .86 1.76 1.76 0 0 1-1.18-.42l.3-.36a1.32 1.32 0 0 0 .9.37.42.42 0 0 0 .51-.36c0-.21-.12-.32-.65-.44a.91.91 0 0 1-1-.86.87.87 0 0 1 1-.83 1.59 1.59 0 0 1 1 .36l-.27.38a1.3 1.3 0 0 0-.79-.3.4.4 0 0 0-.47.34c.05.23.18.33.73.42z" />
+              <path class="cls-1"
+                d="M52 41.75a1.45 1.45 0 0 1-1.49-1.48A1.5 1.5 0 1 1 52 41.75zm0-2.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" />
+              <path class="cls-1" d="M55 38.83h.5v2.4H57v.47h-2v-2.87z" />
+              <path class="cls-1"
+                d="M60.68 40.46a1.14 1.14 0 0 1-1.23 1.28 1.13 1.13 0 0 1-1.22-1.26v-1.65h.5v1.63a.7.7 0 0 0 .72.82.69.69 0 0 0 .72-.8v-1.65h.5v1.62z" />
+              <path class="cls-1" d="M63.44 41.7h-.5v-2.4H62v-.47h2.32v.47h-.88v2.4z" />
+              <path class="cls-1" d="M66.28 38.83v2.87h-.5v-2.87h.5z" />
+              <path class="cls-1"
+                d="M69.27 41.75a1.48 1.48 0 1 1 1.5-1.48 1.45 1.45 0 0 1-1.5 1.48zm0-2.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" />
+              <path class="cls-1" d="M74.24 38.83h.49v2.87h-.42l-1.58-2v2h-.5v-2.87h.47l1.53 2v-2z" />
+              <path class="cls-1"
+                d="M77.43 40a.91.91 0 0 1 .92.84.89.89 0 0 1-1 .86 1.76 1.76 0 0 1-1.19-.46l.3-.36a1.32 1.32 0 0 0 .9.37.42.42 0 0 0 .51-.36c0-.21-.12-.32-.65-.44a.91.91 0 0 1-1-.86.87.87 0 0 1 1-.83 1.59 1.59 0 0 1 1 .36l-.22.41a1.3 1.3 0 0 0-.78-.29.4.4 0 0 0-.47.34c0 .23.13.33.68.42z" />
+            </svg>
+          </div>
+          <div id="main-loading__progress">
+            <div id="main-loading__progress__value">00</div>
+            <div id="main-loading__progress__txt">quality is our standard</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="ajax-loading-page">
+      <div id="ajax-loading__overlay"></div>
+      <div id="ajax-loading__outer">
+        <div id="ajax-loading__inner">
+          <canvas id="ajax-loading__anim" width="288" height="127"></canvas>
+          <div id="ajax-loading__txt">Loading</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer id="footer">
+    <div id="footer__inner">
+      <div id="footer__logo"><svg xmlns="http://www.w3.org/2000/svg" width="156.9" height="49.1"
+          viewBox="0 0 156.9 49.1">
+          <path d="M78 4.6h4.1l3.4 5.5 3.4-5.5H93v14.1h-3.9v-8.1l-3.6 5.5h-.1l-3.6-5.5v8.1H78V4.6z" />
+          <path d="M100 4.5h3.8l6 14.2h-4.2l-1-2.5h-5.4l-1 2.5H94l6-14.2zm3.5 8.7l-1.6-4-1.6 4h3.2z" />
+          <path d="M110.8 4.6h4.1l3.4 5.5 3.4-5.5h4.1v14.1h-3.9v-8.1l-3.6 5.5h-.1l-3.6-5.5v8.1h-3.9V4.6z" />
+          <path d="M132.8 4.5h3.8l6 14.2h-4.2l-1-2.5H132l-1 2.5h-4.1l5.9-14.2zm3.4 8.7l-1.6-4-1.6 4h3.2z" />
+          <path d="M143.5 4.6h3.7l5.8 7.5V4.6h3.9v14.1h-3.4l-6-7.7v7.7h-3.9V4.6z" />
+          <path
+            d="M85.3 38.1c-1 0-2-.2-2.8-.5-.9-.4-1.7-.9-2.3-1.5-.7-.7-1.2-1.4-1.6-2.3-.4-.9-.6-1.9-.6-2.9s.2-2 .6-2.9c.4-.9.9-1.7 1.6-2.3.7-.7 1.4-1.2 2.4-1.6.9-.4 1.9-.6 3-.6.7 0 1.4.1 2 .2.6.1 1.1.3 1.6.6s.9.6 1.3.9c.4.4.8.8 1.1 1.2l-2.9 2.3c-.4-.5-.8-.9-1.3-1.2-.5-.3-1.1-.4-1.8-.4-.5 0-1 .1-1.4.3-.4.2-.8.5-1.1.8-.3.3-.5.7-.7 1.2-.2.5-.3.9-.3 1.5 0 .5.1 1 .3 1.5.2.5.4.9.7 1.2.3.3.6.6 1.1.8s.9.3 1.4.3c.4 0 .7 0 1-.1.3-.1.6-.2.8-.4.2-.2.5-.3.7-.5l.7-.7 2.9 2.1c-.3.5-.7.9-1.1 1.3-.4.4-.8.7-1.4 1s-1.1.5-1.7.7c-.7-.1-1.4 0-2.2 0z" />
+          <path
+            d="M100 38.1c-1.1 0-2.1-.2-3-.6-.9-.4-1.7-.9-2.4-1.6-.7-.7-1.2-1.4-1.6-2.3-.4-.9-.6-1.8-.6-2.8 0-1 .2-2 .6-2.9.4-.9.9-1.7 1.6-2.3.7-.7 1.5-1.2 2.4-1.6.9-.4 1.9-.6 3-.6s2.1.2 3 .6c.9.4 1.7.9 2.4 1.6.7.7 1.2 1.4 1.6 2.3s.6 1.8.6 2.8c0 1-.2 2-.6 2.9-.4.9-.9 1.7-1.6 2.3-.7.7-1.5 1.2-2.4 1.6-.9.4-1.9.6-3 .6zm0-3.5c.5 0 1-.1 1.5-.3.4-.2.8-.5 1.1-.8.3-.3.6-.7.7-1.2.2-.5.3-.9.3-1.5 0-.5-.1-1-.3-1.5-.2-.5-.4-.9-.7-1.2-.3-.4-.7-.6-1.2-.8-.4-.2-.9-.3-1.5-.3-.5 0-1 .1-1.5.3-.4.2-.8.5-1.1.8-.3.3-.6.7-.7 1.2-.2.5-.3.9-.3 1.5 0 .5.1 1 .3 1.5.2.5.4.9.7 1.2s.7.6 1.1.8c.6.1 1.1.3 1.6.3z" />
+          <path
+            d="M109.2 23.7h6.7c1.1 0 2 .1 2.8.4.8.3 1.4.6 1.8 1.1.8.8 1.3 1.9 1.3 3.3 0 1.1-.3 2-.8 2.7-.5.7-1.2 1.3-2.1 1.6l3.4 4.9h-4.5l-2.8-4.3h-1.7v4.3h-3.9v-14zm6.5 6.8c.7 0 1.2-.2 1.6-.5.4-.3.5-.7.5-1.2 0-.6-.2-1-.6-1.3-.4-.3-.9-.4-1.6-.4H113v3.4h2.7z" />
+          <path
+            d="M123.4 23.7h6.1c.9 0 1.7.1 2.4.3.7.2 1.3.5 1.9 1 .5.4.9.9 1.2 1.6.3.6.4 1.3.4 2.1s-.1 1.6-.5 2.2c-.3.6-.7 1.2-1.3 1.6-.5.4-1.2.8-1.9 1s-1.6.3-2.4.3h-1.9v4h-3.9V23.7zm5.7 7c.7 0 1.2-.2 1.6-.5.4-.3.6-.8.6-1.3 0-.6-.2-1.1-.6-1.4-.4-.3-1-.5-1.7-.5h-1.8v3.8h1.9z" />
+          <g fill="#CB071D">
+            <path d="M57.2 0H0v49.1h8.2V8.2h8.2v40.9h8.1V8.2h32.7v24.5h8.2V0z" />
+            <path d="M40.9 24.5h8.2v-8.1H32.7v32.7h32.7v-8.2H40.9z" />
+          </g>
+        </svg></div>
+
+      <ul id="footer__pages">
+
+        <li class="footer__page" id="footer__page--home">
+          <a class="footer__page__title" href="index.html">Home</a>
+
+          <ul class="footer__page__sections">
+
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#story">Story</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#client-commitment">Client commitment</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#vision">Vision</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#expertise">Expertise</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#who-we-are">Who we are</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#services">Services</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="index.html#personal-commitment">Personal commitment</a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="footer__page" id="footer__page--solutions">
+          <a class="footer__page__title" href="./solutions.html">solutions</a>
+
+          <ul class="footer__page__sections">
+
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./solutions.html#service">M.E.S.T</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./solutions.html#price">Price quality</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./solutions.html#experts">Experts</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./solutions.html#clients">Clients</a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="footer__page" id="footer__page--process">
+          <a class="footer__page__title" href="./process.html">Process</a>
+
+          <ul class="footer__page__sections">
+
+          </ul>
+
+        </li>
+        <li class="footer__page" id="footer__page--projects">
+          <a class="footer__page__title" href="./project/index.html">Projects</a>
+
+          <ul class="footer__page__sections">
+
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./project/water-u.html">Water University</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./project/schneider-schaumburg.html">Schneider
+                Schaumburg</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./project/schneider-houston.html">Administration and Meeting
+                spaces</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./project/ecolab-lobby.html">Ecolab Lobby</a>
+            </li>
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./project/customer-experience-center.html">High Security
+                Spaces &amp; Data Centers</a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="footer__page" id="footer__page--about">
+          <a class="footer__page__title" href="./about.html">About us</a>
+
+          <ul class="footer__page__sections">
+
+          </ul>
+
+        </li>
+        <li class="footer__page" id="footer__page--contact">
+          <a class="footer__page__title" href="./contact.html">Contact</a>
+
+          <ul class="footer__page__sections">
+
+
+            <li class="footer__page__section">
+              <a class="footer__page__section__title" href="./contact.html#jobs">Careers</a>
+            </li>
+          </ul>
+
+        </li>
+      </ul>
+
+      <div id="footer__contact"><strong>Maman Corp.</strong><br>1055 Arthur ave<br>Elk Grove Village, IL 60007</div>
+
+      <div id="footer__bottom">
+        <div id="footer__copyright">2023 Maman Corp. All Rights Reserved.</div>
+        <a id="footer__terms" href="terms-and-conditions.html">Terms & conditions</a>
+        <div id="footer__credits">
+          <span id="footer__credits__txt">Website by</span>
+          <a id="footer__credits__link" href="http://www.immersive-g.com/" target="_blank" rel="noopener">Immersive
+            Garden</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var app = {
+      debug: true,
+      mode: "prod",
+      baseUrl: "https://www.maman-corp.com",
+      rootUri: "",
+      isMobile: false,
+      isTablet: false
+    };
+  </script>
+
+  <script src="./assets/js/lib/jquery-3.1.1.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/lib/jquery-3.1.1.min.js"><\/script>')</script>
+
+  <script src="assets/js/scripts.js"></script>
+
+  <!-- testimonial -->
+  <script src="./assets/js/testimonial.js"></script>
+
+</body>
+
+</html>
