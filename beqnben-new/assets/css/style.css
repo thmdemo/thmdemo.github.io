@@ -398,7 +398,7 @@ header .row {
 .logo img {
     max-width: 200px;
     transition: 0.2s;
-    filter: invert(150%);
+    /* filter: invert(150%); */
 }
 header.scrolled .logo img {
     max-width: 166px;
