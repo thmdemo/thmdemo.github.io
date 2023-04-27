@@ -148,7 +148,7 @@ html {
 }
 
 li {
-    list-style-type: circle
+    list-style-type: none
 }
 
 @font-face {
@@ -1746,7 +1746,7 @@ button:disabled {
     }
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
     #home-screen-6 .home-screen__step__content {
         width: 42.38%
     }
@@ -1756,16 +1756,16 @@ button:disabled {
     #home-screen-6 .home-screen__step__content {
         width: 34.38%
     }
-}
+} */
 
 @media screen and (min-width:1024px) {
-    #home-screen-7 .home-screen__step__content {
+    #home-screen-6 .home-screen__step__content {
         width: auto
     }
 }
 
 @media screen and (min-width:1400px) {
-    #home-screen-7 .home-screen__step__content {
+    #home-screen-6 .home-screen__step__content {
         width: auto
     }
 }
@@ -1777,13 +1777,13 @@ button:disabled {
 }
 
 @media screen and (min-width:1024px) {
-    #home-screen-9 .home-screen__step__content {
+    #home-screen-7 .home-screen__step__content {
         width: 42.38%
     }
 }
 
 @media screen and (min-width:1400px) {
-    #home-screen-9 .home-screen__step__content {
+    #home-screen-7 .home-screen__step__content {
         width: 34.38%
     }
 }
@@ -1974,8 +1974,8 @@ button:disabled {
 
 #home-screen-1 .home-screen__step-2__img,
 #home-screen-5 .home-screen__step-2__img,
-#home-screen-6 .home-screen__step-2__img,
-#home-screen-9 .home-screen__step-2__img,
+/* #home-screen-6 .home-screen__step-2__img, */
+#home-screen-7 .home-screen__step-2__img,
 .home-screen__step-2__lines__line:nth-child(2) {
     display: none
 }
@@ -2019,7 +2019,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1024px) {
-    #home-screen-7 .home-screen__step-2__img {
+    #home-screen-6 .home-screen__step-2__img {
         top: 0;
         right: 27.93%;
         bottom: 0;
@@ -2029,7 +2029,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-7 .home-screen__step-2__img {
+    #home-screen-6 .home-screen__step-2__img {
         right: 28.47%
     }
 }
@@ -2142,7 +2142,7 @@ button:disabled {
     }
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
     #home-screen-6 .home-screen__step-2__bg {
         top: 0;
         right: 13.48%;
@@ -2159,10 +2159,10 @@ button:disabled {
         bottom: 10.07vw;
         left: 10.07%
     }
-}
+} */
 
 @media screen and (min-width:1024px) {
-    #home-screen-7 .home-screen__step-2__bg {
+    #home-screen-6 .home-screen__step-2__bg {
         right: 0;
         bottom: 0;
         width: 74.41%;
@@ -2171,7 +2171,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-7 .home-screen__step-2__bg {
+    #home-screen-6 .home-screen__step-2__bg {
         width: 77.78%;
         height: 80%
     }
@@ -2197,7 +2197,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1024px) {
-    #home-screen-9 .home-screen__step-2__bg {
+    #home-screen-7 .home-screen__step-2__bg {
         top: 0;
         right: 13.48%;
         bottom: 13.48vw;
@@ -2208,7 +2208,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-9 .home-screen__step-2__bg {
+    #home-screen-7 .home-screen__step-2__bg {
         right: 15.14%;
         bottom: 10.07vw;
         left: 10.07%
@@ -2261,7 +2261,7 @@ button:disabled {
         opacity: .2
     }
 
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(1) {
+    #home-screen-6 .home-screen__step-2__lines__line:nth-child(1) {
         opacity: .2
     }
 }
@@ -2284,10 +2284,10 @@ button:disabled {
     #home-screen-3 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-4 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-5 .home-screen__step-2__lines__line:nth-child(2),
+    /* #home-screen-6 .home-screen__step-2__lines__line:nth-child(2), */
     #home-screen-6 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-8 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(2) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2) {
         top: 0;
         left: 24.8%;
         bottom: 13.48vw;
@@ -2301,10 +2301,10 @@ button:disabled {
     #home-screen-3 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-4 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-5 .home-screen__step-2__lines__line:nth-child(2),
+    /* #home-screen-6 .home-screen__step-2__lines__line:nth-child(2), */
     #home-screen-6 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-8 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(2) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2) {
         left: 22.15%;
         bottom: 10.07vw
     }
@@ -2316,10 +2316,10 @@ button:disabled {
     #home-screen-3 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-4 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-5 .home-screen__step-2__lines__line:nth-child(2),
+    /* #home-screen-6 .home-screen__step-2__lines__line:nth-child(2), */
     #home-screen-6 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2),
     #home-screen-8 .home-screen__step-2__lines__line:nth-child(2),
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(2) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(2) {
         left: calc(10.07% + 176px)
     }
 }
@@ -2350,7 +2350,7 @@ button:disabled {
     opacity: .2
 }
 
-#home-screen-7 .home-screen__step-2__lines__line:nth-child(2) {
+#home-screen-6 .home-screen__step-2__lines__line:nth-child(2) {
     opacity: .2
 }
 
@@ -2385,7 +2385,7 @@ button:disabled {
     }
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
     #home-screen-6 .home-screen__step-2__lines__line:nth-child(3) {
         top: 0;
         right: 17.58%;
@@ -2402,10 +2402,10 @@ button:disabled {
         right: 22.15%;
         bottom: 10.07vw
     }
-}
+} */
 
 @media screen and (min-width:1024px) {
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(3) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(3) {
         top: 0;
         right: 17.58%;
         bottom: 13.48vw
@@ -2417,7 +2417,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(3) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(3) {
         right: 22.15%;
         bottom: 10.07vw
     }
@@ -2426,9 +2426,9 @@ button:disabled {
 @media screen and (min-width:1024px) {
 
     #home-screen-1 .home-screen__step-2__lines__line:nth-child(4),
-    #home-screen-6 .home-screen__step-2__lines__line:nth-child(4),
+    /* #home-screen-6 .home-screen__step-2__lines__line:nth-child(4), */
     #home-screen-8 .home-screen__step-2__lines__line:nth-child(4),
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(4) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(4) {
         right: 0;
         bottom: 0;
         width: 13.28%;
@@ -2441,9 +2441,9 @@ button:disabled {
 @media screen and (min-width:1280px) {
 
     #home-screen-1 .home-screen__step-2__lines__line:nth-child(4),
-    #home-screen-6 .home-screen__step-2__lines__line:nth-child(4),
+    /* #home-screen-6 .home-screen__step-2__lines__line:nth-child(4), */
     #home-screen-8 .home-screen__step-2__lines__line:nth-child(4),
-    #home-screen-9 .home-screen__step-2__lines__line:nth-child(4) {
+    #home-screen-7 .home-screen__step-2__lines__line:nth-child(4) {
         width: 10.49%;
         height: 51.67%;
         border-left: 1px solid #e6e6e6
@@ -2467,7 +2467,7 @@ button:disabled {
         right: 13.48%
     }
 
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(4) {
+    #home-screen-6 .home-screen__step-2__lines__line:nth-child(4) {
         top: 0;
         bottom: 0;
         right: 13.48%
@@ -2485,7 +2485,7 @@ button:disabled {
         right: 10.49%
     }
 
-    #home-screen-7 .home-screen__step-2__lines__line:nth-child(4) {
+    #home-screen-6 .home-screen__step-2__lines__line:nth-child(4) {
         right: 10.49%
     }
 }
@@ -2578,7 +2578,7 @@ button:disabled {
         visibility: hidden
     }
 
-    #home-screen-7 .home-screen__step-2__corner {
+    #home-screen-6 .home-screen__step-2__corner {
         visibility: hidden
     }
 }
@@ -2679,7 +2679,7 @@ button:disabled {
     }
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
     #home-screen-6 .home-screen__step-2__content {
         top: 0;
         left: 28.91%;
@@ -2692,10 +2692,10 @@ button:disabled {
         left: 29.17%;
         bottom: 10.07vw
     }
-}
+} */
 
 @media screen and (min-width:1024px) {
-    #home-screen-7 .home-screen__step-2__content {
+    #home-screen-6 .home-screen__step-2__content {
         right: 0;
         left: 35.16%;
         height: 85.94%
@@ -2703,7 +2703,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-7 .home-screen__step-2__content {
+    #home-screen-6 .home-screen__step-2__content {
         height: 80%;
         width: auto
     }
@@ -2718,7 +2718,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1024px) {
-    #home-screen-9 .home-screen__step-2__content {
+    #home-screen-7 .home-screen__step-2__content {
         top: 0;
         left: 28.91%;
         bottom: 13.48vw
@@ -2726,7 +2726,7 @@ button:disabled {
 }
 
 @media screen and (min-width:1280px) {
-    #home-screen-9 .home-screen__step-2__content {
+    #home-screen-7 .home-screen__step-2__content {
         left: 29.17%;
         bottom: 10.07vw
     }
@@ -8031,12 +8031,46 @@ button#prev {
     }
 
 }
+
 @media screen and (min-width: 1400px) {
     button#next {
         right: 2.4em;
     }
 }
-.bold{
+
+.bold {
     font-weight: 700;
     letter-spacing: 0.05rem;
 }
+
+#home-screen-2 .home-screen__step-2__content__inner__body {
+    width: auto;
+    padding-bottom: 0;
+}
+
+#home-screen-2 .home-screen__step-2__content__inner {
+    padding: 1.8rem 0 0 0;
+}
+
+#home-screen-3 .home-screen__step-2 .home-screen__step-2__content__inner__body .list {
+    list-style-type: square;
+    /* list-style-position: inside; */
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    .small-logo {
+        /* margin-left:; */
+        /* margin-right:; */
+        justify-self: center;
+    }
+}
+
+/* .director{ */
+    /* height: fit-content; */
+    /* width: calc(100%-1rem); */
+/* } */
