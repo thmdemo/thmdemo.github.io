@@ -806,7 +806,9 @@ button:disabled {
         position: relative;
         display: inline-block;
         z-index: 2;
-        letter-spacing: 1px
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding-top: 1rem;
     }
 }
 
@@ -1692,9 +1694,12 @@ button:disabled {
         right: 7.23%
     }
 
-    #home-screen-1 .home-screen__step__content,
-    #home-screen-5 .home-screen__step__content {
+    #home-screen-1 .home-screen__step__content {
         width: 39.26%
+    }
+
+    #home-screen-5 .home-screen__step__content {
+        width: auto
     }
 }
 
@@ -1702,7 +1707,7 @@ button:disabled {
 
     #home-screen-1 .home-screen__step__content,
     #home-screen-5 .home-screen__step__content {
-        width: 31.22%
+        width: 50%
     }
 }
 
@@ -1743,6 +1748,18 @@ button:disabled {
 
     #home-screen-4 .home-screen__step__content {
         width: 27.36%
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #home-screen-5 .home-screen__step-2__content {
+        height: 100%;
+        padding-bottom: 0;
+    }
+
+    #home-screen-5 .home-screen__step-2__bg {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -2077,21 +2094,31 @@ button:disabled {
         left: auto
     }
 
-    #home-screen-1 .home-screen__step-2__bg,
-    #home-screen-5 .home-screen__step-2__bg {
+    #home-screen-1 .home-screen__step-2__bg {
         bottom: 0;
         left: 0;
         width: 86.72%;
         height: 83.33%
     }
+
+    #home-screen-5 .home-screen__step-2__bg {
+        bottom: 0;
+        left: 0;
+        width: 98%;
+        height: 90%
+    }
 }
 
 @media screen and (min-width:1280px) {
 
-    #home-screen-1 .home-screen__step-2__bg,
-    #home-screen-5 .home-screen__step-2__bg {
+    #home-screen-1 .home-screen__step-2__bg {
         width: 84.58%;
         height: 81.11%
+    }
+
+    #home-screen-5 .home-screen__step-2__bg {
+        width: 84.58%;
+        height: 90%
     }
 }
 
@@ -2602,6 +2629,7 @@ button:disabled {
     top: 92px;
     bottom: 11.23vh;
     overflow: auto;
+    padding-left: 10%;
     -webkit-overflow-scrolling: touch
 }
 
@@ -2630,10 +2658,14 @@ button:disabled {
 
 @media screen and (min-width:1280px) {
 
-    #home-screen-1 .home-screen__step-2__content,
-    #home-screen-5 .home-screen__step-2__content {
+    #home-screen-1 .home-screen__step-2__content {
         left: 29.17%;
         height: 81.11%
+    }
+
+    #home-screen-5 .home-screen__step-2__content {
+        left: 29.17%;
+        height: auto
     }
 }
 
@@ -2735,8 +2767,8 @@ button:disabled {
 
 .home-screen__step-2__content__inner {
     width: 72.46%;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 20px;
     margin-left: 21.01%;
     overflow: hidden
 }
@@ -2801,7 +2833,7 @@ button:disabled {
     }
 
     .home-screen__step-2__content__inner__body {
-        padding-bottom: 40px
+        padding-bottom: 40px;
     }
 }
 
@@ -7114,7 +7146,7 @@ fieldset#contact__form__message {
     font-weight: 500
 }
 
-#solutions__experts__list {
+#solutions__experts__list_1 {
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 40px;
@@ -7124,7 +7156,16 @@ fieldset#contact__form__message {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
-
+#solutions__experts__list_2 {
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 40px;
+    /* margin-top: 50px; */
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
 @media screen and (min-width:1024px) {
     #solutions__experts__subtitle {
         width: 27.36%
@@ -7134,8 +7175,12 @@ fieldset#contact__form__message {
         opacity: 0
     }
 
-    #solutions__experts__list {
+    #solutions__experts__list_1 {
         margin-top: 120px;
+        padding-bottom: 170px
+    }
+    #solutions__experts__list_2 {
+        /* margin-top: 120px; */
         padding-bottom: 170px
     }
 }
@@ -7240,7 +7285,7 @@ fieldset#contact__form__message {
 #solutions__clients__title,
 #solutions__industries__title,
 .solutions__industries__item__label__txt {
-    line-height: 1em;
+    line-height: 2em;
     font-family: gt_walsheim, Helvetica, Arial, sans-serif;
     color: #2e2e2e
 }
@@ -8071,6 +8116,33 @@ button#prev {
 }
 
 /* .director{ */
-    /* height: fit-content; */
-    /* width: calc(100%-1rem); */
+/* height: fit-content; */
+/* width: calc(100%-1rem); */
 /* } */
+.stats {
+    margin: 2rem auto;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-count {
+    color: #D62323;
+    font-size: 2.8rem;
+    justify-self: center;
+    /* height: 3.5rem;
+    padding: 0.2rem 0rem; */
+    padding: 0.2rem;
+}
+
+.stats-name {
+    /* color: #D62323; */
+    font-size: 1.3rem;
+    justify-self: center;
+    padding: 0.2rem;
+    padding-top: 0.7rem;
+    font-weight: 400;
+}
