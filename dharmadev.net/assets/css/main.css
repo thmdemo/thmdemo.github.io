@@ -1719,7 +1719,8 @@ button:disabled {
 
 @media screen and (min-width:1400px) {
     #home-screen-2 .home-screen__step__content {
-        width: 31.22%
+        width: 90%;
+        padding-left: 0;
     }
 }
 
@@ -1963,7 +1964,8 @@ button:disabled {
 }
 
 .home-screen__step-2 {
-    background-color: #f1f1f1
+    /* background-color: #f1f1f1 */
+    background-image: url('../img/home-screen-7-step-2.jpg');
 }
 
 .home-screen__step-2__img {
@@ -2140,7 +2142,7 @@ button:disabled {
 
 @media screen and (min-width:1024px) {
     #home-screen-3 .home-screen__step-2__bg {
-        right: 0;
+        right: -170px;
         bottom: 0;
         width: 74.41%;
         height: 85.94%
@@ -2210,7 +2212,7 @@ button:disabled {
         right: 13.48%;
         bottom: 9.77%;
         left: 0;
-        width: auto;
+        width: 70rem;
         height: auto
     }
 }
@@ -2745,7 +2747,8 @@ button:disabled {
     #home-screen-8 .home-screen__step-2__content {
         top: 9.77%;
         left: 28.91%;
-        bottom: 9.77%
+        bottom: 9.77%;
+        padding-left: 0rem;
     }
 }
 
@@ -8008,11 +8011,11 @@ fieldset#contact__form__message {
 }
 
 button#next {
-    right: 0.5em;
+    left: 19em;
 }
 
 button#prev {
-    left: 0.5em;
+    left: 7em;
 }
 
 .testimonial-container p {
@@ -8102,6 +8105,15 @@ button#prev {
     /* list-style-position: inside; */
 }
 
+#home-screen-4 .home-screen__step__content{
+    width: 90%;
+    padding-left: 0;
+    margin-left: -6rem;
+}
+#home-screen-5 .home-screen__step-2__content__inner{
+    margin-left: -9rem;
+}
+
 .logo {
     height: 100px;
     width: 100px;
@@ -8145,4 +8157,14 @@ button#prev {
     padding: 0.2rem;
     padding-top: 0.7rem;
     font-weight: 400;
+}
+.project-view-link{
+    margin-top: 1rem;
+    color:  #D62323;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+}
+.project-view-link:hover{
+    color: #000;
+    transition: 1.5s;
 }
