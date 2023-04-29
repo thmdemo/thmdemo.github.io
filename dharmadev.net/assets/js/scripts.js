@@ -325,7 +325,7 @@
             i = i || {}, this.canvas = t, this.sprite = e, this.context = t.getContext("2d")
         };
         n.prototype.render = function (t, e) {
-            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height), this.context.drawImage(this.sprite, t.sx, t.sy, t.sWidth, t.sHeight, t.dx, t.dy, t.dWidth, t.dHeight)
+            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
         }, e.exports = n
     }, {}],
     5: [function (t, e, i) {
@@ -1862,7 +1862,7 @@
                     var t = app.isHdpi ? "@2x" : "",
                         e = app.baseUrl + "/assets",
                         i = e + "/img/ajax-loading" + t + ".png",
-                        n = e + "/data/ajax-loading" + t + ".json";
+                        n = e + "/data/ajax-loading.json";
                     return a.addItem(i, {
                         id: "img"
                     }), a.addItem(n, {
@@ -2371,7 +2371,7 @@
                     };
                     "landing" === this.screenNavigator.currentScreen.id && (t.logo.color = "light", this.pagination.hide(), this.scrollCTA.hide()), this.updateRequest(t)
                 }, e.prototype.onStepAnimateInStart = function (t) {
-                    var e = "screen-9" === this.screenNavigator.currentScreen.id && "step-2" === t.id;
+                    var e = "screen-8" === this.screenNavigator.currentScreen.id && "step-2" === t.id;
                     this.updateRequest(t.elementsToUpdate), t.elementsToUpdate["scroll-cta"] && this.scrollCTA.update(t.elementsToUpdate["scroll-cta"]), this.pagination.updateIndex(this.screenNavigator.currentScreen.index), t.elementsToUpdate.pagination && this.pagination.update(t.elementsToUpdate.pagination), this.pagination.show(), this.scrollCTA.reverse(e), this.scrollCTA.show()
                 }, e.prototype.onStepAnimateInComplete = function (t) {
                     "step-1" === t.stepId && this.pagination.startTimer(t.screenIndex)
