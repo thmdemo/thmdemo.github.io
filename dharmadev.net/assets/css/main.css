@@ -908,7 +908,7 @@ button:disabled {
         padding: 0;
         margin-top: 35px;
         -ms-flex-pack: end;
-        justify-content: flex-end;
+        justify-content: center;
         border: none
     }
 }
@@ -955,7 +955,7 @@ button:disabled {
 @media screen and (min-width:1024px) {
     .footer__page {
         height: auto;
-        min-width: 11.23%;
+        min-width: 20%;
         padding-left: 20px;
         -ms-flex-preferred-size: auto;
         flex-basis: auto
@@ -992,7 +992,7 @@ button:disabled {
     -ms-flex-align: center;
     align-items: center;
     color: #c4c4c4;
-    font-size: 9px;
+    font-size: 14px;
     line-height: 1em;
     font-weight: 500;
     transition: color .3s
@@ -1025,7 +1025,7 @@ button:disabled {
     display: inline-block;
     margin-bottom: 10px;
     color: #868686;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1em;
     transition: color .3s
 }
@@ -1037,7 +1037,7 @@ button:disabled {
 #footer__contact {
     margin-top: 70px;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.67em;
     color: #959595
 }
@@ -1802,7 +1802,7 @@ button:disabled {
 
 @media screen and (min-width:1400px) {
     #home-screen-7 .home-screen__step__content {
-        width: 34.38%
+        width: 40%
     }
 }
 
@@ -2755,14 +2755,14 @@ button:disabled {
 @media screen and (min-width:1024px) {
     #home-screen-7 .home-screen__step-2__content {
         top: 0;
-        left: 28.91%;
+        left: 25%;
         bottom: 13.48vw
     }
 }
 
 @media screen and (min-width:1280px) {
     #home-screen-7 .home-screen__step-2__content {
-        left: 29.17%;
+        left: 25%;
         bottom: 10.07vw
     }
 }
@@ -8005,11 +8005,11 @@ fieldset#contact__form__message {
 }
 
 button#next {
-    left: 19em;
+    left: 20em;
 }
 
 button#prev {
-    left: 7em;
+    left: 8em;
 }
 
 .testimonial-container p {
@@ -8178,4 +8178,8 @@ button#prev {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
+}
+
+.projects__nav__infos__tag__value{
+    display: none;
 }

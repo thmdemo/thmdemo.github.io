@@ -325,7 +325,7 @@
             i = i || {}, this.canvas = t, this.sprite = e, this.context = t.getContext("2d")
         };
         n.prototype.render = function (t, e) {
-            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height), this.context.drawImage(this.sprite, t.sx, t.sy, t.sWidth, t.sHeight, t.dx, t.dy, t.dWidth, t.dHeight)
+            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
         }, e.exports = n
     }, {}],
     5: [function (t, e, i) {
@@ -1862,7 +1862,7 @@
                     var t = app.isHdpi ? "@2x" : "",
                         e = app.baseUrl + "/assets",
                         i = e + "/img/ajax-loading" + t + ".png",
-                        n = e + "/data/ajax-loading" + t + ".json";
+                        n = e + "/data/ajax-loading.json";
                     return a.addItem(i, {
                         id: "img"
                     }), a.addItem(n, {
