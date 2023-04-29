@@ -826,7 +826,7 @@ button:disabled {
 
 @media screen and (min-width:1024px) {
     #footer {
-        padding: 70px 0 50px
+        padding: 20px 0 50px
     }
 }
 
@@ -915,7 +915,7 @@ button:disabled {
 
 @media screen and (min-width:1280px) {
     #footer {
-        padding-top: 120px
+        /* padding-top: 120px */
     }
 
     #footer__inner {
@@ -998,12 +998,21 @@ button:disabled {
     transition: color .3s
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
     .footer__page__title {
         display: inline-block;
         width: auto;
         height: auto;
         margin-bottom: 135px
+    }
+} */
+
+@media screen and (min-width:1024px) {
+    .footer__page__title {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-bottom: 90px
     }
 }
 
@@ -1053,7 +1062,7 @@ button:disabled {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-top: 135px;
+    margin-top: 50px;
     font-size: 12px;
     line-height: 1em
 }
@@ -6914,7 +6923,7 @@ fieldset#contact__form__message {
     #solutions__service {
         display: -ms-flexbox;
         display: flex;
-        min-height: 400px;
+        /* min-height: 400px; */
         padding-top: 120px;
         padding-right: 14.44%;
         padding-left: 22.15%;
@@ -7012,7 +7021,7 @@ fieldset#contact__form__message {
     }
 
     #solutions__price {
-        margin-top: 140px;
+        /* margin-top: 140px; */
         background-size: auto;
         background-position: right 175px
     }
@@ -7179,12 +7188,12 @@ fieldset#contact__form__message {
     }
 
     #solutions__experts__list_1 {
-        margin-top: 120px;
-        padding-bottom: 170px
+        margin-top: 80px;
+        padding-bottom: 80px
     }
     #solutions__experts__list_2 {
         /* margin-top: 120px; */
-        padding-bottom: 170px
+        padding-bottom: 80px
     }
 }
 
@@ -7309,7 +7318,7 @@ fieldset#contact__form__message {
 
     #solutions__industries {
         padding-top: 135px;
-        padding-bottom: 175px
+        /* padding-bottom: 175px */
     }
 }
 
@@ -7432,7 +7441,7 @@ fieldset#contact__form__message {
 
     #solutions__clients {
         margin-top: 55px;
-        margin-bottom: 170px
+        /* margin-bottom: 170px */
     }
 }
 
@@ -7497,7 +7506,7 @@ fieldset#contact__form__message {
 }
 
 #solutions__material {
-    margin-top: 150px;
+    margin-top: 220px;
     text-align: center
 }
 
