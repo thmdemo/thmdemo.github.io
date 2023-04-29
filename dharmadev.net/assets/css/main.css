@@ -8192,3 +8192,7 @@ button#prev {
 .projects__nav__infos__tag__value{
     display: none;
 }
+
+.nav--fullscreen #nav__content__inner{
+    background: #f7f7f7 !important;
+}
