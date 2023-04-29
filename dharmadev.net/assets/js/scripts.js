@@ -5750,7 +5750,7 @@
                             s = new f.default(n, {
                                 type: "lines"
                             }),
-                            o = this.element[0].getAttribute("data-title");
+                            o = 'Residential';
                         o && o.length && (document.title = o), this.timelineIn = new TimelineMax({
                             onStart: this.onAnimateInStart.bind(this),
                             onComplete: this.onAnimateInComplete.bind(this),
