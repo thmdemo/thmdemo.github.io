@@ -1,0 +1,632 @@
+/* at the very least you must set these two display properties */
+/* this is so you can use CSS animations when toggling results */
+
+
+/* visual styles */
+.searchwp-live-search-results {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #fff;
+	-webkit-box-shadow: 0 0 2px 0 rgba(30, 30, 30, 0.4);
+	box-shadow: 0 0 2px 0 rgba(30, 30, 30, 0.4);
+	border-radius: 3px;
+	width: 315px;
+	min-height: 175px;
+	max-height: 300px;
+}
+
+.searchwp-live-search-no-min-chars .spinner {
+	opacity: 0.3;
+}
+
+.searchwp-live-search-result p {
+	font-size: 0.9em;
+	padding: 1em;
+	margin: 0;
+	border-bottom: 1px solid rgba(30, 30, 30, 0.1);
+}
+
+.searchwp-live-search-result--focused {
+	background: #DDD;
+}
+
+.searchwp-live-search-result--focused a {
+	color: #000;
+}
+
+.searchwp-live-search-result:last-of-type p {
+	border-bottom: 0;
+}
+
+.searchwp-live-search-result a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Bullet proof Screen Reader Only text */
+.searchwp-live-search-instructions {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	height: 1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+@keyframes searchwp-spinner-line-fade-more {
+
+	0%,
+	100% {
+		opacity: 0;
+		/* minimum opacity */
+	}
+
+	1% {
+		opacity: 1;
+	}
+}
+
+@keyframes searchwp-spinner-line-fade-quick {
+
+	0%,
+	39%,
+	100% {
+		opacity: 0.25;
+		/* minimum opacity */
+	}
+
+	40% {
+		opacity: 1;
+	}
+}
+
+@keyframes searchwp-spinner-line-fade-default {
+
+	0%,
+	100% {
+		opacity: 0.22;
+		/* minimum opacity */
+	}
+
+	1% {
+		opacity: 1;
+	}
+}
+
+/*animation element*/
+
+.animation-element {
+	opacity: 0;
+	position: relative;
+}
+
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+	opacity: 0;
+	-moz-transition: all 500ms linear;
+	-webkit-transition: all 500ms linear;
+	-o-transition: all 500ms linear;
+	transition: all 500ms linear;
+	-moz-transform: translate3d(-100px, 0px, 0px);
+	-webkit-transform: translate3d(-100px, 0px, 0px);
+	-o-transform: translate(-100px, 0px);
+	-ms-transform: translate(-100px, 0px);
+	transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.mt-2 {
+	margin-top: 2em;
+}
+
+.mt-6 {
+	margin-top: 6em;
+}
+
+.home-hero-div .link-to:after {
+	background-color: #fff;
+}
+
+footer .wrap-single-footer-nav.mr-130 {
+	margin-right: 130px;
+}
+
+img.footer-icon {
+	height: 20px;
+	width: auto;
+	padding: 3px 10px 0px 0px;
+}
+
+.our-values {
+	margin-bottom: 150px;
+}
+
+.our-values .title-wrap {
+	text-align: center;
+}
+
+.news-and-press-home .wrap-news-row .news-item {
+	height: fit-content !important;
+}
+
+.news-and-press-home .wrap-news-row .news-item .info {
+	padding: 35px 26px !important;
+}
+
+.news-and-press-home .wrap-news-row .news-item .info button {
+	top: 30px !important;
+}
+
+.our-values .wrap-news-row .news-item {
+	padding: 20px;
+	text-align: center;
+}
+
+.our-values .wrap-news-row .news-item h3 {
+	font-weight: 400 !important;
+}
+
+.our-values .wrap-news-row .news-item img {
+	width: 60px;
+	height: 60px;
+	transition-duration: 0.3s;
+}
+
+.our-values .wrap-news-row .news-item:hover img {
+	transition-duration: 0.3s;
+}
+
+.our-clients .image {
+	width: 140px;
+	height: 100px;
+	margin: 0 25px;
+}
+
+.our-clients .image img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.our-clients .client-logos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.experiences-home .wrap-carousel .swiper-slide p {
+	font-size: medium !important;
+	margin: 5px 0 30px 0 !important;
+}
+
+.experiences-home .wrap-carousel .swiper-slide a {
+	color: white;
+}
+
+.clients-say-home {
+	padding-bottom: 450px;
+}
+
+footer .top-footer-slider {
+	padding: 60px 240px;
+	height: fit-content !important;
+	text-align: center;
+}
+
+footer .top-footer-slider .secondary-heading {
+	color: white;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+footer .top-footer-slider .get-in-touch-btn {
+	padding: 20px 30px;
+	background-color: #613842;
+	margin-top: 30px;
+	letter-spacing: 3px;
+	font-size: large;
+	color: white !important;
+}
+
+footer .wrap-infos-footer {
+	max-width: 400px;
+}
+
+.we-work-for-you .wrap-rentals-list .rental-item {
+	width: calc(20% - 20px) !important;
+	margin-right: 20px !important;
+}
+
+.serviceWith .wrap-rentals-list .rental-item {
+	width: calc(25% - 20px) !important;
+	margin-right: 20px !important;
+}
+
+.philosophy-details .wrap-rentals-list .rental-item {
+	width: calc(33.33% - 20px) !important;
+	margin-right: 20px !important;
+}
+
+.serviceWith .wrap-rentals-list .rental-item h3 {
+	font-weight: 500;
+}
+
+.serviceWith .wrap-rentals-list .dark-overlay {
+	background: rgba(0, 0, 0, 0.6)
+}
+
+.philosophy-details .wrap-rentals-list .dark-overlay {
+	background: rgba(0, 0, 0, 0.7) !important;
+}
+
+header .container-fixed-mobile-nav {
+	background-color: white !important;
+	height: 90px;
+}
+
+header .container-fixed-mobile-nav .brand {
+	max-height: 0;
+	width: 50px;
+	height: 55px;
+	margin-left: 5%;
+	margin-top: -15%;
+}
+
+header .container-fixed-mobile-nav .brand img {
+	max-width: 150px;
+}
+
+header .container-fixed-mobile-nav .burger-button {
+	margin-top: 0;
+}
+
+.dark-overlay-hero {
+	background-color: rgba(30, 30, 30, 0.6);
+}
+
+.all-rentals-list .wrap-rentals-list .dark-overlay,
+.similar-experiences-single-rental .wrap-similar-experiences .dark-overlay {
+	background-color: rgba(30, 30, 30, 0.6);
+}
+
+.all-rentals-list .wrap-rentals-list .subtitle {
+	font-size: larger !important;
+}
+
+.philosophy-details .rental-item .experience-info .subtitle {
+	font-size: medium !important;
+	line-height: 23px;
+}
+
+.what-you-doing li {
+	list-style: disc !important;
+	text-align: start !important;
+}
+
+.text-animation {
+	overflow: hidden;
+}
+
+.text-animation img,
+.text-animation h3,
+.text-animation h5 {
+	transition-duration: 0.3s;
+}
+
+.text-animation:hover img {
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+
+.text-animation:hover h3 {
+	transform: translateY(-15px);
+	transition-duration: 0.3s;
+}
+
+.text-animation:hover h5 {
+	transform: translateY(-15px);
+	transition-duration: 0.3s;
+}
+
+.slideup-container {
+	position: relative;
+}
+
+.slideup-container .image {
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.slideup-container:hover .overlay img {
+	top: 50% !important;
+	left: 50% !important;
+}
+
+.slideup-container .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .6s ease;
+	display: block;
+}
+
+.slideup-container:hover .overlay {
+	height: 100%;
+}
+
+.slideup-container:hover .overlay img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.scale-card {
+	transition-duration: 1.8s;
+}
+
+.scale-card:hover {
+	transform: scale(1.1);
+	transition-duration: 1.8s;
+}
+
+.scale-card-sec .swiper-container-about-why-choose-us {
+	overflow: visible !important;
+}
+
+.contacts-and-form .wrap-form input,
+.contacts-and-form .wrap-form textarea {
+	width: 100%;
+}
+
+.propertyCat .type-item .image,
+.propertyCat .rental-item,
+.propertyCat .experience-item {
+	overflow: hidden;
+	transition-duration: 0.5s;
+}
+
+.propertyCat .type-item .image:hover img,
+.propertyCat .rental-item:hover img,
+.propertyCat .experience-item:hover img {
+	transform: scale(1.3);
+	transition-duration: 0.5s;
+}
+
+.property-slick .slick-carousel {
+	position: relative;
+}
+
+.property-slick .slick-next,
+.property-slick .slick-prev {
+	z-index: 5;
+}
+
+.property-slick .slick-next::before,
+.property-slick .slick-prev::before {
+	font-size: 50px !important;
+}
+
+.property-slick .slick-next {
+	position: absolute;
+	right: 47%;
+	top: 108%;
+}
+
+.property-slick .slick-prev {
+	position: absolute;
+	left: 47%;
+	top: 108%;
+}
+
+.property-slick .slick-next:before,
+.property-slick .slick-prev:before {
+	color: #613842;
+	font-size: 30px;
+}
+
+.property-slick .slick-slide>div {
+	transform: scale(.75);
+	transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+}
+
+.property-slick .slick-slide>div::before {
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .5);
+	transition-duration: 0.3s;
+}
+
+.property-slick .slick-center>div {
+	transform: scale(1.1);
+}
+
+.property-slick .slick-center>div::before {
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .0);
+	transition-duration: 0.3s;
+}
+
+.item>img {
+	width: 100%;
+	height: auto;
+}
+
+.property-slick .slick-slide {
+	width: 700px;
+}
+
+.amenities-sec {
+	margin-bottom: 150px;
+}
+
+.our-principal-prop {
+	padding-bottom: 70px;
+}
+
+.propertyCat{
+	padding-bottom: 100px;
+}
+
+.slick-carousel-full {
+	height: 100%;
+}
+
+.slick-carousel-full .slick-prev, .slick-carousel-full .slick-next{
+	display: none !important;
+}
+
+.slick-carousel-full .slick-track, .slick-carousel-full .slick-list{
+	height: 100%;
+}
+
+@media only screen and (min-width: 1034px) {
+	.our-values .wrap-news-row {
+		height: fit-content;
+	}
+
+	.our-values .wrap-news-row .news-item {
+		padding: 20px;
+		text-align: center;
+		width: calc(25% - 10px);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.our-values {
+		margin-bottom: 50px;
+	}
+
+	.our-values .title-wrap {
+		text-align: start;
+	}
+
+	.our-clients {
+		margin-bottom: 150px;
+	}
+
+	.our-clients .title-wrap {
+		margin-bottom: 20px;
+	}
+
+	.our-clients .image {
+		width: 90px;
+		height: 60px;
+		margin: 0 25px;
+	}
+
+	.clients-say-home {
+		padding-bottom: 50px;
+	}
+
+	footer .top-footer-slider {
+		padding: 30px 30px;
+		height: fit-content !important;
+		text-align: center;
+	}
+
+	.hero-about {
+		height: 50vh;
+	}
+
+	.hero-about .wrap-hero-header {
+		top: 65%
+	}
+
+	.work-with-us-about .wrapper-work-with-us .wrap-image .image {
+		width: 100%;
+	}
+
+	.all-rentals-list .wrap-rentals-list {
+		justify-content: center !important;
+	}
+
+	.all-rentals-list .wrap-rentals-list .rental-item {
+		width: 80% !important;
+		height: 40vh !important;
+		margin-bottom: 20px !important;
+		margin-right: 0 !important;
+	}
+
+	.all-rentals-list .wrap-rentals-list .subtitle {
+		font-size: medium !important;
+	}
+
+	.philosophy-details .rental-item .experience-info .subtitle {
+		font-size: 15px !important;
+		line-height: 18px;
+	}
+
+
+	.slick-next::before,
+	.slick-prev::before {
+		font-size: 30px !important;
+	}
+
+	.slick-next {
+		right: 40%;
+	}
+
+	.slick-prev {
+		left: 40%;
+	}
+
+	.slick-slide>div {
+		transform: scale(0.85);
+		transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+	}
+
+	.slick-center>div {
+		transform: scale(1);
+	}
+
+	.slick-slide {
+		width: 300px;
+	}
+
+	.amenities-sec {
+		margin-bottom: 50px;
+	}
+
+	.our-principal-prop {
+		padding-bottom: 20px;
+	}
+
+	.propertyCat{
+		padding-bottom: 30px;
+	}
+
+}
