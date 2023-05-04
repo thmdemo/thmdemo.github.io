@@ -4,7 +4,7 @@
 <head>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-    </script>
+        </script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,25 +21,10 @@
     <!-- header links -->
     <div id="link-head"></div>
     <style>
-        /* @font-face {
-            font-family: bwaletmedium;
-            src: url('../fonts/BWALETANO10-MEDIUM.otf');
-        }
-
-        @font-face {
-            font-family: bwaletregular;
-            src: url('../fonts/BWALETANO10-REGULAR.otf');
-        }
-
-        @font-face {
-            font-family: playfair;
-            src: url('../fonts/PLAYFAIRDISPLAY-VARIABLEFONT_WGHT.ttf');
-        } */
-
-        /* body {} */
-        .row{
+        .row {
             margin-bottom: 0.5rem;
         }
+
         .bg-brown {
             background: #2A0001;
         }
@@ -55,41 +40,6 @@
             background: #490900;
             color: #fff !important;
             padding: 10px 36px;
-        }
-
-        .banner {
-            padding: 120px 0;
-            background: url("../img/bg1.jpg");
-            background-size: cover;
-        }
-
-        .banner ul li {
-            font-size: 24px;
-            color: #fff;
-            line-height: 1.4;
-            margin-bottom: 15px;
-        }
-
-        .text_content_main {
-            padding: 70px 0 50px;
-            background: url('../img/bg3.jpg');
-            background-size: cover;
-        }
-
-        .text_content_main .bg2 {
-            padding: 120px 0;
-            background: url("../img/bg2.jpg");
-            background-size: cover;
-        }
-
-        .text_content_main p {
-            font-family: bwaletregular;
-            font-size: 26px;
-            line-height: 49px;
-            letter-spacing: 2px;
-            word-spacing: 4px;
-            text-align: justify;
-            color: #fff;
         }
 
         .amenities {
@@ -133,7 +83,7 @@
         .contact_main .titleh4 {
             font-size: 22px;
             font-weight: 500;
-            font-family: bwaletregular;
+            /* font-family: bwaletregular; */
         }
 
         .contact_main .logo {
@@ -284,10 +234,6 @@
                 padding: 30px 15px;
             }
 
-            .text_content_main .bg2 {
-                padding: 120px 20px;
-            }
-
             .amenities p {
                 font-size: 20px;
             }
@@ -298,13 +244,6 @@
         }
 
         @media only screen and (max-width: 800px) {
-
-            .text_content_main p {
-                font-size: 22px;
-                line-height: 38px;
-                letter-spacing: 1px;
-                word-spacing: 1px;
-            }
 
             .contact_main .bg-light,
             .contact_main .bg-brown {
@@ -358,6 +297,33 @@
             }
         }
 
+
+        .class {
+            width: 483px;
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-size: 1.875em;
+            line-height: 40px;
+            color: #BD9A5F;
+            margin-bottom: 12px;
+        }
+
+        .comp-section-32 .c-container-03 img {
+            max-height: 25rem;
+        }
+
+        .comp-section-32 .header-text {
+            position: absolute;
+            z-index: 120;
+            top: 50%;
+            text-align: center;
+            width: 100%;
+            color: white;
+            font-size: 2.5rem;
+            padding: 0 10%;
+            font-weight: 600;
+            line-height: 1.7;
+        }
     </style>
 </head>
 
@@ -369,8 +335,19 @@
             <!-- header -->
             <div id="header"></div>
 
-            <main style="background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gold-yellow-gradient-studio-wall-well-use-as-background-layout-banner-product-presentation_1258-63547.jpg'); background-repeat: no-repeat; background-size: cover;">
-                <section class="contact_form" style="padding-top: 15rem;">
+            <main>
+
+                <section class="comp-section-32">
+                    <div class="c-container-03 dark-overlay">
+                        <picture>
+                            <img src="assets/images/shankus images/join-the-club-bg-image.jpg"
+                                style="object-fit: cover;">
+                        </picture>
+                        <p class="header-text">BOOK FOR YOURSELF 15 YEARS OF FANTASTIC EXPERIENCES WITH S CLUB BY
+                            SHANKUS</p>
+                    </div>
+                </section>
+                <section class="contact_form" style="padding-top: 10rem;">
                     <div class="container">
                         <div class="contact_inner">
                             <div class="row">
@@ -378,20 +355,23 @@
                                     <div class="d-mobile">
                                         <div class="title_inner">
                                             <div class="row p-0">
-                                                <div class="col-8">
-                                                    <h3 class="text-white titleh4">Book for yourself 15 years of
-                                                        fantastic experiences with<br>S Club by Shankus</h3>
+                                                <div class="col-8 position-relative w-25">
+                                                    <h3 class="text-white titleh4">
+
+                                                    </h3>
                                                 </div>
                                                 <div class="col-4 position-relative">
-                                                    <img src="./img/sclub_logo.png" class="logo_mobile">
+                                                    <img src="http://sclubshankus.com/img/sclub_logo.png"
+                                                        class="logo_mobile">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="bg-light">
                                         <div class="d-computer">
-                                            <h4 class="titleh4">Book for yourself 15 years of fantastic experiences
-                                                with<br>S Club by Shankus</h4>
+                                            <h4 class="titleh4">
+
+                                            </h4>
                                         </div>
                                         <div class="form_inner">
                                             <form id="reused_form_2">
@@ -468,7 +448,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-3 d-computer bg-brown ps-lg-0">
-                                    <img src="	http://sclubshankus.com/img/sclub_logo.png" class="logo">
+                                    <img src="http://sclubshankus.com/img/sclub_logo.png" class="logo">
                                 </div>
                             </div>
                         </div>
