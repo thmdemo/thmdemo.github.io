@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#link-head").load("link-head.html");
+            $("#link-footer").load("link-footer.html");
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            $("#instagrid").load("instagrid.html");
+            $("#modal-sidemenu").load("modal-sidemenu.html");
+        });
+    </script>
+    <!-- header links -->
+    <div id="link-head"></div>
+    <style>
+        .c-item-02 .c-item-02-D.line-height {
+            line-height: 1.7rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .c-item-02 .c-item-02-D.line-height span {
+            padding: 0rem 0.6rem;
+        }
+
+        .comp-section-26 .c-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 86px;
+        }
+
+        .comp-section-26 .c-wrapper .page-title {
+            font-family: "Playfair Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 40px;
+            /* identical to box height */
+            text-align: center;
+            color: #015D4F;
+        }
+
+        .comp-section-26 .c-wrapper .page-desc {
+            font-family: "BWALETANO";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #80837D;
+            max-width: 933px;
+            margin: 18px 0 86px 0;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 {
+            margin-bottom: 170px;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-01 img {
+            width: 100%;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 {
+            position: absolute;
+            right: -77px;
+            bottom: -90px;
+            box-shadow: 0px 0px 19px rgba(165, 165, 165, 0.21);
+            background: #fff;
+            width: 526px;
+            height: 600px;
+            padding-left: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+            font-family: "Playfair Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.5em;
+            line-height: 53px;
+            color: #015D4F;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
+            max-width: 315px;
+            margin: 20px 0;
+            font-family: "BWALETANO";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 0.937em;
+            line-height: 19px;
+            color: #80837D;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B .column-4 {
+            /* columns: 4; */
+            column-gap: 2rem;
+            column-count: 4;
+            margin-bottom: 1rem;
+            width: 120%;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B .column-4 .align-items-center-26 {
+            align-items: center;
+        }
+
+        main li{
+            list-style: disc;
+            padding-top: 1rem;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-C {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #BD9A5F;
+            font-family: "BWALETANO";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.812em;
+            line-height: 17px;
+            /* identical to box height */
+            text-align: center;
+            letter-spacing: 0.15em;
+            color: #FFFFFF;
+            width: 211px;
+            height: 39px;
+            transition: transform 0.25s;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-C:hover {
+            transform: scale(1.04);
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .scroll-star {
+            width: 1px;
+            height: 540px;
+            background: #BD9A5F;
+            position: absolute;
+            z-index: 11;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .scroll-star svg {
+            position: absolute;
+            top: 0;
+            left: calc(50% - 8.5px);
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .scroll-star.v1 {
+            top: -197px;
+            right: -25px;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .scroll-star.v2 {
+            top: -126px;
+            left: 55px;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-01 .scroll-star.v3 {
+            top: -94px;
+            right: -25px;
+        }
+
+        .comp-section-26 .c-wrapper .c-container-02 {
+            display: none;
+            font-family: "Playfair Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.5em;
+            line-height: 53px;
+            text-align: center;
+            color: #11675A;
+            margin-bottom: 32px;
+        }
+
+        @media all and (max-width: 767px) {
+            .comp-section-26 {
+                padding: 28px 0 0 0;
+            }
+
+            .comp-section-26 .c-wrapper {
+                padding: 0;
+                box-shadow: none;
+            }
+
+            .comp-section-26 .c-wrapper .page-title {
+                font-family: "Playfair Display";
+                font-weight: 400;
+                font-size: 2.5em;
+                line-height: 53px;
+                text-align: center;
+                color: #11675A;
+                margin-bottom: 31px;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 {
+                margin-bottom: 30px;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 .c-item-02 {
+                width: 100%;
+                height: auto;
+                padding-left: 36px;
+                padding-right: 20px;
+                padding-top: 28px;
+                padding-bottom: 38px;
+                position: relative;
+                right: auto;
+                bottom: auto;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+                font-size: 1.562em;
+                line-height: 33px;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
+                margin: 12px 0;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B .col-4 {
+                margin: 12px 0;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-01 .scroll-star {
+                display: none;
+            }
+
+            .comp-section-26 .c-wrapper .c-container-02 {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<!-- <body class="header-v2"> -->
+
+<body class="tranparent-header">
+
+    <div id="page-wrapper">
+
+        <div id="content-wrapper">
+
+            <!-- <div class="header-top">
+                Stylish And Secluded. Get Ready for a Comfortable and Quality Holiday Experience You Can Spend With Your
+                Family.
+            </div> -->
+
+            <!-- header -->
+            <div id="header"></div>
+
+            <main>
+
+                <section class="comp-section-32">
+                    <div class="c-container-03 dark-overlay">
+                        <picture>
+                            <source media="(max-width: 1279px)" srcset="assets/images/gallery25.jpg">
+                            <source media="(min-width: 1280px)" srcset="assets/images/gallery25.jpg">
+                            <img src="assets/images/gallery25.jpg">
+                        </picture>
+                    </div>
+                </section>
+
+
+                <section class="comp-section-26">
+                    <div class="c-wrapper">
+                        <!-- <h1 class="page-title">
+                            Accomodations At Shankus
+                        </h1>
+                        <p class="page-desc">Indulge in a world of opulence with our exquisite range of stays, featuring
+                            the prestigious
+                            Shankus Resort and various Boutique Stays across India. As a valued member, you'll gain
+                            exclusive access to a level of luxury that is simply unmatched.
+                        </p> -->
+                        <div class="c-container-01">
+                            <div class="c-item-01">
+                                <picture>
+
+                                    <source media="(max-width: 1279px)" srcset="assets/images/roomlist01.png">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/roomlist01.png">
+                                    <img src="assets/images/roomlist01.png">
+
+                                </picture>
+                            </div>
+                            <div class="c-item-02">
+                                <div class="c-item-02-A">
+                                    Sports Arena
+                                </div>
+                                <div class="c-item-02-B">
+                                    <ul>
+                                        <li>
+                                            Our Sports Arena offers a wide range of activities, including
+                                            sports, fitness, and wellness
+                                            programs, to ensure that our guests have a diverse set of options to choose
+                                            from.
+                                        </li>
+                                        <li>From
+                                            traditional workouts to cutting-edge fitness classes, our facilities are
+                                            designed to
+                                            challenge
+                                            and motivate you to reach your full potential.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="c-item-02-B">
+                                    <p class="c-item-02-C line-height" data-f-anim="scaleBig2Small">
+                                    </p>
+                                </div> -->
+                                <p class="c-item-02-D line-height" data-f-anim="scaleBig2Small">
+                                    <span>Tennis courts</span> | <span>Indoor badminton courts</span> |
+                                    <span>Cricket ground</span>|<span>Box cricket</span> |
+                                    <span>Gym & fitness zone</span> | <span>Table tennis</span> |
+                                    <span>Pool table</span> | <span>Swimming pool</span>
+                                </p>
+                                <a href="contact.html" class="c-item-02-C mt-3">
+                                    Join the Club
+                                </a>
+                            </div>
+                            <div class="scroll-star v1">
+
+                                <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                        fill="#BD9A5F" />
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="c-container-01">
+                            <div class="c-item-01">
+                                <picture>
+
+                                    <source media="(max-width: 1279px)" srcset="assets/images/roomList02.png">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/roomList02.png">
+                                    <img src="assets/images/roomList02.png">
+
+                                </picture>
+                            </div>
+                            <div class="c-item-02">
+                                <div class="c-item-02-A">
+                                    Adventure <br> Avenue
+                                </div>
+                                <div class="c-item-02-B">
+                                    <ul>
+                                        <li>With exclusive membership, you'll enjoy unlimited access to our
+                                            top-of-the-line Adventure
+                                            Avenue, providing you with the ultimate experience to push your boundaries and
+                                            embark on
+                                            new adventures.</li>
+                                            <li>
+                                                Don't miss out on the chance to create unforgettable memories with
+                                                your
+                                                family and friends.
+                                            </li>
+                                            <li>
+                                                Come and discover the thrill of Adventure Avenue!
+                                            </li>
+                                    </ul>  
+                                </div>
+                                <a href="contact.html" class="c-item-02-C mt-3">
+                                    Join the Club
+                                </a>
+                            </div>
+                            <div class="scroll-star v2">
+
+                                <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                        fill="#BD9A5F" />
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="c-container-01">
+                            <div class="c-item-01">
+                                <picture>
+
+                                    <source media="(max-width: 1279px)" srcset="assets/images/roomList03.png">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/roomList03.png">
+                                    <img src="assets/images/roomList03.png">
+
+                                </picture>
+                            </div>
+                            <div class="c-item-02">
+                                <div class="c-item-02-A">
+                                    Water Park
+                                </div>
+                                <div class="c-item-02-B">
+                                    <ul>
+                                        <li>Looking for a fun and exciting way to beat the summer heat?
+                                            Look no further than the
+                                            Shankus Waterpark - a top-rated destination that offers a variety of water rides and
+                                            attractions for visitors of all ages.</li>
+                                            <li> We understand the importance of hygiene, and that’s why we maintain the highest
+                                                standards
+                                                of cleanliness and safety.</li>
+                                            <li>The park has a gold standard filtration system by Neptune Benson (USA) and
+                                                international
+                                                rides by Whitewater Inc. (Canada).</li>
+                                            <li>And with our exclusive membership program, you and your family can enjoy unlimited
+                                                access to the park all year long.</li>
+                                    </ul>
+                                </div>
+                                <a href="contact.html" class="c-item-02-C mt-1">
+                                    Join the Club
+                                </a>
+                            </div>
+                            <div class="scroll-star v3">
+
+                                <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                        fill="#BD9A5F" />
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="c-container-01">
+                            <div class="c-item-01">
+                                <picture>
+                                    <source media="(max-width: 1279px)" srcset="assets/images/roomList04.png">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/roomList04.png">
+                                    <img src="assets/images/roomList04.png">
+
+                                </picture>
+                            </div>
+                            <div class="c-item-02">
+                                <div class="c-item-02-A">
+                                    Events Lawn
+                                </div>
+                                <div class="c-item-02-B">
+                                    <ul>
+                                        <li>Whether you're planning an extravagant celebration or an
+                                            intimate gathering, we have three
+                                            stunning options of venue to choose from: the majestic Mughal Garden, the serene
+                                            Oasis,
+                                            and the stylish Signature.</li>
+                                        <li>Each venue is meticulously designed to offer its own
+                                            unique charm
+                                            and can be tailored to suit your preferences, making it the perfect backdrop for
+                                            your special
+                                            day.</li>
+                                        <li>As a valued member, you'll have exclusive access to these exceptional venues at
+                                            unbeatable rates.</li>
+                                    </ul>
+                                      
+                                </div>
+                                <a href="contact.html" class="c-item-02-C mt-3">
+                                    Join the Club
+                                </a>
+                            </div>
+                            <div class="scroll-star v3">
+
+                                <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                        fill="#BD9A5F" />
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="c-container-01">
+                            <div class="c-item-01">
+                                <picture>
+
+                                    <source media="(max-width: 1279px)" srcset="assets/images/roomList05.png">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/roomList05.png">
+                                    <img src="assets/images/roomList05.png">
+
+                                </picture>
+                            </div>
+                            <div class="c-item-02">
+                                <div class="c-item-02-A">
+                                    Cafeteria
+                                </div>
+                                <div class="c-item-02-B">
+                                    <ul>
+                                        <li>
+                                            Whether you're looking for a quick bite or a leisurely meal, our café is the perfect
+                                            spot to
+                                            unwind and savor some delicious food while enjoying the stunning scenery. </li>
+                                        <li>
+                                            With
+                                            comfortable
+                                            seating and a laid-back ambiance, our cafeteria area is the perfect place to catch
+                                            up with
+                                            friends or colleagues over coffee, or simply relax with a good book.</li>
+                                    </ul>
+                                </div>
+                                <a href="contact.html" class="c-item-02-C mt-3">
+                                    Join the Club
+                                </a>
+                            </div>
+                            <div class="scroll-star v3">
+
+                                <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                        fill="#BD9A5F" />
+
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+
+            <div id="footer"></div>
+
+        </div>
+
+        <section id="modal-wrapper">
+            <div id="modal-content">
+                <div id="modal-header"></div>
+                <div id="modal-body"></div>
+                <div id="modal-footer"></div>
+                <a id="modal-close" href="javascript:void(0);"
+                    onclick="Feux.Modal.Actions.closeClick({ ev: event, sender: this });"></a>
+            </div>
+        </section>
+
+        <!-- modal-sidemenu -->
+        <div id="modal-sidemenu"></div>
+        <div id="overlay-wrapper" onclick="Feux.Base.overlayClick({ sender: this });"></div>
+        <div id="toast-wrapper"></div>
+
+    </div>
+
+    <div id="mq-values">
+        <div id="mq-xs1"></div>
+        <div id="mq-xs2"></div>
+        <div id="mq-sm1"></div>
+        <div id="mq-sm2"></div>
+        <div id="mq-md"></div>
+        <div id="mq-lg"></div>
+        <div id="mq-xl"></div>
+    </div>
+
+    <!-- footer links -->
+    <div id="link-footer"></div>
+</body>
+
+
+</html>
