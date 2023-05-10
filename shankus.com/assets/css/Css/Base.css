@@ -2027,7 +2027,7 @@ body.noscroll {
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-07 {
-    height: 487px;
+    height: 530px;
     width: 100%;
     display: flex;
     justify-content: center;

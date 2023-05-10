@@ -1,0 +1,475 @@
+#emicalculatordashboard, #emipaymentsummary {
+	margin-bottom: 20px
+}
+.ui-slider-horizontal {
+	height: .4em!important
+}
+.ui-slider-horizontal .ui-slider-handle {
+	margin-left: -.5em!important;
+	top: -.35em!important
+}
+.ui-slider .ui-slider-handle {
+	border-radius: 50%!important;
+	height: 1.1em!important;
+	width: 1.1em!important;
+	outline: 0
+}
+.ui-widget-content {
+	border: 0!important;
+	background: #ccc!important
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #613842!important;
+	border: 1px solid #613842!important
+}
+.ui-widget-header {
+	background: #613842!important
+}
+#emicalculatorform {
+	margin-bottom: 0!important
+}
+#emicalculatorinnerformwrapper {
+	border-top: 1px solid #f2f2f2;
+}
+#emicalculatorinnerform {
+	padding: 10px 0
+}
+#emicalculatorform div.sep {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form-group.lamount {
+    padding-bottom: 25px;
+}
+ul.loanproduct-nav {
+	background: none;
+	border: 0;
+	float: none;
+	list-style: none!important;
+	margin: 0!important;
+	padding: 0 0 0 10px
+}
+ul.loanproduct-nav li {
+	float: left;
+	list-style: none!important;
+	margin: 0 -1px -1px 0!important;
+	position: relative;
+	z-index: 10
+}
+ul.loanproduct-nav li a {
+	border: 1px solid #ccc;
+	display: block;
+	overflow: hidden;
+	padding: 15px 10px;
+	background: #dedede;
+	margin: 0!important;
+	text-decoration: none;
+	color: #555555 !important;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1.3;
+	text-align: center;
+	outline: 0
+}
+ul.loanproduct-nav li a:hover {
+	background: #eee!important;
+	margin: 0!important
+}
+ul.loanproduct-nav li.active a {
+	background: #eee;
+	border-bottom-color: transparent
+}
+#loanamountslider, #loaninterestslider, #loantermslider {
+	margin-bottom: 0!important
+}
+.add-check .active:before {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	/* font-family: FontAwesome; */
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	content: "\f00c"
+}
+#emiamount p, #emicalculatorinnerformwrapper input, #emipaymentsummary p, #startmonthyear, .emischemes label {
+}
+.steps {
+	border-color: transparent;
+	border-style: none solid;
+	border-width: 0 1px;
+	margin: 0 0 35px!important;
+	position: relative;
+	width: 100%
+}
+.tick {
+	color: #ccc;
+	font-size: 11px;
+	height: 11px;
+	left: 0;
+	line-height: 11px;
+	margin-left: -24px;
+	position: absolute;
+	text-align: center;
+	width: 48px
+}
+.marker {
+	border: 1px solid transparent;
+	color: #333;
+	font-size: 9px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center
+}
+#emiamount, #emitotalamount, #emitotalinterest {
+	line-height: 35px;
+	padding: 30px 15px 30px;
+	text-align: center
+}
+.emischemes label {
+	max-width: 110px;
+	white-space: normal
+}
+#emiamount p {
+	font-size: 24px!important
+}
+#emiamount, #emitotalinterest {
+	border-bottom: 1px dashed #ccc;
+	border-top: 0 none!important
+}
+#emipaymentsummary {
+	border: 1px solid #ccc;
+	}
+#emipaymentsummary h4 {
+	font-size: 16px;
+	color: #666
+}
+#emipaymentsummary p {
+	font-size: 24px;
+	font-weight: 700;
+	color: #613842;
+	text-align: center
+}
+#emipaymentsummary span {
+	padding: 0 5px
+}
+#startmonthyear {
+	background-color: #fff!important;
+	cursor: default
+}
+#emipiechart {
+	border: 1px solid #f2f2f2;
+	text-align: center;
+	margin-bottom: 1px
+}
+.fill-width {
+	float: none!important;
+	display: block!important;
+	width: auto!important;
+	overflow: hidden!important
+}
+.bbloanproducts {
+	margin: 1px 0 0;
+	padding: 0 0 15px;
+	text-align: center
+}
+.bbloanproducts a, .bbloanproducts p {
+	text-align: center;
+	font-weight: 700
+}
+.bbloanproducts i {
+	background: #fff;
+	border-radius: 50%;
+	color: #0072aa;
+	padding: 5px;
+	margin-left: 5px
+}
+#emibarchart, #emipaymentscheduleheader {
+	
+	margin-bottom: 20px;
+}
+.bbloanproducts a:hover i {
+	color: #005077
+}
+.show_element {
+	display: block;
+	visibility: visible
+}
+.hide_element {
+	display: none;
+	visibility: hidden
+}
+.yearlypaymentdetails .toggle-open:before, .yearlypaymentdetails .toggle:before {
+	position: relative;
+	top: 0;
+	left: -8px;
+	display: inline-block;
+	/* font-family: FontAwesome; */
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1
+}
+#emipaymentscheduleheader {
+	border: 1px solid #f2f2f2;
+	padding: 10px 0;
+	text-align: center
+}
+#emibarchart {
+	clear: both;
+	border: 1px solid #f2f2f2;
+	padding: 30px 0 0
+}
+#emipaymenttable {
+	margin: 0;
+	text-align: center
+}
+#emipaymenttable table {
+	width: 100%;
+	background: #f9f9f9;
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+#emipaymenttable table th {
+	background: #dedede;
+	text-align: center;
+	padding: 5px;
+	font-size: 11px
+}
+#emipaymenttable table td {
+	text-align: center !important;
+	padding: 5px;
+	font-size: 11px;
+	white-space: nowrap
+}
+#emipaymenttable table tr td, #emipaymenttable table tr th {
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2
+}
+#emipaymenttable table tr td:first-child, #emipaymenttable table tr th:first-child {
+	border-left: 1px solid #f2f2f2
+}
+#emipaymenttable table tr th {
+    border-top: 1px solid #f2f2f2;
+    background: #613842;
+    color: #fff;
+}
+.yearlypaymentdetails .toggle:before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	content: "\f196"
+}
+.yearlypaymentdetails .toggle-open:before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	content: "\f147"
+}
+.toggle {
+	cursor: pointer
+}
+.toggle-hidden {
+	display: none;
+	visibility: hidden
+}
+.toggle-visible {
+	display: block;
+	visibility: visible;
+	margin-bottom: 0!important
+}
+td.paymentyear {
+	text-align: center!important;
+	font-weight: 700!important
+}
+td.currency, td.paidtodatemonthyear, td.paidtodateyear {
+	border-left: 0 none!important;
+	text-align: right!important
+}
+td.monthyearwrapper {
+	margin: 0;
+	padding: 0!important
+}
+.monthlypaymentdetails td {
+	border: 0!important
+}
+.monthlypaymentcontainer table td {
+	background: #fff;
+	font-size: 11px;
+	white-space: nowrap
+}
+.monthlypaymentcontainer table tr td, .monthlypaymentcontainer table tr th {
+	border-right: 1px solid #f2f2f2!important;
+	border-bottom: 1px solid #f2f2f2!important;
+	}
+.monthlypaymentcontainer table tr td:first-child {
+	border-left: 1px solid #f2f2f2 !important
+}
+.furtherreading {
+	border-bottom: 3px double #e8e8e8
+}
+.display-posts-listing {
+	padding: 0;
+	margin: 0
+}
+.listing-item {
+	list-style: none;
+	padding: 10px 0!important;
+	border-bottom: 1px solid #ccc!important;
+	margin: 0!important
+}
+.listing-item:after {
+	background: 0 0!important;
+	color: #fff!important;
+	content: ""!important
+}
+.listing-item a {
+	font-size: 18px!important
+}
+span.date {
+	float: right;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: right;
+	font-size: 14px!important;
+	color: gray;
+	margin: 0 0 0 15px
+}
+.sidebar .widget_nav_menu, .sidebar .widget_recent_entries {
+	background: #eee!important;
+	border: 1px solid #ccc!important
+}
+.sidebar .widget_nav_menu h3, .sidebar .widget_recent_entries h3, .sidebar .widget_text h3 {
+	border-bottom: 3px double #ccc!important
+}
+.sidebar .widget ul li {
+	border-bottom: 1px dashed #ccc!important
+}
+.sidebar .widget ul li:last-child {
+	border-bottom: 0 none!important
+}
+.homepagebanner {
+	margin: 0 0 15px!important
+}
+.ecalprint {
+	margin-right: 10px
+}
+#ecalprintandshare a i {
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	border-radius: 50%;
+	color: #0072aa;
+	margin-right: 5px;
+	padding: 5px
+}
+#ecalprintandshare a:hover i {
+	color: #005077
+}
+#loader {
+	display: none;
+	text-align: center;
+	margin: 5px auto;
+	font-size: 20px;
+	overflow: hidden;
+	vertical-align: middle
+}
+#ecalprintandshare {
+	margin: 20px auto 0;
+	text-align: center
+}
+#ecalprintandsharetext {
+	font-size: 18px;
+	font-weight: 700
+}
+#ecalsharelink {
+	margin: 10px auto 0;
+	text-align: center;
+	width: 300px
+}
+#sharelink {
+	font-weight: 700;
+	color: #00F;
+	background: #fff
+}
+@media(min-width:480px) {
+ul.loanproduct-nav li a {
+	border: 1px solid #ccc;
+	display: block;
+	overflow: hidden;
+	padding: 15px;
+	background: #dedede;
+	margin: 0!important;
+	text-decoration: none;
+	color: #333!important;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: center;
+	outline: 0
+}
+.emischemes label {
+	max-width: none;
+	white-space: nowrap
+}
+#emipaymenttable table th {
+	font-size: 16px;
+	padding: 10px 0;
+	vertical-align: middle
+}
+#emipaymenttable table td, .monthlypaymentcontainer table td {
+	font-size: 14px;
+	line-height:25px;
+	background:#fff;
+}
+}
+@media(min-width:768px) {
+#emicalculatorinnerform {
+	border-bottom: 1px solid #f2f2f2;
+	padding: 10px 20px
+}
+#emipaymentsummary {
+	border: 0
+}
+#emipiechart {
+	border: 0;
+	border-left: 1px solid #f2f2f2;
+	}
+#emicalculatorinnerformwrapper {
+	border: 1px solid #f2f2f2;
+}
+ul.loanproduct-nav {
+	padding-left: 0
+}
+.bbloanproducts {
+	border-top: 1px solid #f2f2f2
+}
+}
+@media(min-width:992px) {
+#emicalculatorinnerform {
+    padding: 40px;
+}
+}
+@media print {
+body {
+	visibility: hidden
+}
+.calculatorcontainer {
+	visibility: visible
+}
+#ecalprintandshare, #ecalsharelink, .bbloanproducts {
+	visibility: hidden
+}
+}
+h1, h2, h3, h4, h5, h6, strong{
+	/* font-family: poppins; */
+}
+.mt20 {
+    margin-top: 20px;
+}
+.list {
+    padding: 15px 20px 0;
+}
+.list li {
+    line-height: normal;
+}
+.emi p{
+	text-align:justify;
+}

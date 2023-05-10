@@ -7983,10 +7983,11 @@ fieldset#contact__form__message {
     /* min-height: 25em; */
     border-radius: 0.6em;
     /* transform: translate(-50%, -50%); */
-    left: 50%;
+    /* left: 50%; */
     top: 50%;
     /* box-shadow:  1.1em 1.4em 1.1em 0  rgba(1, 17, 39, 0.15); */
     display: flex;
+    position: relative;
 }
 
 .testimonial-container {
@@ -8014,11 +8015,13 @@ fieldset#contact__form__message {
 }
 
 button#next {
-    left: 20em;
+    top: -30%;
+    right: 10%;
 }
 
 button#prev {
-    left: 8em;
+    top: -30%;
+    left: 10%;
 }
 
 .testimonial-container p {
@@ -8053,6 +8056,7 @@ button#prev {
 @media screen and (max-width: 1024px) {
     .wrapper-testimonial {
         font-size: 14px;
+        position: relative;
     }
 
     .wrapper-testimonial button {
@@ -8068,7 +8072,7 @@ button#prev {
         bottom: 0;
         border: none;
         color: #0a69ed;
-        box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(1, 17, 39, 0.25);
+        /* box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(1, 17, 39, 0.25); */
         cursor: pointer;
         border-radius: 50%;
     }
@@ -8191,4 +8195,8 @@ button#prev {
 
 .projects__nav__infos__tag__value{
     display: none;
+}
+
+.nav--fullscreen #nav__content__inner{
+    background: #f7f7f7 !important;
 }
