@@ -1053,7 +1053,7 @@ body.noscroll {
 
   .section-03 .c-item-01 {
     width: 50%;
-    height: auto;
+    height: 550px;
   }
 
   .section-03 .c-item-02 {
@@ -3350,6 +3350,7 @@ body.noscroll {
 
 .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A img {
   width: 100%;
+  height: 350px;
 }
 
 .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E {
