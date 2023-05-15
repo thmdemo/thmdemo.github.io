@@ -7798,6 +7798,18 @@ a {
   border-bottom-color: #ffffff;
 }
 
+#membership {
+  position: fixed;
+  right: -42px;
+  /* left:100%; */
+  bottom: 50%;
+  color: white;
+  padding: 1rem;
+  transform: rotate(90deg);
+  background-color: #BD9A5F;
+  z-index: 1;
+}
+
 .image-grid-insta{
   display: block;
   width: 104%;
