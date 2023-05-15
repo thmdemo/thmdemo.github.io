@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
@@ -18,7 +19,42 @@
     </script>
     <!-- header links -->
     <div id="link-head"></div>
+    <style>
+        .logo-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            /* width: fit-content; */
+            width: 100%;
+            align-self: center;
+            justify-self: center;
+            display: flex;
+        }
 
+        .logo-container {
+            align-items: center;
+            justify-items: center;
+            display: flex;
+            width: 100%;
+            padding-top: 0px;
+            /* margin-top: -400px; */
+        }
+    </style>
+ <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#button').fadeIn();
+            } else {
+                $('#button').fadeOut();
+            }
+        });
+        $('#button').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+</script>
 </head>
 
 <body class="tranparent-header">
@@ -35,150 +71,333 @@
                         <picture>
                             <!-- <source media="(max-width: 1279px)" srcset="assets/images/gallery25.jpg">
                             <source media="(min-width: 1280px)" srcset="assets/images/gallery25.jpg"> -->
-                            <img src="assets/images/gallery25.jpg">
+                            <img src="assets/images/shankus images/gallery/banner-img-gallery.jpg">
                         </picture>
                     </div>
                 </section>
-                <!-- gallery -->
-                <section class="comp-section-34">
+                <!-- logos -->
+                <!-- <div class="row p-5 w-100">
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusWaterPark">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-02.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusNaturalHealthCenter">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-03.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusResortAndBoutiqueStays">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-04.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusSportsArena">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-05.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusAdventureAvenue">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-06.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-4" class="logo-container">
+                        <a href="#shankusPrivateEventsVenues">
+                            <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-07.jpg" alt="logo"
+                            class="logo-img">
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- shankusWaterPark -->
+                <section class="comp-section-34" id="shankusWaterPark">
                     <div class="c-wrapper gallery" id="gallery">
-                        <div class="c-container-03">
-                            <div class="c-item-01">PHOTOGRAPH AND VIDEOS</div>
-                            <a href="contact.html"
-                                class="c-item-02">RESERVATION</a>
-                        </div>
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Water Park</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
                         <div class="c-container-01">
-                            <a href="assets/images/shankus images/gallery-1.jpg" data-fancybox>
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-02.jpg" data-fancybox>
                                 <picture>
-                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery-1.jpg">
-                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery-1.jpg"> -->
-                                    <img src="assets/images/shankus images/gallery-1.jpg">
+                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-02.jpg">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-02.jpg"> -->
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-02.jpg">
                                 </picture>
                             </a>
-                            <a href="assets/images/shankus images/gallery-2.jpg" data-fancybox>
+                            <a href="assets/images/shankus images/gallery/gallery_waterpark-02.JPG" data-fancybox>
                                 <picture>
-                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery-2.jpg">
-                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery-2.jpg"> -->
-                                    <img src="assets/images/shankus images/gallery-2.jpg">
+                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-02.JPG">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-02.JPG"> -->
+                                    <img src="assets/images/shankus images/gallery/gallery_waterpark-02.JPG">
                                 </picture>
                             </a>
                             <video autoplay muted loop>
-                                <source src="assets/Hero-section-bg-video-sample.mp4" type="video/mp4">
+                                <source src="https://res.cloudinary.com/dtffkg1nc/video/upload/v1683907424/Shankus/home-02_gaeoiz.mp4" type="video/mp4">
                                 <!-- <source src="assets/images/cabirvideo.ogg" type="video/ogg"> -->
                                 Your browser does not support HTML video.
                             </video>
                         </div>
                         <div class="c-container-02">
-                            <a href="assets/images/shankus images/gallery-3.jpg" data-fancybox>
+                            <a href="assets/images/shankus images/gallery/gallery_waterpark-03.JPG" data-fancybox>
                                 <picture>
-                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery-3.jpg">
-                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery-3.jpg"> -->
-                                    <img src="assets/images/shankus images/gallery-3.jpg">
+                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-03.JPG">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-03.JPG"> -->
+                                    <img src="assets/images/shankus images/gallery/gallery_waterpark-03.JPG">
                                 </picture>
                             </a>
-                            <a href="assets/images/shankus images/gallery-4.jpg" data-fancybox>
+                            <a href="assets/images/shankus images/gallery/gallery_waterpark-04.JPG" data-fancybox>
                                 <picture>
-                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery-4.jpg">
-                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery-4.jpg"> -->
-                                    <img src="assets/images/shankus images/gallery-4.jpg">
+                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-04.JPG">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-04.JPG"> -->
+                                    <img src="assets/images/shankus images/gallery/gallery_waterpark-04.JPG">
                                 </picture>
                             </a>
-                            <a href="assets/images/shankus images/gallery-5.jpg" data-fancybox>
+                            <a href="assets/images/shankus images/gallery/gallery_waterpark-05.JPG" data-fancybox>
                                 <picture>
-                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery-5.jpg">
-                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery-5.jpg"> -->
-                                    <img src="assets/images/shankus images/gallery-5.jpg">
+                                    <!-- <source media="(max-width: 1279px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-05.JPG">
+                                    <source media="(min-width: 1280px)" srcset="assets/images/shankus images/gallery/gallery_waterpark-05.JPG"> -->
+                                    <img src="assets/images/shankus images/gallery/gallery_waterpark-05.JPG">
                                 </picture>
                             </a>
                         </div>
                     </div>
                 </section>
-                <!-- feedback -->
-                <!-- <section class="comp-section-27">
-                    <div class="c-wrapper">
+
+                <!-- shankusNaturalHealthCenter -->
+                <section class="comp-section-34" id="shankusNaturalHealthCenter">
+                    <div class="c-wrapper gallery" id="gallery">
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Natural Health Center</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
                         <div class="c-container-01">
-                            <div class="c-column-01">
-                                <div class="c-item-01">
-                                    <div class="c-item-01-A">
-                                        <div class="c-unit-01">
-                                            <picture>
-                                                <source media="(max-width: 1119px)"
-                                                    srcset="assets/images/roomone.png">
-                                                <source media="(min-width: 1200px)"
-                                                    srcset="assets/images/roomone.png">
-                                                <img src="assets/images/roomone.png">
-                                            </picture>
-                                        </div>
-                                        <div class="c-unit-01">
-                                            <picture>
-                                                <source media="(max-width: 1119px)"
-                                                    srcset="assets/images/roomtwo.png">
-                                                <source media="(min-width: 1200px)"
-                                                    srcset="assets/images/roomtwo.png">
-                                                <img src="assets/images/roomtwo.png">
-                                            </picture>
-                                        </div>
-                                    </div>
-                                    <div class="c-item-01-B">
-                                        <div class="c-unit-01">
-                                            <picture>
-                                                <source media="(max-width: 1119px)"
-                                                    srcset="assets/images/roomthree.png">
-                                                <source media="(min-width: 1200px)"
-                                                    srcset="assets/images/roomthree.png">
-                                                <img src="assets/images/roomthree.png">
-                                            </picture>
-                                        </div>
-                                        <div class="c-unit-01">
-                                            <picture>
-                                                <source media="(max-width: 1119px)"
-                                                    srcset="assets/images/roomfour.png">
-                                                <source media="(min-width: 1200px)"
-                                                    srcset="assets/images/roomfour.png">
-                                                <img src="assets/images/roomfour.png">
-                                            </picture>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="c-line-01"></div>
-                                <div class="c-line-02"></div>
-                                <div class="c-line-03"></div>
-                                <div class="scroll-star">
-                                    <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
-                                            fill="#BD9A5F" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="c-column-02">
-                                <div class="c-item-01">
-                                    COSTUMER REVIEW
-                                </div>
-                                <div class="c-item-02">
-                                    Your feedback is very important to us.
-                                </div>
-                                <div class="c-item-03">
-                                    Evaluate Your Reservation
-                                </div>
-                                <div class="c-item-04">
-                                    First of all, thank you very much for choosing us and taking the time to evaluate
-                                    our service. Your satisfaction is very important to us. We will be happy to welcome
-                                    you again as soon as possible.
-                                </div>
-                                <a target="_blank" href="https://g.page/r/CUWnj_YVzWcFEAg/review" class="c-item-05">
-                                    COMMENT
-                                </a>
-                            </div>
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-03.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-03.jpg">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/natural_health-02.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/natural_health-02.JPG">
+                                </picture>
+                            </a>
+                            <a style="display: flex; contain: content; height: 100%; width:100%" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/natural_health-06.JPG">
+                                </picture>
+                                <!-- <source src="assets/images/shankus images/gallery/natural_health-06.JPG" type="video/mp4"> -->
+                                <!-- Your browser does not support HTML video. -->
+                            </a>
+                        </div>
+                        <div class="c-container-02">
+                            <!-- <a href="assets/images/shankus images/gallery/natural_health-03.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/natural_health-03.JPG">
+                                </picture>
+                            </a> -->
+                            <a href="assets/images/shankus images/gallery/natural_health-04.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/natural_health-04.JPG">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/natural_health-05.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/natural_health-05.JPG">
+                                </picture>
+                            </a>
                         </div>
                     </div>
-                </section> -->
+                </section>
+
+                <!-- shankusResortAndBoutiqueStays -->
+                <section class="comp-section-34" id="shankusResortAndBoutiqueStays">
+                    <div class="c-wrapper gallery" id="gallery">
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Resort And Boutique Stays</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
+                        <div class="c-container-01">
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-04.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-04.jpg">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/resort-02.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/resort-02.JPG">
+                                </picture>
+                            </a>
+                            <a style="display: flex; contain: content; height: 100%; width:100%" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/resort-06.png">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="c-container-02">
+                            <a href="assets/images/shankus images/gallery/resort-03.jpeg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/resort-03.jpeg" height="190px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/resort-04.png" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/resort-04.png">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/resort-05.JPG" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/resort-05.JPG" height="190px">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- shankusSportsArena -->
+                <section class="comp-section-34" id="shankusSportsArena">
+                    <div class="c-wrapper gallery" id="gallery">
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Sports Arena</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
+                        <div class="c-container-01">
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-05.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-05.jpg" height="190px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/sports-02.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/sports-02.jpg" height="190px">
+                                </picture>
+                            </a>
+                            <a style="display: flex; contain: content; height: 100%; width:100%" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/sports-06.jpg">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="c-container-02">
+                            <a href="assets/images/shankus images/gallery/sports-03.jpeg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/sports-03.jpeg" height="190px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/sports-04.png" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/sports-04.png" height="190px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/sports-05.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/sports-05.jpg" height="190px">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- shankusAdventureAvenue -->
+                <section class="comp-section-34" id="shankusAdventureAvenue">
+                    <div class="c-wrapper gallery" id="gallery">
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Adventure Avenue</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
+                        <div class="c-container-01">
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-05.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-05.jpg" height="230px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/adventure-02.JPG" height="190px" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/adventure-02.JPG">
+                                </picture>
+                            </a>
+                            <a style="display: flex; contain: content; height: 100%; width:100%" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/adventure-06.JPG">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="c-container-02">
+                            <a href="assets/images/shankus images/gallery/adventure-03.JPG" height="190px" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/adventure-03.JPG">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/adventure-04.JPG" height="210px" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/adventure-04.JPG">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/adventure-05.JPG" height="210px" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/adventure-05.JPG">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- shankusPrivateEventsVenues -->
+                <section class="comp-section-34" id="shankusPrivateEventsVenues">
+                    <div class="c-wrapper gallery" id="gallery">
+                        <!-- <div class="c-container-03">
+                            <div class="c-item-01">Shankus Private Events Venues</div>
+                            <a href="contact.html" class="c-item-02">RESERVATION</a>
+                        </div> -->
+                        <div class="c-container-01">
+                            <a href="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-06.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/fwdshankusalllogos/Final _ All Logos-06.jpg">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/events-02.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/events-02.jpg" height="257px">
+                                </picture>
+                            </a>
+                            <a style="display: flex; contain: content; height: 100%; width:100%" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/events-06.jpg">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="c-container-02">
+                            <a href="assets/images/shankus images/gallery/events-03.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/events-03.jpg" height="257px">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/events-04.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/events-04.jpg">
+                                </picture>
+                            </a>
+                            <a href="assets/images/shankus images/gallery/events-05.jpg" data-fancybox>
+                                <picture>
+                                    <img src="assets/images/shankus images/gallery/events-05.jpg">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
             </main>
 
-                <!-- insta -->
-                <div id="instagrid"></div>
-                
+            <!-- insta -->
+            <div id="instagrid"></div>
+
+
+            <button id="button"><span></span></button>
             <!-- Footer -->
             <div id="footer"></div>
 

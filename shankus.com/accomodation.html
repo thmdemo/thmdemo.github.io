@@ -157,7 +157,21 @@
             
         }
     </style>
-
+ <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#button').fadeIn();
+            } else {
+                $('#button').fadeOut();
+            }
+        });
+        $('#button').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+</script>
 </head>
 
 <body class="tranparent-header">
@@ -174,9 +188,9 @@
                 <section class="comp-section-32">
                     <div class="c-container-03 dark-overlay">
                         <picture>
-                            <source media="(max-width: 1279px)" srcset="assets/images/gallery25.jpg">
-                            <source media="(min-width: 1280px)" srcset="assets/images/gallery25.jpg">
-                            <img src="assets/images/gallery25.jpg">
+                            <!-- <source media="(max-width: 1279px)" srcset="assets/images/gallery25.jpg">
+                            <source media="(min-width: 1280px)" srcset="assets/images/gallery25.jpg"> -->
+                            <img src="assets/images/shankus images/accomodation.jpg">
                         </picture>
                     </div>
                 </section>
@@ -192,15 +206,15 @@
                             exclusive access to a level of luxury that is simply unmatched.
                         </p>
                         <a class="book-btn" href="contact.html">
-                            Book Your Stay
+                            Membership Login
                         </a>
                     </div>
                 </section>
 
                 <!-- Shankus Resort -->
-                <section class="section-03">
+                <section class="section-03" id="resortAndBoutiqueStay">
                     <!-- <img class="c-item-01" src="assets/images/lotuspa.png" alt="lotus spa"> -->
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/resort.jpeg" alt="Resort">
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
                             Shankus Resort
@@ -290,7 +304,7 @@
                         </div>
                         <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
-                                <span class="infinitive-scale-anim-01">Book Your Stay</span>
+                                <span class="infinitive-scale-anim-01">Membership Login</span>
                             </a>
                         </div>
                     </div>
@@ -391,26 +405,26 @@
                         </div>
                         <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
-                                <span class="infinitive-scale-anim-01">Book Your Stay</span>
+                                <span class="infinitive-scale-anim-01">Membership Login</span>
                             </a>
                         </div>
                     </div>
 
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/resort_udaipur.jpg" alt="Resort">
 
-                    <div class="scroll-star">
+                    <!-- <div class="scroll-star">
                         <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
                                 fill="#BD9A5F" />
                         </svg>
-                    </div>
+                    </div> -->
                 </section>
 
                 <!-- Shankus Boutique Stay - Uttarakhand -->
                 <section class="section-03">
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/resort_uttrakhand.jpg" alt="Resort">
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
                             Shankus Boutique Stay - Uttarakhand
@@ -501,14 +515,14 @@
                         </div>
                         <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
-                                <span class="infinitive-scale-anim-01">Book Your Stay</span>
+                                <span class="infinitive-scale-anim-01">Membership Login</span>
                             </a>
                         </div>
                     </div>
                 </section>
 
                 <!-- Shankus Natural Health Center -->
-                <section class="section-03">
+                <section class="section-03" id="naturopathyAndHealthCentre">
                     <div class="c-item-02 c-item-02-01">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
                             Shankus Natural Health Center
@@ -541,19 +555,22 @@
                         </ul>
                         <div class="c-item-02-D">
                             <a class="c-unit-01 mt-3" href="contact.html">
-                                <span class="infinitive-scale-anim-01">Book Your Stay</span>
+                                <span class="infinitive-scale-anim-01">Membership Login</span>
                             </a>
                         </div>
                     </div>
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/Shankus Natural Health Center.jpg" alt="Resort">
                 </section>
 
+            
             </main>
 
 
             <!-- insta -->
             <div id="instagrid"></div>
 
+
+            <button id="button"><span></span></button>
             <!-- Footer -->
             <div id="footer"></div>
 

@@ -46,8 +46,8 @@
         }
 
         .section-03 .c-item-02 {
-            height: 39rem;
-            padding: 90px 0 90px 75px;
+            height: 30rem;
+            padding: 50px 10px 20px 50px;
         }
 
         .section-03 .c-item-02-01 {
@@ -159,7 +159,21 @@
 
         }
     </style>
-
+ <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#button').fadeIn();
+            } else {
+                $('#button').fadeOut();
+            }
+        });
+        $('#button').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+</script>
 </head>
 
 <body class="tranparent-header">
@@ -200,7 +214,7 @@
                 </section>
 
                 <!-- Sports Arena -->
-                <section class="section-03">
+                <section class="section-03" id="sportsArena">
                     <!-- <img class="c-item-01" src="assets/images/lotuspa.png" alt="lotus spa"> -->
                     <img class="c-item-01" src="assets/images/shankus images/sports_ground.jpg" alt="Resort">
                     <div class="c-item-02">
@@ -226,16 +240,16 @@
                             <span>Gym & fitness zone</span> | <span>Table tennis</span> |
                             <span>Pool table</span> | <span>Swimming pool</span>
                         </p>
-                        <div class="c-item-02-D">
+                        <!-- <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
                                 <span class="infinitive-scale-anim-01">Book Your Stay</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
 
                 <!-- Adventure Avenue -->
-                <section class="section-03">
+                <section class="section-03" id="adventureAvenue">
                     <!-- <img class="c-item-01" src="assets/images/lotuspa.png" alt="lotus spa"> -->
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
@@ -256,14 +270,14 @@
                         <p class="c-item-02-B" data-f-anim="opacity">
                             Come and discover the thrill of Adventure Avenue!
                         </p>
-                        <div class="c-item-02-D">
+                        <!-- <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
                                 <span class="infinitive-scale-anim-01">Book Your Stay</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
 
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/facilities_adventureAvenue.JPG" alt="Resort">
 
                     <div class="scroll-star">
                         <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
@@ -276,8 +290,8 @@
                 </section>
 
                 <!-- Water Park -->
-                <section class="section-03">
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                <section class="section-03" id="waterpark">
+                    <img class="c-item-01" src="assets/images/shankus images/facilities_waterPark.JPG" alt="Resort">
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
                             Water Park
@@ -302,16 +316,16 @@
                             And with our exclusive membership program, you and your family can enjoy unlimited
                             access to the park all year long.
                         </p>
-                        <div class="c-item-02-D">
+                        <!-- <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
                                 <span class="infinitive-scale-anim-01">Book Your Stay</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
 
                 <!-- Events Lawn -->
-                <section class="section-03">
+                <section class="section-03" id="events">
                     <!-- <img class="c-item-01" src="assets/images/lotuspa.png" alt="lotus spa"> -->
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
@@ -335,14 +349,14 @@
                             As a valued member, you'll have exclusive access to these exceptional venues at
                             unbeatable rates.
                         </p>
-                        <div class="c-item-02-D">
+                        <!-- <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
                                 <span class="infinitive-scale-anim-01">Book Your Stay</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
 
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/gallery/events-05.jpg" alt="Resort">
 
                     <div class="scroll-star">
                         <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
@@ -356,7 +370,7 @@
 
                 <!-- Cafeteria -->
                 <section class="section-03">
-                    <img class="c-item-01" src="assets/images/Home/02.jpg" alt="Resort">
+                    <img class="c-item-01" src="assets/images/shankus images/gallery-3.jpg" alt="Resort">
                     <div class="c-item-02">
                         <h3 class="c-item-02-A" data-f-anim="scaleBig2Small">
                             Cafeteria
@@ -373,11 +387,11 @@
                             up with
                             friends or colleagues over coffee, or simply relax with a good book.
                         </p>
-                        <div class="c-item-02-D">
+                        <!-- <div class="c-item-02-D">
                             <a class="c-unit-01" href="contact.html">
                                 <span class="infinitive-scale-anim-01">Book Your Stay</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
 
@@ -387,6 +401,8 @@
             <!-- insta -->
             <div id="instagrid"></div>
 
+
+            <button id="button"><span></span></button>
             <!-- Footer -->
             <div id="footer"></div>
 

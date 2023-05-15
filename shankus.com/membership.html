@@ -20,7 +20,21 @@
     </script>
     <!-- header links -->
     <div id="link-head"></div>
-
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#button').fadeIn();
+                } else {
+                    $('#button').fadeOut();
+                }
+            });
+            $('#button').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body class="tranparent-header home-page">
@@ -89,10 +103,10 @@
                 </section>
 
                 <!-- Membership Plans -->
-                <section class="section-06 table-section" data-direction="l2r">
+                <section class="section-06 table-section">
                     <p class="center table-head">MEMBERSHIP PLAN</p>
                     <table class="table">
-                        <tbody data-f-anim="linearY">
+                        <tbody>
                             <tr class="text-bold-yellow">
                                 <th class="center">Type of Membership</th>
                                 <th class="center">Membership Fees(INR)</th>
@@ -113,19 +127,19 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p data-f-anim="linearY">
+                    <p>
                         <span class="text-bold-yellow">ELIGIBILITY : </span>
                         <span>Members, spouse and up to 3 children (below 18 years) of the member</span>
                     </p>
-                    <p data-f-anim="linearY">
+                    <p>
                         <span class="text-bold-yellow">TRANSFER OF MEMBERSHIP :
-                            <ul data-f-anim="linearY">
+                            <ul>
                                 <li>Membership can be transferred to children above 18 by paying a transfer fee</li>
                                 <li>The club reserves the right to change the transfer fee amount at any time</li>
                             </ul>
                         </span>
                     </p>
-                    <div class="c-wrapper" data-f-anim="linearY">
+                    <div class="c-wrapper">
                         <a class="c-item-03" href="#tandc">*T&C Apply</a>
                     </div>
                 </section>
@@ -229,14 +243,14 @@
                 </section>
 
 
-                <section id="tandc" class="section-06 table-section" data-direction="l2r">
+                <section id="tandc" class="section-06 table-section">
                     <p class="center table-head">Terms & Conditions</p>
                     <table class="table">
                         <tbody>
                             <!-- <tr class="text-bold-yellow">
                                 <th class="center" colspan="2">Type of Membership</th>
                             </tr> -->
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Membership</td>
                                 <td>
                                     <ul type="square">
@@ -261,7 +275,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Members Criteria</td>
                                 <td>
                                     <ul>
@@ -278,7 +292,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Guests Criteria</td>
                                 <td>
                                     <ul>
@@ -292,7 +306,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">S Club</td>
                                 <td>
                                     <ul>
@@ -305,7 +319,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Eligibility</td>
                                 <td>
                                     <ul>
@@ -313,7 +327,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Transfer of Membership</td>
                                 <td>
                                     <ul>
@@ -324,7 +338,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Shankus Resort & Boutique
                                     Stays Across India
                                     </td>
@@ -337,7 +351,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Naturopathy & Wellness Centre</td>
                                 <td>
                                     <ul>
@@ -348,7 +362,7 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr data-f-anim="linearY">
+                            <tr>
                                 <td class="text-bold-yellow">Membership fees</td>
                                 <td>
                                     <ul>
@@ -358,13 +372,14 @@
                             </tr>
                         </tbody>
                     </table>
-                </section>
             </main>
 
 
             <!-- insta -->
             <div id="instagrid"></div>
 
+
+            <button id="button"><span></span></button>
             <!-- Footer -->
             <div id="footer"></div>
 
