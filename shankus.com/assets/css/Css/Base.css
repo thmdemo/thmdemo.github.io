@@ -719,6 +719,7 @@ body.noscroll {
     z-index: 1;
     width: 308px;
     height: 332px;
+    object-fit: cover;
   }
 
   .section-02 .c-container-04 {
@@ -882,8 +883,9 @@ body.noscroll {
     right: 0;
     top: 0;
     z-index: 1;
-    width: 610px;
+    width: 700px;
     height: 657px;
+    object-fit: cover;
   }
 
   .section-02 .c-container-04 {
@@ -902,7 +904,7 @@ body.noscroll {
     color: rgb(255, 255, 255);
     width: fit-content;
     position: absolute;
-    left: 0;
+    left: 20%;
     transition: transform 0.1s, opacity 1s;
     opacity: 0;
   }
@@ -1054,6 +1056,7 @@ body.noscroll {
   .section-03 .c-item-01 {
     width: 50%;
     height: 550px;
+    object-fit: cover;
   }
 
   .section-03 .c-item-02 {
@@ -1128,7 +1131,7 @@ body.noscroll {
 
     width: fit-content;
     position: absolute;
-    right: 0;
+    left: 3.5%;
     transition: transform 0.1s, opacity 1s;
     opacity: 0;
   }
@@ -1142,8 +1145,8 @@ body.noscroll {
     height: 415px;
     background: #BD9A5F;
     position: absolute;
-    top: 24px;
-    right: calc((100% - 1320px) / 2);
+    top: 12%;
+    right: calc((100% - 1400px) / 2);
     z-index: 11;
   }
 
@@ -7651,6 +7654,7 @@ a {
 
 .dark-overlay img {
   z-index: 10;
+  object-fit: cover;
 }
 
 .dark-overlay::before {
@@ -7815,4 +7819,27 @@ a {
   width: 104%;
   padding: 0.5rem 0rem;
   object-fit: contain;
+}
+
+#side-sticky-buttons{
+  position: fixed;
+  right: -142px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+#side-sticky-buttons a:first-child{
+  color: #BD9A5F;
+  padding: 1rem;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid #BD9A5F;
+}
+
+#side-sticky-buttons a:nth-child(2){
+  color: white;
+  padding: 1rem;
+  background-color: #BD9A5F;
+  z-index: 1;
+  border: 1px solid #BD9A5F;
 }
