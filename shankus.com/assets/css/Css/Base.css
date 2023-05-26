@@ -7834,7 +7834,7 @@ a {
   color: #BD9A5F;
   padding: 1rem;
   background-color: white;
-  z-index: 1;
+  z-index: 10;
   border: 1px solid #BD9A5F;
 }
 
@@ -7842,6 +7842,6 @@ a {
   color: white;
   padding: 1rem;
   background-color: #BD9A5F;
-  z-index: 1;
+  z-index: 10;
   border: 1px solid #BD9A5F;
 }

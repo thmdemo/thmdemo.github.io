@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#link-head").load("link-head.html");
+            $("#link-footer").load("link-footer.html");
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            $("#instagrid").load("instagrid.html");
+            $("#modal-sidemenu").load("modal-sidemenu.html");
+        });
+    </script>
+    <!-- header links -->
+    <div id="link-head"></div>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#button').fadeIn();
+                } else {
+                    $('#button').fadeOut();
+                }
+            });
+            $('#button').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body class="tranparent-header">
+
+    <div id="page-wrapper">
+        <div id="content-wrapper">
+
+            <!-- header -->
+            <div id="header"></div>
+
+            <main>
+
+                <!-- banner image -->
+                <section class="comp-section-32">
+                    <div class="c-container-03 dark-overlay">
+                        <picture>
+                            <!-- <source media="(max-width: 1279px)" srcset="assets/images/gallery25.jpg">
+                                <source media="(min-width: 1280px)" srcset="assets/images/gallery25.jpg"> -->
+                            <img src="assets/images/shankus images/ACOMMODATION-min.jpg">
+                        </picture>
+                    </div>
+                </section>
+
+                <section class="section-08" id="events">
+
+                    <div class="c-wrapper">
+                        <h3 class="c-item-01" data-f-anim="linear_Y">
+                            Events
+                        </h3>
+                        <p class="c-item-02" data-f-anim="linearY">
+                            Stay up-to-date with our Sclusive events.
+                        </p>
+                        <div class="scroll-star">
+                            <svg data-f-anim="follow" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.5 17C8.48699 14.7497 7.58729 12.5952 5.99604 11.004C4.40479 9.41271 2.25033 8.51301 7.43094e-07 8.5C2.2509 8.48883 4.40643 7.58969 5.99807 5.99805C7.58972 4.4064 8.48883 2.2509 8.5 -7.43094e-07C8.51117 2.2509 9.41029 4.4064 11.0019 5.99805C12.5936 7.58969 14.7491 8.48883 17 8.5C14.7497 8.51301 12.5952 9.41271 11.004 11.004C9.41274 12.5952 8.51301 14.7497 8.5 17Z"
+                                    fill="#BD9A5F" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="home-activite-slider">
+                        <div class="c-item">
+                            <img class="c-item-01" src="assets/images/out02.png" alt="cabir deluxe aktivite">
+                            <div class="c-item-02">
+                                <h3 class="c-item-02-A" data-f-anim="linear_Y">
+                                    Summer Disco
+                                </h3>
+                                <ul class="c-item-02-B" data-f-anim="linearY">
+                                    <li>Summer brings with it the perpetual need to just relax in the cool water.</li>
+                                    <li>We bring to you Summer Disco, a pool dance party at the outdoor swimming pool.
+                                    </li>
+                                    <li>Book now for the early bird discount.</li>
+                                </ul>
+                                <!-- <a class="c-item-02-C">ALL ACTIVITIES</a> -->
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <img class="c-item-01" src="assets/images/out02.png" alt="cabir deluxe aktivite">
+                            <div class="c-item-02">
+                                <h3 class="c-item-02-A" data-f-anim="linear_Y">
+                                    Summer Disco
+                                </h3>
+                                <ul class="c-item-02-B" data-f-anim="linearY">
+                                    <li>Summer brings with it the perpetual need to just relax in the cool water.</li>
+                                    <li>We bring to you Summer Disco, a pool dance party at the outdoor swimming pool.
+                                    </li>
+                                    <li>Book now for the early bird discount.</li>
+                                </ul>
+                                <!-- <a class="c-item-02-C">ALL ACTIVITIES</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+
+            <!-- insta -->
+            <div id="instagrid"></div>
+            <div id="side-sticky-buttons">
+                <a href="https://drive.google.com/u/0/uc?id=1bTtts5yc1r8g-JD_0kdBM4srdp1HJzGF&export=download"
+                    download="Shankus-Brochure"><span>Brochure</span></a>
+                <a href="https://drive.google.com/u/0/uc?id=1UJzfNLunbFnuyURPQ0EU5ICLSH8j-u69&export=download"
+                    download><span>Membership Guidlines</span></a>
+            </div>
+            <button id="button"><span></span></button>
+            <!-- Footer -->
+            <div id="footer"></div>
+
+        </div>
+        <section id="modal-wrapper">
+            <div id="modal-content">
+                <div id="modal-header"></div>
+                <div id="modal-body"></div>
+                <div id="modal-footer"></div>
+                <a id="modal-close" href="javascript:void(0);"
+                    onclick="Feux.Modal.Actions.closeClick({ ev: event, sender: this });"></a>
+            </div>
+        </section>
+        <!-- modal-sidemenu -->
+        <div id="modal-sidemenu"></div>
+        <div id="overlay-wrapper" onclick="Feux.Base.overlayClick({ sender: this });"></div>
+        <div id="toast-wrapper"></div>
+    </div>
+
+    <div id="mq-values">
+        <div id="mq-xs1"></div>
+        <div id="mq-xs2"></div>
+        <div id="mq-sm1"></div>
+        <div id="mq-sm2"></div>
+        <div id="mq-md"></div>
+        <div id="mq-lg"></div>
+        <div id="mq-xl"></div>
+    </div>
+    <!-- footer links -->
+    <div id="link-footer"></div>
+</body>
+
+</html>
