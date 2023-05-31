@@ -3749,7 +3749,7 @@ body.noscroll {
 
 .comp-section-27 .c-wrapper .c-container-01 .c-column-02 {
   width: 325px;
-  margin:auto 48px;
+  margin: auto 48px;
   height: fit-content;
 }
 
@@ -3889,7 +3889,7 @@ body.noscroll {
 
   .comp-section-27 .c-wrapper .c-container-01 .c-column-02 {
     width: calc(100% - 20px);
-    margin:auto 20px;
+    margin: auto 20px;
     height: auto;
   }
 
@@ -7816,14 +7816,14 @@ a {
   z-index: 1;
 }
 
-.image-grid-insta{
+.image-grid-insta {
   display: block;
   width: 104%;
   padding: 0.5rem 0rem;
   object-fit: contain;
 }
 
-#side-sticky-buttons{
+#side-sticky-buttons {
   position: fixed;
   right: -142px;
   top: 50%;
@@ -7831,6 +7831,7 @@ a {
 }
 
 #side-sticky-buttons a:first-child{
+/* #side-sticky-buttons a { */
   color: #BD9A5F;
   padding: 1rem;
   background-color: white;
