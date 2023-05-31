@@ -450,8 +450,8 @@ Feux.Animation = {
                         var parentNodeBounds = elem.parentNode.getBoundingClientRect();
                         var bottom = props.windowHeigth - parentNodeBounds.top;
                         var start = data[mqKey].start.bottom;
-                        console.log("start"+start)
-                        console.log("bottom" + bottom)
+                        // console.log("start"+start)
+                        // console.log("bottom" + bottom)
                         //animasyonun başlangıç noktası
                         if (bottom >= start) {
 
